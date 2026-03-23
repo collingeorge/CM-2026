@@ -5,21 +5,23 @@
 **Affiliation:** Clinical Research & Medicine Practice  
 **Governing Standard:** [CM-STYLE-01 v1.0](./CM-STYLE-01-v1.0.pdf) · PRISMA-ScR/JBI · ICH-GCP E6(R3) · GRADE · AMA Manual of Style (11th ed.)  
 **Status:** Active — Portfolio under construction  
-**Version:** 1.0 — March 2026  
+**Version:** 2.0 — March 2026  
 
 ---
 
 ## Overview
 
-CM-2026 is an independent biomedical research portfolio addressing a single dissertation-generating question:
+CM-2026 is an independent biomedical research portfolio organized around a tractably scoped dissertation question:
 
-> *What are the mechanistic, pharmacological, and clinical determinants of acute-to-chronic pain transition in the surgical patient, and how can perioperative analgesic strategy be optimized to reduce that transition at the population level?*
+> *Does preoperative initiation of multimodal non-opioid analgesia suppress perioperative central sensitization biomarkers and reduce CPSP incidence at 12 months in high-risk total knee arthroplasty patients?*
 
-The portfolio is structured as a pre-doctoral working paper series spanning evidence mapping, mechanistic analysis, pharmacological assessment, and research design — terminating in a dissertation prospectus suitable for MD-PhD (MSTP) application. It is the biomedical parallel to [WP-2026](https://github.com/collingeorge/WP-2026), which covers U.S. legal-economic statecraft and sanctions enforcement architecture.
+The broader long-term research program — what are the mechanistic, pharmacological, and clinical determinants of acute-to-chronic pain transition in the surgical patient, and how can perioperative analgesic strategy be optimized at the population level? — frames the full 24-paper corpus from which the dissertation question is drawn.
+
+The portfolio spans evidence mapping, mechanistic analysis, pharmacological assessment, and research design, terminating in a dissertation prospectus and doctoral pathway framework supporting both MD-PhD (MSTP) and standalone neuroscience PhD applications. It is the biomedical parallel to [WP-2026](https://github.com/collingeorge/WP-2026), which covers U.S. legal-economic statecraft and sanctions enforcement architecture.
 
 All documents are governed by CM-STYLE-01 v1.0, which specifies clinical register, GRADE evidence tradecraft, document architecture, and production standards.
 
-**Live Portfolio Index:** [CM-BIO-ARCH-01 — Repository Architecture and Dissertation Prospectus](https://collingeorge.github.io/CM-2026/CM-BIO-ARCH-01-v1.0.html)
+**Live Portfolio Index:** [CM-BIO-ARCH-01 v2.0 — Repository Architecture, Dissertation Prospectus, and Doctoral Pathway Framework](https://collingeorge.github.io/CM-2026/CM-BIO-ARCH-01-v2.0.html)
 
 ---
 
@@ -27,7 +29,7 @@ All documents are governed by CM-STYLE-01 v1.0, which specifies clinical registe
 
 | Document | Title | Status |
 |---|---|---|
-| [CM-BIO-ARCH-01](https://collingeorge.github.io/CM-2026/CM-BIO-ARCH-01-v1.0.html) | Perioperative Pain Systems Research Portfolio: Repository Architecture and Dissertation Prospectus | Active v1.0 |
+| [CM-BIO-ARCH-01](https://collingeorge.github.io/CM-2026/CM-BIO-ARCH-01-v2.0.html) | Perioperative Pain Systems Research Portfolio: Repository Architecture, Dissertation Prospectus, and Doctoral Pathway Framework | Active v2.0 |
 
 ---
 
@@ -44,6 +46,7 @@ Papers are organized across five clusters. Each cluster feeds forward into the n
 | SR-03 | Perioperative Analgesic Strategy and Chronic Post-Surgical Pain in Total Knee Arthroplasty: A Scoping Review | [tka-perioperative-review](https://github.com/collingeorge/tka-perioperative-review) | Complete — Submission Ready |
 | SR-04 | Perioperative Analgesic Strategy and Postoperative Pain Outcomes in Breast Reconstruction Surgery: A Scoping Review | [Breast-Reconstruction-Analgesia-Review](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review) | Complete — Pre-Submission |
 | SR-05 | Neuraxial and Regional Anesthesia Techniques and Chronic Post-Surgical Pain: A Scoping Review Across Procedure Categories | — | **Priority** |
+| MA-01 | Analgesic Interventions and CPSP Incidence Reduction: A Systematic Review and Meta-Analysis | — | **Immediate — Aim 2 Primary Deliverable** |
 
 ### Cluster B — Mechanistic Analysis
 
@@ -78,9 +81,10 @@ Papers are organized across five clusters. Each cluster feeds forward into the n
 
 | ID | Title | Repository | Status |
 |---|---|---|---|
-| PR-01 | Perioperative Analgesic Architecture and the Prevention of Chronic Post-Surgical Pain: A Dissertation Prospectus | [CM-BIO-ARCH-01](./CM-BIO-ARCH-01-v1.0.html) | Active v1.0 |
+| PR-01 | Perioperative Analgesic Architecture and the Prevention of Chronic Post-Surgical Pain: A Dissertation Prospectus | [CM-BIO-ARCH-01 v2.0](https://collingeorge.github.io/CM-2026/CM-BIO-ARCH-01-v2.0.html) | Active v2.0 |
 | PR-02 | Optimizing Perioperative Analgesic Strategy to Prevent Chronic Post-Surgical Pain: A Policy and Implementation Brief | — | Planned |
 | PR-03 | Statement of Research Purpose: MD-PhD Application | — | Planned — Final Production |
+| PR-04 | Statement of Research Purpose: Neuroscience PhD Application | — | Planned — Parallel Pathway |
 
 ---
 
@@ -90,11 +94,12 @@ Papers are organized across five clusters. Each cluster feeds forward into the n
 |---|---|---|---|
 | 1 — Foundation | SR-01, SR-03, SR-04 | All clusters | Complete |
 | 2 — Gap Definition | SR-02, SR-05 | ME cluster, RD-01, PR-01 | **Immediate** |
-| 3 — Mechanism | ME-01, ME-02 | PH cluster, RD-02, PR-01 | Next |
+| 2b — Synthesis | MA-01 | RD-02, PR-01 | **Immediate — parallel to SR-02** |
+| 3 — Mechanism | ME-01, ME-02 | PH cluster, RD-02, PR-01, PR-04 | Next |
 | 4 — Pharmacology | PH-01, PH-05 | RD-01, RD-02, PR-01 | Follow |
 | 5 — Pharmacology cont. | PH-02, PH-03, PH-04, ME-03, ME-04, ME-05 | RD cluster | Mid-term |
 | 6 — Design | RD-01, RD-02, RD-03, RD-04 | PR-01, PR-02 | Pre-application |
-| 7 — Capstone | PR-01, PR-02, PR-03 | MD-PhD application | Terminal |
+| 7 — Capstone | PR-01, PR-02, PR-03, PR-04 | MD-PhD and Neuroscience PhD applications | Terminal |
 
 ---
 
