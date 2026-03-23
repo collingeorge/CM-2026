@@ -3,7 +3,7 @@
 
 **Author:** Collin Blaine George  
 **Affiliation:** Clinical Research & Medicine Practice  
-**Governing Standard:** [CM-STYLE-01 v1.0](./CM-STYLE-01-v1.0.pdf) · PRISMA-ScR/JBI · ICH-GCP E6(R3) · GRADE · AMA Manual of Style (11th ed.)  
+**Governing Standard:** [CM-STYLE-01 v2.0](./CM-STYLE-01-v2.0.pdf) · PRISMA-ScR/JBI · ICH-GCP E6(R3) · GRADE · AMA Manual of Style (11th ed.)  
 **Status:** Active — Portfolio under construction  
 **Version:** 2.0 — March 2026  
 
