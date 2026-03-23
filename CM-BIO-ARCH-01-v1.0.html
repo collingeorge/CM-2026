@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>CM-BIO-ARCH-01 · Perioperative Pain Systems Research Portfolio</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Liberation+Sans:wght@400;700&display=swap');
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+  :root {
+    --navy: #1B3A5C;
+    --navy-mid: #2E5484;
+    --slate: #4A5568;
+    --amber: #7A5C00;
+    --amber-dark: #7A4000;
+    --lblue: #E8F0F8;
+    --warm-white: #FAFAFA;
+    --amber-warm: #FEF3E2;
+    --sage: #EAF4EC;
+    --dgreen: #1A5C2E;
+  }
+  body {
+    font-family: Arial, 'Liberation Sans', sans-serif;
+    font-size: 11pt;
+    color: #000;
+    background: #fff;
+    max-width: 820px;
+    margin: 0 auto;
+    padding: 0;
+  }
+
+  /* PAGE HEADER */
+  .page-header {
+    background: var(--navy);
+    color: #fff;
+    font-size: 8pt;
+    padding: 6px 54px;
+    display: flex;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    letter-spacing: 0.04em;
+  }
+
+  .content { padding: 32px 54px 60px 54px; }
+
+  /* COVER */
+  .cover { text-align: center; padding: 40px 0 30px 0; border-bottom: 2px solid var(--navy); margin-bottom: 28px; }
+  .cover-author { font-weight: bold; font-size: 13pt; color: var(--navy); letter-spacing: 0.08em; }
+  .cover-org { font-size: 10pt; color: var(--slate); letter-spacing: 0.06em; margin-top: 4px; }
+  .cover-divider { border: none; border-top: 1.5px solid var(--navy); margin: 16px auto; width: 100%; }
+  .doc-id { font-size: 13pt; font-weight: bold; color: var(--amber); margin: 14px 0 6px 0; }
+  .cover-title { font-size: 20pt; font-weight: bold; color: var(--navy); line-height: 1.3; margin-bottom: 8px; }
+  .cover-sub { font-style: italic; font-size: 12pt; color: var(--slate); margin-bottom: 24px; }
+
+  /* META TABLE */
+  .meta-table { width: 100%; border-collapse: collapse; margin-bottom: 20px; }
+  .meta-table td { padding: 5px 8px; font-size: 9pt; border: 0.4px solid #CBD5E0; vertical-align: top; }
+  .meta-table td:first-child { background: var(--lblue); color: var(--navy); font-weight: bold; width: 28%; }
+  .meta-table td:last-child { background: var(--warm-white); }
+
+  /* NOTICE / BOXES */
+  .box { border-left: 4px solid var(--navy); background: var(--lblue); padding: 10px 12px; margin: 10px 0 14px 0; }
+  .box.amber { border-left-color: var(--amber-dark); background: var(--amber-warm); }
+  .box.sage { border-left-color: var(--dgreen); background: var(--sage); }
+  .box-label { font-size: 9pt; font-weight: bold; color: var(--navy); text-transform: uppercase; letter-spacing: 0.07em; margin-bottom: 5px; }
+  .box.amber .box-label { color: var(--amber-dark); }
+  .box.sage .box-label { color: var(--dgreen); }
+  .box p { font-size: 10pt; line-height: 1.5; margin-bottom: 5px; }
+  .box p:last-child { margin-bottom: 0; }
+
+  /* HEADINGS */
+  h1 { font-size: 15pt; color: var(--navy); border-bottom: 1.5px solid var(--navy); padding-bottom: 5px; margin: 24px 0 10px 0; }
+  h2 { font-size: 12pt; color: var(--navy); margin: 18px 0 6px 0; }
+  h3 { font-size: 11pt; color: var(--slate); margin: 14px 0 6px 0; }
+
+  /* BODY */
+  p.body { font-size: 11pt; line-height: 1.6; margin-bottom: 8px; text-align: justify; }
+
+  /* DATA TABLE */
+  .data-table { width: 100%; border-collapse: collapse; margin: 8px 0 16px 0; font-size: 9pt; }
+  .data-table thead tr { background: var(--navy); color: #fff; }
+  .data-table thead th { padding: 6px 6px; text-align: left; font-weight: bold; }
+  .data-table tbody tr:nth-child(odd)  { background: var(--lblue); }
+  .data-table tbody tr:nth-child(even) { background: var(--warm-white); }
+  .data-table td { padding: 5px 6px; border: 0.4px solid #CBD5E0; vertical-align: top; }
+
+  /* PAPER BOX */
+  .paper { border-left: 4px solid var(--navy); background: var(--lblue); padding: 8px 12px; margin: 6px 0 8px 0; }
+  .paper.complete { border-left-color: var(--dgreen); background: var(--sage); }
+  .paper.warn { border-left-color: var(--amber-dark); background: var(--amber-warm); }
+  .paper-id { font-size: 11pt; font-weight: bold; color: var(--navy); margin-bottom: 3px; }
+  .paper.complete .paper-id { color: var(--dgreen); }
+  .paper.warn .paper-id { color: var(--amber-dark); }
+  .paper-meta { font-size: 9pt; color: var(--slate); margin-bottom: 5px; }
+  .paper-abstract { font-size: 10pt; line-height: 1.5; }
+
+  /* KI TABLE */
+  .ki-table { width: 100%; border-collapse: collapse; margin: 8px 0 16px 0; font-size: 9pt; }
+  .ki-table thead tr { background: var(--navy); color: #fff; }
+  .ki-table thead th { padding: 6px; font-weight: bold; }
+  .ki-table tbody tr { background: var(--lblue); }
+  .ki-table td { padding: 6px; border: 0.4px solid #CBD5E0; vertical-align: top; }
+  .ki-table td:first-child, .ki-table td:nth-child(2) { font-weight: bold; color: var(--amber); white-space: nowrap; }
+
+  /* AIM BOX */
+  .aim { border-left: 4px solid var(--navy); background: var(--lblue); padding: 8px 12px; margin: 6px 0 8px 0; }
+  .aim-title { font-size: 11pt; font-weight: bold; color: var(--navy); margin-bottom: 5px; }
+  .aim p { font-size: 10pt; line-height: 1.5; }
+
+  /* END */
+  .end-line { border-top: 1.5px solid var(--slate); margin: 24px 0 10px 0; }
+  .end-text { font-size: 8pt; color: var(--slate); text-align: center; }
+
+  /* PRINT */
+  @media print {
+    .page-header { position: static; }
+    body { max-width: 100%; }
+    .content { padding: 20px 54px; }
+    h1, h2, h3 { page-break-after: avoid; }
+    .paper, .box, .aim { page-break-inside: avoid; }
+  }
+</style>
+</head>
+<body>
+
+<div class="page-header">
+  <span>COLLIN BLAINE GEORGE &nbsp;·&nbsp; CLINICAL MEDICINE AND RESEARCH</span>
+  <span>CM-BIO-ARCH-01 &nbsp;·&nbsp; V1.0 &nbsp;·&nbsp; MARCH 2026</span>
+</div>
+
+<div class="content">
+
+<!-- COVER -->
+<div class="cover">
+  <div class="cover-author">COLLIN BLAINE GEORGE</div>
+  <div class="cover-org">CLINICAL RESEARCH &amp; MEDICINE PRACTICE</div>
+  <hr class="cover-divider">
+  <div class="doc-id">CM-BIO-ARCH-01</div>
+  <div class="cover-title">Perioperative Pain Systems Research Portfolio</div>
+  <div class="cover-sub">Repository Architecture and Dissertation Prospectus</div>
+
+  <table class="meta-table">
+    <tr><td>Document ID</td><td>CM-BIO-ARCH-01</td></tr>
+    <tr><td>Version</td><td>1.0 — Initial Edition</td></tr>
+    <tr><td>Date</td><td>March 2026</td></tr>
+    <tr><td>Supersedes</td><td>N/A — First Issue</td></tr>
+    <tr><td>Authority</td><td>CM-STYLE-01 v1.0 · PRISMA-ScR/JBI · ICH-GCP E6(R3) · GRADE · AMA Manual of Style (11th ed.)</td></tr>
+    <tr><td>Applies To</td><td>All biomedical working papers and doctoral application materials in this repository</td></tr>
+    <tr><td>Purpose</td><td>Define repository architecture, working paper taxonomy, scaffolding logic, and dissertation prospectus for the perioperative pain systems MD-PhD research portfolio.</td></tr>
+    <tr><td>Author</td><td>Collin Blaine George</td></tr>
+    <tr><td>Status</td><td>ACTIVE — Portfolio under construction</td></tr>
+  </table>
+
+  <div class="box amber">
+    <div class="box-label">NOTICE — DOCUMENT STATUS</div>
+    <p>This document governs the architecture and prospectus for the biomedical research portfolio in parallel to WP-2026. It does not constitute clinical advice, IRB protocol, or institutional policy. All working papers produced under this architecture are governed by CM-STYLE-01 v1.0. This document does not involve human subjects data.</p>
+  </div>
+</div>
+
+<!-- PART 1 -->
+<h1>Part 1: Repository Architecture</h1>
+
+<h2>1.1 Unifying Research Question</h2>
+<p class="body">The portfolio addresses a single, dissertation-generating question: What are the mechanistic, pharmacological, and clinical determinants of acute-to-chronic pain transition in the surgical patient, and how can perioperative analgesic strategy be optimized to reduce that transition at the population level? Every working paper is a facet of this question — mechanistic, epidemiological, pharmacological, translational, or clinical implementation — exactly as WP-2026 treats legal-economic coercion as a single unifying problem addressed from multiple analytical angles.</p>
+
+<div class="box">
+  <div class="box-label">EVIDENCE POSTURE</div>
+  <p>Chronic post-surgical pain (CPSP) affects an estimated 10–50% of surgical patients depending on procedure type and risk stratification methodology [Kehlet et al., Lancet 2006; PMID 16698416]. The perioperative window represents the highest-yield intervention point for preventing chronification via central sensitization suppression, NMDA receptor modulation, and neuroinflammatory pathway inhibition. The available evidence does not yet establish an optimized multimodal protocol that demonstrably reduces CPSP incidence at the population level. This gap is the dissertation problem.</p>
+</div>
+
+<h2>1.2 Repository Taxonomy</h2>
+<p class="body">The repository contains six document types, parallel to WP-2026. Each type has a designated prefix, governing methodology standard, and scaffolding role.</p>
+
+<table class="data-table">
+  <thead><tr><th>Prefix</th><th>Document Type</th><th>Methodology</th><th>Scaffolding Role</th></tr></thead>
+  <tbody>
+    <tr><td>SR-</td><td>Scoping Review</td><td>PRISMA-ScR / JBI</td><td>Evidence mapping; gap identification</td></tr>
+    <tr><td>MA-</td><td>Meta-Analysis Protocol</td><td>PRISMA / Cochrane</td><td>Quantitative synthesis anchor</td></tr>
+    <tr><td>ME-</td><td>Mechanistic Analysis</td><td>Narrative / Analytical Review</td><td>Biological framework papers</td></tr>
+    <tr><td>PH-</td><td>Pharmacological Assessment</td><td>CM-STYLE-01 Evidence Tradecraft</td><td>Drug-target and PK/PD papers</td></tr>
+    <tr><td>RD-</td><td>Research Design Memo</td><td>ICH E9 / CONSORT / STROBE</td><td>Pre-analysis and hypothesis papers</td></tr>
+    <tr><td>PR-</td><td>Prospectus / Policy Brief</td><td>IMRAD / Dissertation format</td><td>Capstone and application documents</td></tr>
+  </tbody>
+</table>
+
+<h2>1.3 Corpus Architecture: 22 Working Papers</h2>
+<p class="body">The twenty-two papers below scaffold from broad evidence mapping through mechanistic analysis, pharmacological assessment, and research design, terminating in the dissertation prospectus. Papers marked COMPLETE are existing documents. Papers marked PRIORITY are the recommended next productions.</p>
+
+<h3>Cluster A — Evidence Mapping: Scoping Reviews (SR-01 through SR-05)</h3>
+
+<div class="paper complete">
+  <div class="paper-id">SR-01 — Perioperative Non-Opioid Analgesic Agents: A Scoping Review of Mechanisms, Clinical Efficacy, and Implementation Evidence</div>
+  <div class="paper-meta">Methodology: PRISMA-ScR / JBI &nbsp;|&nbsp; Status: [COMPLETE]</div>
+  <div class="paper-abstract">Narrative review of NOA pharmacology and perioperative implementation. Establishes the evidence base for non-opioid substitution across surgical contexts.</div>
+</div>
+
+<div class="paper warn">
+  <div class="paper-id">SR-02 — Acute-to-Chronic Pain Transition Following Major Surgery: A Scoping Review of Incidence, Risk Factors, and Mechanistic Pathways</div>
+  <div class="paper-meta">Methodology: PRISMA-ScR / JBI &nbsp;|&nbsp; Status: [PRIORITY — NEXT PRODUCTION]</div>
+  <div class="paper-abstract">Maps published incidence data for CPSP by procedure category (TKA, thoracotomy, mastectomy, amputation, cesarean section). Defines central sensitization and neuroinflammatory mechanisms driving chronification. Foundational epidemiological paper for the dissertation.</div>
+</div>
+
+<div class="paper complete">
+  <div class="paper-id">SR-03 — Perioperative Analgesic Strategy and Chronic Post-Surgical Pain in Total Knee Arthroplasty: A Scoping Review</div>
+  <div class="paper-meta">Methodology: PRISMA-ScR / JBI &nbsp;|&nbsp; Status: [COMPLETE]</div>
+  <div class="paper-abstract">PRISMA-ScR / JBI compliant, 32 pages, 60 sources, 5 domains. Submission-ready for medRxiv. Addresses multimodal analgesia, regional techniques, and CPSP outcomes in TKA populations.</div>
+</div>
+
+<div class="paper warn">
+  <div class="paper-id">SR-04 — Perioperative Analgesic Strategy and Postoperative Pain Outcomes in Breast Reconstruction Surgery: A Scoping Review</div>
+  <div class="paper-meta">Methodology: PRISMA-ScR / JBI &nbsp;|&nbsp; Status: [COMPLETE — PRE-SUBMISSION]</div>
+  <div class="paper-abstract">47 sources, 3 domains. Originated from UW Medicine anesthesiology shadowing. Pre-submission: Devereaux PMID error, 4 orphaned references, and PRISMA n=47 reconciliation required before upload.</div>
+</div>
+
+<div class="paper warn">
+  <div class="paper-id">SR-05 — Neuraxial and Regional Anesthesia Techniques and Chronic Post-Surgical Pain: A Scoping Review Across Procedure Categories</div>
+  <div class="paper-meta">Methodology: PRISMA-ScR / JBI &nbsp;|&nbsp; Status: [PRIORITY]</div>
+  <div class="paper-abstract">Maps evidence for epidural, spinal, and peripheral nerve block techniques on CPSP incidence. Bridges the regional anesthesia literature to the central sensitization mechanism papers in the ME cluster.</div>
+</div>
+
+<h3>Cluster B — Mechanistic Analysis: Central Sensitization and Neuroinflammation (ME-01 through ME-05)</h3>
+
+<div class="paper">
+  <div class="paper-id">ME-01 — Central Sensitization as the Mechanistic Driver of Chronic Post-Surgical Pain: An Analytical Review</div>
+  <div class="paper-meta">Methodology: Narrative / Analytical Review &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Documents spinal and supraspinal mechanisms of central sensitization — NMDA receptor wind-up, AMPA receptor trafficking, microglial activation, and descending inhibitory pathway dysfunction. Establishes the molecular rationale for perioperative intervention timing. Anchors the mechanistic argument of the dissertation.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">ME-02 — Neuroinflammatory Pathways in Surgical Tissue Injury: Cytokine Cascades, Glial Activation, and Peripheral Sensitization</div>
+  <div class="paper-meta">Methodology: Narrative / Analytical Review &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Analyzes IL-1β, IL-6, TNF-α, and prostaglandin E2 contributions to peripheral sensitization following surgical trauma. Links peripheral nociceptor sensitization to central pathway recruitment. Provides the inflammatory biology substrate for the pharmacological intervention papers.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">ME-03 — The Role of the HPA Axis and Surgical Stress Response in Postoperative Pain Chronification</div>
+  <div class="paper-meta">Methodology: Narrative / Analytical Review &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Examines cortisol, epinephrine, and sympathoadrenal activation in the context of postoperative pain. Documents the bidirectional relationship between HPA dysregulation and central sensitization. Addresses sleep architecture disruption as a chronification amplifier.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">ME-04 — Genetic and Epigenetic Determinants of Chronic Post-Surgical Pain Susceptibility: A Translational Analysis</div>
+  <div class="paper-meta">Methodology: Narrative / Analytical Review &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Reviews COMT, OPRM1, CACNG2, and GCH1 polymorphisms and their association with CPSP risk. Addresses epigenetic modification of pain processing genes by surgical tissue injury and opioid exposure. Establishes the biological heterogeneity argument for individualized perioperative analgesia.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">ME-05 — Sex-Based Differences in Surgical Pain Chronification: Hormonal, Neurobiological, and Clinical Evidence</div>
+  <div class="paper-meta">Methodology: Narrative / Analytical Review &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Documents estrogen, progesterone, and testosterone modulation of nociceptive processing and μ-opioid receptor density. Analyzes sex-disaggregated CPSP incidence data. Establishes the rationale for sex-stratified analgesic protocol design.</div>
+</div>
+
+<h3>Cluster C — Pharmacological Assessment (PH-01 through PH-05)</h3>
+
+<div class="paper">
+  <div class="paper-id">PH-01 — Ketamine as a Perioperative Analgesic: NMDA Receptor Antagonism, Anti-Hyperalgesic Mechanisms, and Evidence for CPSP Reduction</div>
+  <div class="paper-meta">Methodology: CM-STYLE-01 Evidence Tradecraft &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Documents subanesthetic ketamine NMDA antagonism, anti-hyperalgesic and opioid-sparing mechanisms, and published RCT evidence on CPSP incidence reduction. Addresses dose-response, timing relative to surgical incision, and contraindication profile. Highest-priority pharmacological paper given ketamine centrality to NOA protocols.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">PH-02 — Dexmedetomidine in Perioperative Analgesia: α2-Agonism, Sympatholysis, and Opioid-Sparing Evidence</div>
+  <div class="paper-meta">Methodology: CM-STYLE-01 Evidence Tradecraft &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Analyzes dexmedetomidine α2-adrenoceptor mechanism, sedation-analgesia profile, and hemodynamic considerations. Reviews RCT evidence for opioid consumption reduction and postoperative pain scores. Distinguishes intraoperative infusion from neuraxial co-administration evidence.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">PH-03 — Gabapentinoids in Perioperative Multimodal Analgesia: Mechanism, Efficacy, and Adverse Event Profile in CPSP Prevention</div>
+  <div class="paper-meta">Methodology: CM-STYLE-01 Evidence Tradecraft &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Reviews pregabalin and gabapentin evidence — calcium channel α2δ subunit binding, central sensitization modulation, and the contested CPSP prevention evidence. Documents FDA communication on sedation risks. Addresses the evidence gap between single-dose perioperative use and chronic pain prevention.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">PH-04 — Intravenous Lidocaine Infusion and Systemic Analgesic Effects: Sodium Channel Blockade, Anti-Inflammatory Mechanisms, and Clinical Evidence</div>
+  <div class="paper-meta">Methodology: CM-STYLE-01 Evidence Tradecraft &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Documents IV lidocaine voltage-gated sodium channel mechanism, anti-inflammatory cytokine modulation, and published evidence for perioperative opioid reduction and postoperative ileus prevention. Reviews cardiac monitoring requirements and dose-limiting toxicity thresholds.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">PH-05 — Opioid-Induced Hyperalgesia: Mechanistic Evidence, Clinical Recognition, and Implications for Perioperative Analgesic Protocol Design</div>
+  <div class="paper-meta">Methodology: CM-STYLE-01 Evidence Tradecraft &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Analyzes μ-opioid receptor internalization, NMDA co-activation, and descending facilitation as mechanisms of OIH. Documents the paradox of intraoperative remifentanil and its contribution to postoperative hyperalgesia. Establishes the mechanistic case for opioid minimization.</div>
+</div>
+
+<h3>Cluster D — Research Design and Translational Bridge (RD-01 through RD-04)</h3>
+
+<div class="paper">
+  <div class="paper-id">RD-01 — Risk Stratification for Chronic Post-Surgical Pain: A Proposed Preoperative Prediction Framework</div>
+  <div class="paper-meta">Methodology: Research Design Memo (ICH E9 / CONSORT) &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Synthesizes published CPSP risk factors — procedure type, preoperative pain sensitization phenotype, psychological vulnerability, genetic risk markers, and intraoperative technique — into a structured preoperative risk stratification framework. Proposes a prospective cohort validation design with defined endpoints.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">RD-02 — Adaptive Trial Design for Perioperative Analgesic Protocol Optimization: A Research Design Proposal for CPSP Prevention</div>
+  <div class="paper-meta">Methodology: Research Design Memo (CONSORT / ICH E9(R1)) &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Proposes an adaptive platform trial design for testing multimodal NOA protocols against CPSP incidence as primary endpoint at 3 and 12 months. Specifies randomization schema, stratification variables, interim analysis triggers, and sample size calculations. Designed as the doctoral dissertation core experimental proposal.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">RD-03 — Biomarker Identification for Perioperative Pain Chronification Risk: A Translational Research Design Proposal</div>
+  <div class="paper-meta">Methodology: Research Design Memo (STROBE / ICH E9) &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Proposes a translational study design for identifying circulating biomarkers (IL-6, BDNF, substance P, CGRP) predictive of CPSP development. Specifies blood sampling timepoints, assay methodology, and correlational analysis with pain outcomes at 3, 6, and 12 months.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">RD-04 — Implementation Science Framework for Perioperative Multimodal Analgesia: Barriers, Facilitators, and Quality Improvement Design</div>
+  <div class="paper-meta">Methodology: Research Design Memo / Implementation Science &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Applies the Consolidated Framework for Implementation Research (CFIR) to perioperative analgesic protocol adoption. Proposes a mixed-methods quality improvement study design. Connects the portfolio to health systems science relevant to MD-PhD training programs.</div>
+</div>
+
+<h3>Cluster E — Capstone and Application Documents (PR-01 through PR-03)</h3>
+
+<div class="paper warn">
+  <div class="paper-id">PR-01 — Perioperative Analgesic Architecture and the Prevention of Chronic Post-Surgical Pain: A Dissertation Prospectus</div>
+  <div class="paper-meta">Methodology: Dissertation Prospectus Format &nbsp;|&nbsp; Status: [THIS DOCUMENT — Part 2]</div>
+  <div class="paper-abstract">Full doctoral prospectus. Research question, theoretical/mechanistic framework, specific aims, methods, and significance. Drawn from SR, ME, PH, and RD clusters. Designed for MD-PhD MSTP application and doctoral candidacy.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">PR-02 — Optimizing Perioperative Analgesic Strategy to Prevent Chronic Post-Surgical Pain: A Policy and Implementation Brief</div>
+  <div class="paper-meta">Methodology: Policy Brief (AMA / IMRAD) &nbsp;|&nbsp; Status: [PLANNED]</div>
+  <div class="paper-abstract">Executive-register synthesis targeting hospital pharmacy and therapeutics committees, anesthesia quality improvement programs, and CMS quality metric development. Parallel function to WP-2026 executive briefs.</div>
+</div>
+
+<div class="paper">
+  <div class="paper-id">PR-03 — Statement of Research Purpose: MD-PhD Application</div>
+  <div class="paper-meta">Methodology: Personal Statement / Research Narrative &nbsp;|&nbsp; Status: [PLANNED — FINAL PRODUCTION]</div>
+  <div class="paper-abstract">Doctoral application narrative integrating clinical laboratory background, anesthesiology shadowing, scoping review authorship, and research design capability into a coherent MD-PhD research identity. Draws directly from the completed portfolio as evidence of independent research productivity.</div>
+</div>
+
+<h2>1.4 Scaffolding Logic and Production Sequence</h2>
+<p class="body">The production sequence below is the recommended order of completion. Each paper feeds forward into subsequent documents.</p>
+
+<table class="data-table">
+  <thead><tr><th>Phase</th><th>Papers</th><th>Feeds Into</th><th>Priority</th></tr></thead>
+  <tbody>
+    <tr><td>1 — Foundation</td><td>SR-01, SR-03, SR-04</td><td>All clusters</td><td>COMPLETE</td></tr>
+    <tr><td>2 — Gap Definition</td><td>SR-02, SR-05</td><td>ME cluster, RD-01, PR-01</td><td>IMMEDIATE</td></tr>
+    <tr><td>3 — Mechanism</td><td>ME-01, ME-02</td><td>PH cluster, RD-02, PR-01</td><td>NEXT</td></tr>
+    <tr><td>4 — Pharmacology</td><td>PH-01, PH-05</td><td>RD-01, RD-02, PR-01</td><td>FOLLOW</td></tr>
+    <tr><td>5 — Pharmacology cont.</td><td>PH-02, PH-03, PH-04, ME-03, ME-04, ME-05</td><td>RD cluster</td><td>Mid-term</td></tr>
+    <tr><td>6 — Design</td><td>RD-01, RD-02, RD-03, RD-04</td><td>PR-01, PR-02</td><td>Pre-application</td></tr>
+    <tr><td>7 — Capstone</td><td>PR-01, PR-02, PR-03</td><td>MD-PhD application</td><td>Terminal</td></tr>
+  </tbody>
+</table>
+
+<!-- PART 2 -->
+<h1>Part 2: Dissertation Prospectus</h1>
+<p style="font-style:italic; color:var(--slate); font-size:9pt; margin-bottom:12px;">PR-01 — Version 1.0 — March 2026</p>
+
+<div class="box">
+  <div class="box-label">METHODOLOGICAL NOTE</div>
+  <p>This prospectus is an independent scholarly document produced by a premedical researcher with active anesthesiology shadowing experience and published-level scoping review authorship (SR-01, SR-03, SR-04). Evidence claims are graded per CM-STYLE-01 GRADE methodology. No human subjects data are analyzed. IRB approval is not required for prospectus preparation.</p>
+  <p>Evidence lexicon: GRADE A = high (almost certainly / very likely); GRADE B = moderate (likely / probably); GRADE C = low (uncertain); GRADE D = very low / expert consensus (insufficient evidence to assign probability).</p>
+</div>
+
+<p style="font-size:9pt; font-weight:bold; color:var(--amber); text-transform:uppercase; letter-spacing:0.07em; margin: 14px 0 6px 0;">KEY INTERPRETATIONS</p>
+<table class="ki-table">
+  <thead><tr><th>#</th><th>Grade</th><th>Interpretation</th></tr></thead>
+  <tbody>
+    <tr>
+      <td>1</td><td>GRADE B<br>Moderate</td>
+      <td>Perioperative central sensitization suppression using multimodal non-opioid analgesia is likely to reduce CPSP incidence in high-risk surgical populations; the available RCT evidence does not yet establish the optimal agent combination, timing, or duration for population-level CPSP prevention.</td>
+    </tr>
+    <tr>
+      <td>2</td><td>GRADE B<br>Moderate</td>
+      <td>Neuraxial and peripheral regional anesthetic techniques are probably associated with reduced CPSP incidence in thoracotomy and breast surgery populations; controlled data are insufficient to establish equivalent effects across orthopedic and abdominal procedure categories.</td>
+    </tr>
+    <tr>
+      <td>3</td><td>GRADE C<br>Analytically Inferred</td>
+      <td>Preoperative pain sensitization phenotype — measured via temporal summation, conditioned pain modulation, and pain catastrophizing score — is probably associated with CPSP risk; available evidence does not establish a validated composite preoperative prediction instrument with prospective clinical utility.</td>
+    </tr>
+    <tr>
+      <td>4</td><td>GRADE C<br>Analytically Inferred</td>
+      <td>Intraoperative opioid-induced hyperalgesia, particularly remifentanil-associated hyperalgesia, is probably a modifiable contributor to CPSP development; the available evidence does not establish quantified remifentanil dose thresholds above which CPSP risk is demonstrably increased at the population level.</td>
+    </tr>
+    <tr>
+      <td>5</td><td>GRADE D<br>Expert Consensus</td>
+      <td>Genetic and epigenetic risk stratification for CPSP is insufficient to support routine preoperative genotyping recommendations; translational research linking COMT, OPRM1, and GCH1 variants to clinical CPSP outcomes is active and may reach clinical application within a decade.</td>
+    </tr>
+  </tbody>
+</table>
+
+<h2>2.1 Research Question and Significance</h2>
+<p class="body">Chronic post-surgical pain (CPSP) — defined as pain persisting beyond three months after surgery in the absence of pre-existing chronic pain — represents a major unresolved clinical problem in perioperative medicine. Kehlet et al. (Lancet, 2006; PMID 16698416) established that CPSP affects 10–50% of surgical patients depending on procedure, with incidence as high as 50–85% following thoracotomy and 5–30% following total knee arthroplasty. These figures translate to millions of patients annually in the United States who develop persistent pain as a direct consequence of surgical intervention.</p>
+<p class="body">The perioperative window is mechanistically the highest-yield intervention point for CPSP prevention. Central sensitization — the sustained increase in excitability of nociceptive neurons in the dorsal horn driven by NMDA receptor activation, microglial recruitment, and descending inhibitory pathway dysfunction — is established during the perioperative period by repeated nociceptive input from surgical tissue injury [Woolf, Pain 2011; PMID 22078064]. Once established, central sensitization persists independently of peripheral input and drives chronic pain states. Pharmacological suppression of this process during the operative and immediate postoperative period represents the primary mechanistic rationale for perioperative analgesic optimization.</p>
+<p class="body">The central dissertation question is: What combination of perioperative analgesic interventions — by agent, dose, timing, and patient risk phenotype — demonstrably reduces the incidence of CPSP in high-risk surgical populations, and through what measurable mechanistic pathways does this reduction occur?</p>
+
+<div class="box amber">
+  <div class="box-label">LIMITATIONS OF AVAILABLE EVIDENCE</div>
+  <p>The available evidence does not establish a validated, prospectively tested multimodal analgesic protocol that reduces CPSP incidence as a primary registered endpoint. Most existing RCTs treat acute postoperative pain scores as primary outcomes with CPSP as a secondary or exploratory endpoint. The controlled data do not permit a firm conclusion regarding optimal agent combination, timing of initiation relative to surgical incision, or duration of perioperative analgesic continuation. This evidentiary gap defines the dissertation intervention.</p>
+</div>
+
+<h2>2.2 Theoretical and Mechanistic Framework</h2>
+<p class="body">The dissertation operates within a two-axis mechanistic framework: (1) the peripheral-to-central sensitization cascade as the biological mechanism of CPSP development, and (2) the multimodal pharmacological interruption of that cascade as the intervention logic.</p>
+<p class="body">Peripheral sensitization — driven by prostaglandin E2, bradykinin, substance P, and inflammatory cytokine release at the surgical site — produces primary hyperalgesia and initiates afferent nociceptive barrage. This barrage recruits NMDA receptors at dorsal horn synapses, triggering calcium influx, protein kinase C activation, and removal of the Mg²⁺ voltage block that maintains the resting nociceptive threshold. Sustained NMDA activation produces wind-up — progressive amplification of dorsal horn neuron response — which, if uninterrupted, produces long-term potentiation of pain synapses and structural reorganization of spinal pain circuits [Ji et al., Nature Reviews Neuroscience 2018; PMID 29371059].</p>
+<p class="body">The pharmacological intervention framework targets four nodes in this cascade: (1) NMDA receptor blockade via subanesthetic ketamine to suppress wind-up; (2) α2-agonist mediated inhibition of norepinephrine release and sympathoadrenal activation via dexmedetomidine; (3) voltage-gated calcium channel α2δ subunit inhibition via pregabalin or gabapentin to reduce excitatory neurotransmitter release; and (4) sodium channel blockade via intravenous lidocaine to suppress ectopic discharge in injured peripheral nociceptors. Regional anesthetic techniques function as a fifth node, interrupting afferent input at the site of surgical injury before central sensitization is initiated.</p>
+
+<div class="box">
+  <div class="box-label">EVIDENCE POSTURE — FRAMEWORK</div>
+  <p>The mechanistic framework is supported at GRADE B to GRADE C across individual components. NMDA receptor contribution to central sensitization is documented at GRADE A in animal models and supported at GRADE B in human experimental pain paradigms [Woolf and Salter, Science 2000; PMID 10755547]. Clinical translation to CPSP prevention via ketamine is supported at GRADE B for acute opioid-sparing and at GRADE C for CPSP incidence reduction specifically. The integrated multimodal framework has not been tested as a combined intervention in a single registered RCT with CPSP as primary endpoint — this is the dissertation gap.</p>
+</div>
+
+<h2>2.3 Specific Aims</h2>
+
+<div class="aim">
+  <div class="aim-title">Aim 1: Characterize the Epidemiology and Risk Factor Profile of CPSP Across High-Risk Surgical Procedure Categories</div>
+  <p>Conduct a systematic scoping review (PRISMA-ScR/JBI) of published CPSP incidence data stratified by procedure type, preoperative pain sensitization phenotype, intraoperative analgesic technique, and demographic variables. Produce a quantitative risk factor synthesis using meta-regression where data permit. Primary deliverable: SR-02 (scoping review) and RD-01 (risk stratification framework).</p>
+</div>
+
+<div class="aim">
+  <div class="aim-title">Aim 2: Identify Pharmacological and Regional Anesthetic Interventions with Evidence of CPSP Incidence Reduction</div>
+  <p>Conduct a systematic review and meta-analysis (PRISMA/Cochrane) of RCTs reporting CPSP as a primary or pre-specified secondary endpoint. Evaluate ketamine, dexmedetomidine, pregabalin, IV lidocaine, and neuraxial/regional techniques as intervention classes. Stratify results by procedure category and follow-up duration (3, 6, 12 months). Primary deliverable: MA-01.</p>
+</div>
+
+<div class="aim">
+  <div class="aim-title">Aim 3: Design and Propose a Prospective Adaptive Trial for Multimodal CPSP Prevention Protocol Optimization</div>
+  <p>Develop a fully specified adaptive platform trial protocol targeting CPSP incidence at 12 months as primary endpoint in high-risk surgical populations. Specify randomization schema, analgesic intervention arms, stratification by preoperative risk phenotype, interim analysis triggers, and sample size with power calculations. Primary deliverable: RD-02.</p>
+</div>
+
+<div class="aim">
+  <div class="aim-title">Aim 4: Identify Candidate Perioperative Biomarkers Predictive of CPSP Development</div>
+  <p>Design a translational sub-study protocol for biomarker sampling at defined perioperative timepoints. Identify candidate markers (IL-6, IL-1β, BDNF, CGRP, substance P) with mechanistic plausibility for CPSP prediction. Specify assay methodology, collection timepoints, and correlation analysis with 12-month pain outcomes. Primary deliverable: RD-03.</p>
+</div>
+
+<h2>2.4 Methods Overview</h2>
+<p class="body">Aims 1 and 2 employ systematic review methodology (PRISMA-ScR/JBI and PRISMA/Cochrane respectively). Aim 1 uses a scoping framework without meta-analytic pooling given expected heterogeneity in CPSP measurement instruments, follow-up duration, and procedure categories across included studies. Aim 2 employs meta-analytic pooling where studies report comparable CPSP definitions and follow-up intervals; random-effects models are specified given anticipated between-study heterogeneity (I² assessment at pooling stage).</p>
+<p class="body">Aim 3 specifies a multi-arm adaptive platform trial using a response-adaptive randomization schema informed by Bayesian interim analyses. The primary endpoint is CPSP presence at 12 months post-surgery, defined as pain ≥3/10 on the Numerical Rating Scale with functional interference on the Pain Disability Index, in the absence of surgical complication or recurrent pathology. Secondary endpoints include opioid consumption at 24 and 48 hours, acute pain NRS at rest and with movement at 4, 12, and 24 hours, length of stay, PONV incidence, and patient-reported outcomes at 3 and 6 months.</p>
+<p class="body">Aim 4 specifies a nested translational sub-study with blood sampling at five timepoints: preoperative baseline, immediately post-induction, intraoperative at 60 minutes, PACU arrival, and postoperative day 1. Multiplex cytokine assay (Luminex platform) for IL-6, IL-1β, TNF-α, and IL-10. BDNF, CGRP, and substance P as individual ELISAs. Correlation analysis with 12-month CPSP outcomes employs logistic regression with Bonferroni correction for multiple comparisons.</p>
+
+<div class="box amber">
+  <div class="box-label">LIMITATIONS OF AVAILABLE EVIDENCE</div>
+  <p>The methods described in Aims 3 and 4 are design proposals, not completed studies. Sample size calculations for Aim 3 require a specific CPSP incidence estimate in the target population to be derived from the Aim 1 scoping review and Aim 2 meta-analysis. The biomarker panel in Aim 4 is derived from mechanistic plausibility rather than validated predictive performance; the available evidence does not establish any single circulating biomarker as a validated CPSP predictor at a clinically useful threshold.</p>
+</div>
+
+<h2>2.5 Significance and Innovation</h2>
+<p class="body">CPSP prevention represents an unmet clinical need of substantial magnitude. Published estimates place the economic burden of chronic pain in the United States at $560–635 billion annually in health care costs and lost productivity [Institute of Medicine, Relieving Pain in America, 2011]. A perioperative intervention that demonstrably reduces CPSP incidence by 20–30% in high-risk surgical populations would prevent millions of patients annually from progressing to chronic pain states requiring long-term opioid or analgesic therapy.</p>
+<p class="body">The innovation of this dissertation is threefold. First, it treats CPSP incidence — not acute pain scores — as the primary clinical target, reframing perioperative analgesia as a prevention intervention rather than a comfort measure. Second, it integrates preoperative risk phenotyping into the trial design, enabling stratified analysis of intervention effects by sensitization status — a methodological advance over existing RCTs that enroll unselected surgical populations. Third, it links perioperative pharmacological intervention to a prospectively measured neuroinflammatory biomarker panel, providing mechanistic evidence for observed clinical effects rather than treating the pharmacological intervention as a black box.</p>
+<p class="body">For an MD-PhD candidate, this portfolio demonstrates independent research productivity — three submission-ready scoping reviews, a mechanistic framework corpus, and a fully specified adaptive trial design — prior to matriculation. This is the biomedical parallel to WP-2026: a pre-built research identity that arrives at doctoral training with a functioning publication record and a dissertation question already operationalized.</p>
+
+<div class="box amber">
+  <div class="box-label">LIMITATIONS OF AVAILABLE EVIDENCE — PROSPECTUS SCOPE</div>
+  <p>This prospectus does not constitute an IRB protocol, a registered trial design, or a funded research proposal. Specific aims and methods are preliminary and will be revised based on findings from Aims 1 and 2. Sample size estimates, biomarker panel selection, and adaptive trial parameters require institutional biostatistical input and collaborating clinical investigator review. The available evidence does not permit a firm prediction of CPSP incidence reduction achievable by any single multimodal protocol.</p>
+</div>
+
+<div class="end-line"></div>
+<p class="end-text">END OF DOCUMENT — CM-BIO-ARCH-01 · PERIOPERATIVE PAIN SYSTEMS RESEARCH PORTFOLIO · REPOSITORY ARCHITECTURE AND DISSERTATION PROSPECTUS · V1.0 · MARCH 2026 · UNCONTROLLED COPY</p>
+
+</div><!-- /content -->
+</body>
+</html>
