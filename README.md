@@ -37,7 +37,7 @@ Papers are organized across five clusters. Each cluster feeds forward into the n
 
 | ID | Title | Repository | Status |
 |---|---|---|---|
-| SR-01 | Perioperative Non-Opioid Analgesic Agents: A Scoping Review of Mechanisms, Clinical Efficacy, and Implementation Evidence | — | Complete |
+| SR-01 | Perioperative Non-Opioid Analgesic Agents: A Scoping Review of Mechanisms, Clinical Efficacy, and Implementation Evidence | [non-opioid-anesthesia-narrative-review](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review) | Complete |
 | SR-02 | Acute-to-Chronic Pain Transition Following Major Surgery: A Scoping Review of Incidence, Risk Factors, and Mechanistic Pathways | — | **Priority — Next Production** |
 | SR-03 | Perioperative Analgesic Strategy and Chronic Post-Surgical Pain in Total Knee Arthroplasty: A Scoping Review | [tka-perioperative-review](https://github.com/collingeorge/tka-perioperative-review) | Complete — Submission Ready |
 | SR-04 | Perioperative Analgesic Strategy and Postoperative Pain Outcomes in Breast Reconstruction Surgery: A Scoping Review | [Breast-Reconstruction-Analgesia-Review](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review) | Complete — Pre-Submission |
@@ -117,6 +117,29 @@ Papers are organized across five clusters. Each cluster feeds forward into the n
 | [WP-2026](https://github.com/collingeorge/WP-2026) | U.S. legal-economic statecraft, sanctions enforcement architecture, competitive statecraft |
 | [tka-perioperative-review](https://github.com/collingeorge/tka-perioperative-review) | SR-03 — TKA perioperative analgesia scoping review |
 | [Breast-Reconstruction-Analgesia-Review](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review) | SR-04 — Breast reconstruction analgesia scoping review |
+| [non-opioid-anesthesia-narrative-review](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review) | SR-01 — Non-opioid anesthesia narrative review |
+| [gbm-hybrid-mrna-framework](https://github.com/collingeorge/gbm-hybrid-mrna-framework) | Independent — Glioblastoma hybrid mRNA framework |
+| [Premedical-Educational-Portfolio-Critical-Care-Physiology](https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology) | Independent — Critical care physiology and ICU smart controller |
+| [Smart-NOA-Controller](https://github.com/collingeorge/Smart-NOA-Controller) | Tool — Non-opioid anesthesia intelligent controller |
+
+---
+
+## Related Independent Research
+
+The following repositories represent independent scholarly work produced in parallel to CM-2026. They do not scaffold into the perioperative pain systems dissertation question but reflect active research output across adjacent biomedical domains.
+
+| Repository | Domain | Status |
+|---|---|---|
+| [gbm-hybrid-mrna-framework](https://github.com/collingeorge/gbm-hybrid-mrna-framework) | Glioblastoma hybrid mRNA therapeutic framework | Active |
+| [Premedical-Educational-Portfolio-Critical-Care-Physiology](https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology) | ICU and critical care physiology — clinical smart controller design and educational portfolio | Active |
+
+---
+
+## Related Tools
+
+| Repository | Description |
+|---|---|
+| [Smart-NOA-Controller](https://github.com/collingeorge/Smart-NOA-Controller) | Intelligent controller for non-opioid anesthesia protocol management — software artifact developed in parallel to SR-01 |
 
 ---
 
