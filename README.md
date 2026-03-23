@@ -19,13 +19,15 @@ The portfolio is structured as a pre-doctoral working paper series spanning evid
 
 All documents are governed by CM-STYLE-01 v1.0, which specifies clinical register, GRADE evidence tradecraft, document architecture, and production standards.
 
+**Live Portfolio Index:** [CM-BIO-ARCH-01 — Repository Architecture and Dissertation Prospectus](https://collingeorge.github.io/CM-2026/CM-BIO-ARCH-01-v1.0.html)
+
 ---
 
 ## Repository Architecture Document
 
 | Document | Title | Status |
 |---|---|---|
-| [CM-BIO-ARCH-01](./CM-BIO-ARCH-01-v1.0.html) | Perioperative Pain Systems Research Portfolio: Repository Architecture and Dissertation Prospectus | Active v1.0 |
+| [CM-BIO-ARCH-01](https://collingeorge.github.io/CM-2026/CM-BIO-ARCH-01-v1.0.html) | Perioperative Pain Systems Research Portfolio: Repository Architecture and Dissertation Prospectus | Active v1.0 |
 
 ---
 
