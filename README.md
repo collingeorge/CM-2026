@@ -1,24 +1,26 @@
 # Perioperative pain research portfolio index
 
-> Independent educational work. Not a clinical protocol, prescription, patient handout, or validated decision aid. This revision is a draft pending clinical and publication review.
+Independent educational portfolio by Collin Blaine George. Updated 27 October 2026.
 
-This index links independent educational and research drafts. A planned research program is not a completed body of evidence, an approved dissertation, an institutional practice, or authorization to conduct human research.
+The projects below are literature analyses, study exercises and a software simulation. They do not establish clinical competency, institutional endorsement or a validated patient-care tool.
 
-| Project | Current framing |
-|---|---|
-| [Non-opioid anesthesia overview](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review) | Selected-evidence educational discussion; earlier review-method claims require records. |
-| [TKA perioperative review](https://github.com/collingeorge/tka-perioperative-review) | Review draft; original pooling and non-inferiority claims require correction and audit. |
-| [Breast reconstruction analgesia review](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review) | Narrative literature review, not a scoping review or protocol. |
-| [Breast perioperative learning modules](https://github.com/collingeorge/Breast-Reconstruction-Anesthesia-Protocol) | Educational modules; historical repository name retained. |
-| [Critical care physiology portfolio](https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology) | Synthetic physiology exercises, not patient care experience. |
-| [Smart NOA](https://github.com/collingeorge/Smart-NOA-Controller) | Unvalidated software simulation, not an intelligent clinical controller. |
+| Project | Current work | Access |
+|---|---|---|
+| [Non-opioid anesthesia overview](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review) | Selected-source educational overview; unsupported historical review-method claims withdrawn | Private; publication review pending |
+| [TKA evidence map](https://github.com/collingeorge/tka-perioperative-review) | Selected-source narrative map; estimated screening counts, unverified extraction tables and original pooling withdrawn | Public educational draft |
+| [Breast reconstruction analgesia review](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review) | Narrative analysis with reference-identity records, search diagnostics and explicit population limits | Public educational draft |
+| [Breast perioperative learning modules](https://github.com/collingeorge/Breast-Reconstruction-Anesthesia-Protocol) | Discussion modules that replace the earlier operational protocol | Private; publication review pending |
+| [Critical care physiology](https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology) | 42 entirely synthetic reasoning exercises; no real-patient encounters | Private; publication review pending |
+| [Smart NOA](https://github.com/collingeorge/Smart-NOA-Controller) | Unvalidated rule-checking simulation with no device or patient interface | Private; publication review pending |
+
+Private links require repository access. Their listing here does not make the source public.
 
 ## Research interests
 
-The relationship between perioperative analgesic strategy, pain mechanisms, longer-term recovery, and persistent postsurgical pain remains an area for study. Proposed observational studies, trials, biomarkers, or doctoral projects are plans only. Their feasibility, ethics, methods, sponsorship, and oversight have not been established here. No participant recruitment or clinical activity is authorized by this repository.
+Perioperative analgesia, pain mechanisms, longer-term recovery and persistent postsurgical pain are areas for further study. Proposed studies are plans; no participant recruitment, institutional approval, completed dissertation or clinical activity is represented here.
 
-Reporting and appraisal frameworks apply only where actually used and documented. PRISMA-ScR is a reporting framework; GRADE is not an A/B/C label for study design, and ICH-GCP is not a certification conferred by listing it. No blanket compliance or submission-readiness claim is made.
+## Review and provenance
 
-The architecture HTML/PDF is rebuilt from this current index. See [PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
+Earlier unsupported clinical, methodological and institutional claims are superseded by the current source. [Publication review](https://github.com/collingeorge/CM-2026/blob/main/PUBLICATION_REVIEW.md) and [provenance](https://github.com/collingeorge/CM-2026/blob/main/PROVENANCE.md) describe the completed checks and remaining limits. The corrected source does not certify legal compliance or authorize patient care.
 
-Author: Collin Blaine George. Independent educational portfolio; no institutional endorsement is claimed. License: see [LICENSE](LICENSE).
+Author-owned material is shared under the repository's [license](https://github.com/collingeorge/CM-2026/blob/main/LICENSE); third-party sources retain their own rights. The named HTML/PDF exports follow this index.

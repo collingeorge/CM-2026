@@ -1,22 +1,20 @@
-# Publication review — 27 October 2026
+# Follow-up publication review - 27 October 2026
 
-**Status: draft revisions; publication clearance is not established.**
+**Candidate 2026.10-rc2.** This is an educational-source correction pass, not legal certification, clinical validation, peer review or public-release authorization.
 
-- Corrected cross-project labels and separated planned scholarship from completed, validated, or institutionally approved work.
-- Removed blanket GRADE/PRISMA/ICH-GCP compliance and submission-readiness claims from the index.
+## Work completed
 
-## Common release requirements
+- Smart NOA: fixed simultaneous low-heart-rate/low-pressure alert masking and finite-number/state boundary errors. **31 software tests pass**. This does not establish patient safety.
+- ICU: reconstructed all **42 synthetic scenario themes** as physiology/evidence-appraisal exercises and revised study objectives, summaries, terminology and source guide. Unsupported medicine doses, device adjustments, fixed escalation rules and claims of clinical procedural competency are withdrawn.
+- TKA: withdrew unsubstantiated estimated screening counts, JBI/PRISMA-ScR compliance, extraction/grade tables and false source-result pairings. The current series is a selected-source narrative map, with no original pooling or submission-ready claim.
+- Breast review: checked identity metadata for 58 PMID-bearing references and the remaining book; reviewed available abstracts and selected full text. Corrected IV-versus-oral morphine units, nonsignificant-result wording and outdated guideline framing. Search diagnostic responses are archived.
+- Historical NOA PDF: all 37 rendered pages were visually reviewed. No patient identifiers were apparent in that visual pass, but old institutional/clinical-observation framing, unsupported methods, efficacy and dose claims remain in Git history. Those versions are superseded and not clinical evidence.
+- Author provenance statement recorded. Shadowing notes without authorization remain excluded.
 
-1. Review the full Git history, branches, tags, releases, attachments, issue/PR content, and deployed artifacts for sensitive material and stale claims. A ZIP snapshot does not include those surfaces. A partial connector-based history text scan is described below.
-2. Verify provenance, author contributions, third-party copyright permissions, and the actual license scope. Public availability is not permission to republish third-party content.
-3. Obtain appropriate clinical review for any retained clinical claims. Do not label these drafts clinically validated, HIPAA-compliant, legally certified, institutionally endorsed, or safe for patient care.
-4. Reconcile source, citation metadata, figures, PDFs, repository descriptions, and linked sites. The LaTeX bundle remains unavailable. Current PDFs were rebuilt directly from the named Markdown sources using ReportLab, then rendered and checked. This is not a claim that the TeX compiler succeeded.
-5. Make any public-visibility decision only after these specific outstanding items are resolved. No repository visibility change is part of these revisions.
+## Remaining limits
 
-These notes describe a targeted source/software review, not an exhaustive legal opinion or clinical validation.
+The current sources are educational, with narrower claims than the earlier versions. This audit does not replicate every underlying trial, independently verify every third-party full-text assertion, establish all copyright permissions, determine jurisdiction-specific legal duties, or validate software for patient care. External deposits, attachments, deployed copies, unreachable Git objects and the public repositories' full histories have not received exhaustive review.
 
-## Current release-preparation status
+Do not turn a passing software test, a valid DOI, an educational disclaimer or an author provenance statement into a clinical/legal-clearance claim. Private repository visibility remains unchanged. The historical audit and current snapshot checks have different scopes.
 
-Index, HTML and PDF aligned with draft project status. Linked projects retain their own unresolved audits; existing public visibility is unchanged.
-
-A partial GitHub connector audit scanned 232 main-branch commits across the four private priority repositories, 223 distinct nonempty trees and 196 unique text blobs, with no matches for the tested credential patterns or selected patient-identifier labels. It did not exhaustively review image-only historical PDF/JPEG content, although all 12 binary objects were retrieved and hash-verified and extracted PDF text was scanned, deployments, external deposits or attachments. Public repositories were not included in this historical scan. This is not full publication clearance. No visibility change or merge has been performed.
+Earlier review notes in Git history describe earlier states. Use the current release notes and manifests to identify this candidate.
