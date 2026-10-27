@@ -1,0 +1,45 @@
+{
+  "candidate": "2026.10-rc1",
+  "public_release": false,
+  "history_included": false,
+  "history_audited": false,
+  "secret_scan_scope": "Listed current files only; three high-confidence patterns. Not a full credential, PHI, copyright, or clinical audit.",
+  "findings": [],
+  "files": [
+    {
+      "path": "CM-BIO-ARCH-01-v2.0.html",
+      "bytes": 3075,
+      "sha256": "01b9cc5937c9fe890782e357663cf11151f80e8f20d91ef6d1d4731bcfc62665"
+    },
+    {
+      "path": "CM-BIO-ARCH-01-v2.0.pdf",
+      "bytes": 76605,
+      "sha256": "52e432a3b416548b3c164bb316c5dc8a3f5166b4c25d9bb7897796919eab00b3"
+    },
+    {
+      "path": "DOCUMENT_BUILD.json",
+      "bytes": 391,
+      "sha256": "6b8ae7c47223a9c2bac42e87d01751523bed98e1fddbc72ef912d7ab120287cd"
+    },
+    {
+      "path": "LICENSE",
+      "bytes": 453,
+      "sha256": "391e615a934b0f25967fcd0a8943e6f27336add5e13ba0128a73c4f3963bd146"
+    },
+    {
+      "path": "PUBLICATION_REVIEW.md",
+      "bytes": 2414,
+      "sha256": "07af3e264b443f975e18def14ce40c923184657ad98f0ff5430beb1c0f12e26c"
+    },
+    {
+      "path": "README.md",
+      "bytes": 2562,
+      "sha256": "83cbd8ed6737e403b06ed1996784f51fce3b65707228b875e05201a8c0a70f93"
+    },
+    {
+      "path": "RELEASE_NOTES.md",
+      "bytes": 549,
+      "sha256": "90cb480576f76b2c3c8cc4ec3a2434279e7ee8d6c374cea3dc4640c6ec89b596"
+    }
+  ]
+}
