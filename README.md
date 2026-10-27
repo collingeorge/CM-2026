@@ -19,6 +19,6 @@ The relationship between perioperative analgesic strategy, pain mechanisms, long
 
 Reporting and appraisal frameworks apply only where actually used and documented. PRISMA-ScR is a reporting framework; GRADE is not an A/B/C label for study design, and ICH-GCP is not a certification conferred by listing it. No blanket compliance or submission-readiness claim is made.
 
-The prior architecture HTML/PDF is historical and must be reconciled before being presented as current. See [PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
+The architecture HTML/PDF is rebuilt from this current index. See [PUBLICATION_REVIEW.md](PUBLICATION_REVIEW.md).
 
 Author: Collin Blaine George. Independent educational portfolio; no institutional endorsement is claimed. License: see [LICENSE](LICENSE).
