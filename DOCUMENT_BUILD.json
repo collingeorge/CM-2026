@@ -1,0 +1,12 @@
+{
+  "version": "2026.10-rc1",
+  "method": "ReportLab export from Markdown; not a successful TeX compilation",
+  "documents": [
+    {
+      "source": "README.md",
+      "pdf": "CM-BIO-ARCH-01-v2.0.pdf",
+      "source_sha256": "83cbd8ed6737e403b06ed1996784f51fce3b65707228b875e05201a8c0a70f93",
+      "pdf_sha256": "52e432a3b416548b3c164bb316c5dc8a3f5166b4c25d9bb7897796919eab00b3"
+    }
+  ]
+}
