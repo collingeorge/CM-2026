@@ -24,3 +24,7 @@ Perioperative analgesia, pain mechanisms, longer-term recovery and persistent po
 Earlier unsupported clinical, methodological and institutional claims are superseded by the current source. [Publication review](https://github.com/collingeorge/CM-2026/blob/main/PUBLICATION_REVIEW.md) and [provenance](https://github.com/collingeorge/CM-2026/blob/main/PROVENANCE.md) describe the completed checks and remaining limits. The corrected source does not certify legal compliance or authorize patient care.
 
 Author-owned material is shared under the repository's [license](https://github.com/collingeorge/CM-2026/blob/main/LICENSE); third-party sources retain their own rights. The named HTML/PDF exports follow this index.
+
+## Applied learning example index — 28 October 2026
+
+[Open the clinical education case index](CASE_EXAMPLE_INDEX.md) for local casebooks and source audits across all eight clinical education repositories. The case index is a new source-level supplement; existing dated architecture PDF/HTML exports are retained and do not include this addition.
