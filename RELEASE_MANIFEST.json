@@ -1,6 +1,6 @@
 {
   "candidate": "2026.10-rc2",
-  "public_release": false,
+  "public_release": true,
   "history_included": false,
   "history_audited": false,
   "secret_scan_scope": "Listed current files only; three high-confidence patterns. Not a full credential, PHI, copyright, or clinical audit.",
@@ -43,13 +43,24 @@
     },
     {
       "path": "README.md",
-      "bytes": 2780,
-      "sha256": "528df1328d9dfda65c1c94ad536cfd56c95c2e8dfe045e4794c7fdbb63860d17"
+      "bytes": 3129,
+      "sha256": "15a83fe3850a6e68f342c3321883c4c6853232433c775c525ce741a55072e719"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 610,
-      "sha256": "01f827257e76caabbc7bacfcd4ce085780b0dfe289a74058d2f1be760194423f"
+      "bytes": 820,
+      "sha256": "1be0aeee29b34e8ff4608e9e3535db2c04fb3e8f3a0a31b562ae0c16318c649f"
+    },
+    {
+      "path": "CASE_EXAMPLE_INDEX.md",
+      "bytes": 4537,
+      "sha256": "40f60e18d5ee02d18fd615d7f26edaa8dcf268f097b8f9bcd02ade5236935d04"
+    },
+    {
+      "path": "EXAMPLES_MANIFEST.json",
+      "bytes": 687,
+      "sha256": "5e9fa0871b920a97edded5d9703327b2f94abb2209a80d0704ac66792895c3ee"
     }
-  ]
+  ],
+  "supplement": "clinical-applied-cases-2026-10-28"
 }
