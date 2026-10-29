@@ -1,11 +1,14 @@
-import pathlib,json,urllib.request,zipfile,io,hashlib,base64,tarfile,concurrent.futures
+import pathlib,json,urllib.request,zipfile,io,hashlib,base64,tarfile,concurrent.futures,subprocess
 root=pathlib.Path(__file__).parent
 pins=json.loads((root/'source-pins.json').read_text())
 expected=json.loads((root/'source-integrity.json').read_text())
 def fetch(url):
  return urllib.request.urlopen(urllib.request.Request(url,headers={'User-Agent':'collinbgeorge-portfolio-build'}),timeout=180).read()
 def source(p):
- data=fetch('https://codeload.github.com/collingeorge/'+p['name']+'/zip/'+p['sha'])
+ if p['name']=='CM-2026':
+  data=subprocess.check_output(['git','archive','--format=zip','--prefix=source/',p['sha']],cwd=root.parent.parent)
+ else:
+  data=fetch('https://codeload.github.com/collingeorge/'+p['name']+'/zip/'+p['sha'])
  dest=root/'sources'/p['name'];dest.mkdir(parents=True,exist_ok=True)
  with zipfile.ZipFile(io.BytesIO(data)) as z:
   for f in z.infolist():
