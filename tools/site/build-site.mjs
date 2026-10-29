@@ -1,6 +1,7 @@
 import fs from 'node:fs/promises';
 import path from 'node:path';
 import crypto from 'node:crypto';
+import {execFileSync} from 'node:child_process';
 import { pathToFileURL } from 'node:url';
 const root=path.dirname(new URL(import.meta.url).pathname.replace(/^\/([A-Za-z]:)/,'$1'));
 const markedPath=process.argv[2]||process.env.MARKED_MODULE;
@@ -35,7 +36,7 @@ const md=new Marked({renderer,gfm:true});let content;
 if(/\.md$/i.test(d.file)||d.file==='LICENSE'||d.file==='CHANGELOG'){const source=d.text.replace(/^---\r?\n[\s\S]*?\r?\n---\r?\n/,'');content=md.parse(source);}else if(/\.(pdf|png|jpe?g|gif|webp)$/i.test(d.file)){const download=rel(d.route,'downloads/'+d.repo+'/'+d.file);content='<h1>'+esc(d.title)+'</h1><p>This is a retained source export or figure. Its original file is preserved. Read the project’s current source and revision notices for context.</p><p><a class="button button-primary" href="'+download+'">Open original file ↗</a></p>'+(/\.(png|jpe?g|gif|webp)$/i.test(d.file)?'<img src="'+download+'" alt="'+esc(d.title)+'">':'');}else if(/\.html$/i.test(d.file)){content='<h1>'+esc(d.title)+'</h1><p>Retained dated HTML export. Current reading pages are linked from the project index.</p><a href="'+rel(d.route,'downloads/'+d.repo+'/'+d.file)+'">Open retained HTML export ↗</a>';}else content='<h1>'+esc(d.title)+'</h1><pre class="source-record"><code>'+esc(d.text)+'</code></pre>';
 content=content.replace(/<a id="([^"]+)"><\/a>/g,(m,id)=>headings.some(h=>h.id===id)?'':m);content=rewrite(content,d.repo,d.file,d.route);
 // Remove active source HTML; input snapshots are fixed and public, but they remain data.
-content=content.replace(/<(script|iframe|object|embed|form)\b[^>]*>[\s\S]*?<\/\1>/gi,'').replace(/\s+on[a-z]+\s*=\s*(?:"[^"]*"|'[^']*'|[^\s>]+)/gi,'');
+content=execFileSync(process.env.PYTHON||'python',[path.join(root,'sanitize-html.py')],{input:content,encoding:'utf8',maxBuffer:16*1024*1024});
 content=content.replace(/<table>/g,'<div class="table-scroll" tabindex="0" aria-label="Scrollable data table"><table>').replace(/<\/table>/g,'</table></div>');
 const toc=headings.filter(h=>h.level<=3).map(h=>'<li class="toc-level-'+h.level+'"><a href="#'+esc(h.id)+'">'+esc(h.text)+'</a></li>').join('');
 const related=documents.filter(x=>x.repo===d.repo&&['README.md','START_HERE.md','AUTHORSHIP_AND_REVIEW.md','PUBLICATION_REVIEW.md','EVIDENCE_CLASSIFICATION.md','REFERENCE_AUDIT.md','EVIDENCE_AUDIT.md'].includes(x.file)).map(x=>'<li><a href="'+rel(d.route,x.route)+'">'+esc(x.file.replace('.md','').replaceAll('_',' ').toLowerCase())+'</a></li>').join('');
@@ -45,7 +46,7 @@ for(const p of projects){const route=repoIndex(p.repo);const docs=documents.filt
 // Host the complete MCAT static runtime under its own service-worker scope.
 for(const f of await walk(path.join(src,'MCAT'))){const r=pos(path.relative(path.join(src,'MCAT'),f));if(r.startsWith('.github/')||r==='.gitignore')continue;await save('study/mcat/'+r,await fs.readFile(f));}
 let app=await fs.readFile(path.join(out,'study/mcat/index.html'),'utf8');app=app.replace('</head>','<link rel="stylesheet" href="css/portfolio-theme.css?v=full-html-2"></head>').replace('<body>','<body><div class="portfolio-return"><a href="../../index.html">← Collin B. George · Portfolio</a><a href="../../projects/mcat-study/index.html">Study guide &amp; sources ↗</a></div>');await save('study/mcat/index.html',app);
-await save('study/mcat/css/portfolio-theme.css',await fs.readFile(path.join(root,'assets/mcat-theme.css')));let sw=await fs.readFile(path.join(out,'study/mcat/sw.js'),'utf8');sw=sw.replace("const CACHE = '","const CACHE = 'portfolio-html2-").replace("'./', 'index.html'","'./', 'css/portfolio-theme.css', 'index.html'");await save('study/mcat/sw.js',sw);
+await save('study/mcat/css/portfolio-theme.css',await fs.readFile(path.join(root,'assets/mcat-theme.css')));let sw=await fs.readFile(path.join(out,'study/mcat/sw.js'),'utf8');sw=sw.replace("const CACHE = '","const CACHE = 'portfolio-html2-").replace("'./', 'index.html'","'./', 'css/portfolio-theme.css', 'index.html'");sw=sw.replace("k.startsWith('mcat-')","k.startsWith('portfolio-html2-mcat-')");await save('study/mcat/sw.js',sw);
 // Preserve the original homepage composition and move reading links in-house.
 home=rewrite(home,'CM-2026','index.html','index.html');home=home.replaceAll('downloads/CM-2026/assets/','assets/').replace(/(<a class="nav-source" href=")[^"]+/, '$1https://github.com/collingeorge/CM-2026');home=home.replace(/<link rel="canonical"[^>]*>/,'<link rel="canonical" href="'+config.siteUrl+'/">');home=home.replace('portfolio.css?v=20261029-3','portfolio.css?v=full-html-1').replace('</head>','<link rel="stylesheet" href="assets/reading.css?v=full-html-1"></head>');home=home.replace('<a href="#library">Project library</a>','<a href="library.html">Reading library</a>');
 for(const p of projects)home=home.replaceAll('href="https://github.com/collingeorge/'+p.repo+'"','href="'+repoIndex(p.repo)+'"');
@@ -62,3 +63,5 @@ await save('404.html',page('404.html','Page not found','<section class="containe
 await save('robots.txt','User-agent: *\nAllow: /\nSitemap: '+config.siteUrl+'/sitemap.xml\n');await save('sitemap.xml','<?xml version="1.0" encoding="UTF-8"?><urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">'+['index.html','library.html',...projects.map(p=>repoIndex(p.repo)),...documents.map(d=>d.route)].map(p=>'<url><loc>'+esc(config.siteUrl.replace(/\/$/,'')+'/'+p)+'</loc></url>').join('')+'</urlset>');
 try{await save('CNAME',await fs.readFile(path.join(root,'../../CNAME'),'utf8'));}catch{}
 const report={documents:documents.length,projects:projects.length,decisionTrees:diagrams,sourceFiles:sourceManifest.length,pins,siteUrl:config.siteUrl};await fs.writeFile(path.join(root,'build-report.json'),JSON.stringify(report,null,2));console.log(JSON.stringify(report));
+
+await save('_headers',await fs.readFile(path.join(root,'security-headers.txt')));
