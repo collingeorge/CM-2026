@@ -1,0 +1,34 @@
+name: Evidence or documentation correction
+description: Identify a source, interpretation or navigation problem.
+title: "[Correction] "
+body:
+  - type: markdown
+    attributes:
+      value: "Use public information only. Do not include patient information, charts, confidential material or private institutional documents."
+  - type: input
+    id: location
+    attributes:
+      label: Repository, file and section
+      description: Link to the exact location.
+    validations:
+      required: true
+  - type: textarea
+    id: claim
+    attributes:
+      label: Statement or problem
+    validations:
+      required: true
+  - type: textarea
+    id: source
+    attributes:
+      label: Public supporting source
+      description: Include a DOI or stable public URL and relevant passage when applicable.
+    validations:
+      required: true
+  - type: textarea
+    id: explanation
+    attributes:
+      label: Why a correction is needed
+      description: Explain population, recommendation scope, interpretation or navigation concerns.
+    validations:
+      required: true

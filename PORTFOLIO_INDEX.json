@@ -1,0 +1,94 @@
+{
+  "date": "2026-10-29",
+  "scope": "Navigation and visibility snapshot; not clinical or legal certification",
+  "projects": [
+    {
+      "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+      "title": "Critical care physiology",
+      "kind": "Clinical learning",
+      "entry": "CTICU_PROCEDURE_EXAMPLES.md",
+      "evidence": "EVIDENCE_CLASSIFICATION.md",
+      "description": "Worked ICU and CTICU cases connect physiology, investigations, clinical reasoning and reassessment.",
+      "focus": "General knowledge, guideline recommendations and case-specific choices are labelled separately.",
+      "boundary": "Wholly synthetic cases; no patient-care or clinical-validation claim.",
+      "private": false
+    },
+    {
+      "repo": "Breast-Reconstruction-Analgesia-Review",
+      "title": "Breast reconstruction analgesia",
+      "kind": "Evidence review",
+      "entry": "George-BreastRecon-Review-v8.md",
+      "evidence": "REFERENCE_AUDIT.md",
+      "description": "A narrative literature review with reference-identity records, search diagnostics and interpretation notes.",
+      "focus": "Study populations, outcome interpretation and the limits of comparisons across evidence.",
+      "boundary": "Narrative educational analysis; selected source checks do not establish a systematic review.",
+      "private": false
+    },
+    {
+      "repo": "Smart-NOA-Controller",
+      "title": "Smart NOA simulation",
+      "kind": "Software simulation",
+      "entry": "GUIDELINE_INFORMED_EXAMPLES.md",
+      "evidence": "DEVELOPMENT.md",
+      "description": "A Python rule-checking simulation with fictional profiles, reproducible traces and documented limits.",
+      "focus": "Implemented behavior, unit arithmetic and the distinction between software checks and clinical safety.",
+      "boundary": "In-memory simulation with no patient, monitor or pump interface; not clinically validated.",
+      "private": false
+    },
+    {
+      "repo": "non-opioid-anesthesia-narrative-review",
+      "title": "Non-opioid and opioid-sparing anesthesia",
+      "kind": "Evidence review",
+      "entry": "MANUSCRIPT.md",
+      "evidence": "EVIDENCE_AUDIT.md",
+      "description": "A selected-source educational overview with a correction record and paired case discussions.",
+      "focus": "Review scope, claim-to-source reasoning and correction of unsupported historical claims.",
+      "boundary": "Educational overview; historical review-method and efficacy claims were withdrawn.",
+      "private": false
+    },
+    {
+      "repo": "tka-perioperative-review",
+      "title": "TKA perioperative analgesia",
+      "kind": "Evidence review",
+      "entry": "George-TKA-Scoping-Review-v2.md",
+      "evidence": "PUBLICATION_REVIEW.md",
+      "description": "A narrative evidence map with regional anesthesia, recovery and synthetic case material.",
+      "focus": "Evidence populations, recovery outcomes and the limits of screening, extraction and pooling claims.",
+      "boundary": "The retained filename says Scoping-Review; the current work is a selected-source narrative map.",
+      "private": false
+    },
+    {
+      "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+      "title": "Breast perioperative learning",
+      "kind": "Clinical learning",
+      "entry": "APPLIED_CASES.md",
+      "evidence": "PUBLICATION_REVIEW.md",
+      "description": "Perioperative learning modules and paired synthetic cases with source and applicability notes.",
+      "focus": "Patient factors, anesthesia options and reassessment in an educational case format.",
+      "boundary": "The repository name retains Protocol; the revised material is educational discussion.",
+      "private": false
+    },
+    {
+      "repo": "rTKA-Multimodal-Anesthesia-Protocol",
+      "title": "Robot-assisted TKA working material",
+      "kind": "Private working draft",
+      "entry": "APPLIED_CASES.md",
+      "evidence": "README.md",
+      "description": "Private working material with a synthetic case supplement.",
+      "focus": "Separate added teaching examples from legacy clinical claims.",
+      "boundary": "Legacy claims require separate substantive review. Kept private.",
+      "private": true
+    },
+    {
+      "repo": "ai-anesthesiology-safety-framework",
+      "title": "AI anesthesiology safety working material",
+      "kind": "Private working draft",
+      "entry": "APPLIED_CASES.md",
+      "evidence": "README.md",
+      "description": "Private conceptual working material with hypothetical cases.",
+      "focus": "Separate conceptual discussion from an implemented or validated clinical system.",
+      "boundary": "Legacy claims require separate substantive review. Kept private.",
+      "private": true
+    }
+  ]
+}
