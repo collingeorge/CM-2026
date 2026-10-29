@@ -1,0 +1,41 @@
+name: Full HTML portfolio
+on:
+  push:
+    branches: [main]
+    paths:
+      - "tools/site/**"
+      - ".github/workflows/full-html-site.yml"
+      - "CNAME"
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: full-html-pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - name: Fetch and verify pinned public sources and dependencies
+        run: python3 tools/site/prepare.py
+      - name: Build complete static HTML site
+        run: node tools/site/build-site.mjs
+      - name: Check page links and anchors
+        run: python3 tools/site/check-site.py
+      - uses: actions/configure-pages@v5
+      - uses: actions/upload-pages-artifact@v4
+        with:
+          path: tools/site/dist
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy verified static site
+        id: deployment
+        uses: actions/deploy-pages@v4

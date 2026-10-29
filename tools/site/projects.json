@@ -1,0 +1,96 @@
+[
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "title": "Critical care physiology",
+    "kind": "Clinical learning",
+    "entry": "CTICU_PROCEDURE_EXAMPLES.md",
+    "evidence": "EVIDENCE_CLASSIFICATION.md",
+    "description": "Worked ICU and CTICU cases connect physiology, investigations, clinical reasoning and reassessment.",
+    "focus": "General knowledge, guideline recommendations and case-specific choices are labelled separately.",
+    "boundary": "Wholly synthetic cases; no patient-care or clinical-validation claim.",
+    "private": false,
+    "slug": "critical-care"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "title": "Breast reconstruction analgesia",
+    "kind": "Evidence review",
+    "entry": "George-BreastRecon-Review-v8.md",
+    "evidence": "REFERENCE_AUDIT.md",
+    "description": "A narrative literature review with reference-identity records, search diagnostics and interpretation notes.",
+    "focus": "Study populations, outcome interpretation and the limits of comparisons across evidence.",
+    "boundary": "Narrative educational analysis; selected source checks do not establish a systematic review.",
+    "private": false,
+    "slug": "breast-analgesia-review"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "title": "Smart NOA simulation",
+    "kind": "Software simulation",
+    "entry": "GUIDELINE_INFORMED_EXAMPLES.md",
+    "evidence": "DEVELOPMENT.md",
+    "description": "A Python rule-checking simulation with fictional profiles, reproducible traces and documented limits.",
+    "focus": "Implemented behavior, unit arithmetic and the distinction between software checks and clinical safety.",
+    "boundary": "In-memory simulation with no patient, monitor or pump interface; not clinically validated.",
+    "private": false,
+    "slug": "smart-noa"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "title": "Non-opioid and opioid-sparing anesthesia",
+    "kind": "Evidence review",
+    "entry": "MANUSCRIPT.md",
+    "evidence": "EVIDENCE_AUDIT.md",
+    "description": "A selected-source educational overview with a correction record and paired case discussions.",
+    "focus": "Review scope, claim-to-source reasoning and correction of unsupported historical claims.",
+    "boundary": "Educational overview; historical review-method and efficacy claims were withdrawn.",
+    "private": false,
+    "slug": "non-opioid-anesthesia"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "title": "TKA perioperative analgesia",
+    "kind": "Evidence review",
+    "entry": "George-TKA-Scoping-Review-v2.md",
+    "evidence": "PUBLICATION_REVIEW.md",
+    "description": "A narrative evidence map with regional anesthesia, recovery and synthetic case material.",
+    "focus": "Evidence populations, recovery outcomes and the limits of screening, extraction and pooling claims.",
+    "boundary": "The retained filename says Scoping-Review; the current work is a selected-source narrative map.",
+    "private": false,
+    "slug": "tka-review"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "title": "Breast perioperative learning",
+    "kind": "Clinical learning",
+    "entry": "APPLIED_CASES.md",
+    "evidence": "PUBLICATION_REVIEW.md",
+    "description": "Perioperative learning modules and paired synthetic cases with source and applicability notes.",
+    "focus": "Patient factors, anesthesia options and reassessment in an educational case format.",
+    "boundary": "The repository name retains Protocol; the revised material is educational discussion.",
+    "private": false,
+    "slug": "breast-perioperative"
+  },
+  {
+    "repo": "MCAT",
+    "title": "MCAT study app",
+    "kind": "Study tools",
+    "entry": "https://collingeorge.github.io/MCAT/",
+    "evidence": "docs/AUDIT-2026-10-28.md",
+    "description": "Browser-based recall practice, passages and timed practice exams.",
+    "boundary": "Independent study aid; not AAMC-endorsed. App score estimates do not predict official results.",
+    "private": false,
+    "slug": "mcat-study"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "title": "HLA approximation in glioma",
+    "kind": "Research methods",
+    "entry": "ANALYSIS_PLAN.md",
+    "evidence": "STAGE1-2_RESULTS.md",
+    "description": "A pre-specified methods study examining HLA approximation and predicted neoantigen burden.",
+    "boundary": "Repository reports Stages 1–2 complete and binding prediction pending; not clinical validation.",
+    "private": false,
+    "slug": "hla-glioma"
+  }
+]
