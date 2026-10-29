@@ -89,6 +89,16 @@
       "focus": "Separate conceptual discussion from an implemented or validated clinical system.",
       "boundary": "Legacy claims require separate substantive review. Kept private.",
       "private": true
+    },
+    {
+      "repo": "MCAT",
+      "title": "MCAT study app",
+      "kind": "Study tools",
+      "entry": "https://collingeorge.github.io/MCAT/",
+      "evidence": "docs/AUDIT-2026-10-28.md",
+      "description": "Browser-based recall practice, passages and timed practice exams.",
+      "boundary": "Independent study aid; not AAMC-endorsed. App score estimates do not predict official results.",
+      "private": false
     }
   ]
 }

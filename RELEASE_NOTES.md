@@ -12,3 +12,7 @@ Added source-level index of applied examples across eight clinical education rep
 ## 29 October 2026 — portfolio presentation
 
 Added an original academic portfolio website, curated reading path, public library filters, authorship/AI assistance statement, revision log and maintenance process. Corrected stale access labels. Added local navigation across eight clinical projects. Substantive manuscripts, casebooks, source records, software and dated HTML/PDF exports remain intact. Two private working drafts remain private. This is a presentation/documentation pass, not independent clinical sign-off.
+
+### MCAT study resource
+
+Added a For students section, direct app launch and study guide links, and a Study tools library filter. The public library now contains six clinical projects plus the independent MCAT study app. Verified its launch page and documented features; no new validation of question accuracy, learning outcomes or score estimates is asserted. MCAT app files were unchanged.

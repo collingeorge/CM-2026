@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3775,
-      "sha256": "3120b42266f1aa056bf462cfdb2e61017ae3dfd1dbc22b17ce25a6261c66e558"
+      "bytes": 4135,
+      "sha256": "cf1162604efd6dba8e06c71e76eb96a704a88040e277dca9e4cc06fc97ddd0e1"
     },
     {
       "path": "CASE_EXAMPLE_INDEX.md",
@@ -17,13 +17,13 @@
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1344,
-      "sha256": "386817178915dc2026900222a4df6589cfa20b5e96eeaa2ea79dfa6190ccf4db"
+      "bytes": 1737,
+      "sha256": "b3defc02f4f9a6cfd49f5d605553fb501c984ab393db51ac127414aef8445cbe"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 2479,
-      "sha256": "6c91e579406f520649005ff0174352ea5bfaad9b757331c77880acfe60e27c11"
+      "bytes": 3093,
+      "sha256": "fc7af8c661d73b3bc5981c56820f93cdee9508ed1ecfbd5b3b1e5aeb0242b68a"
     },
     {
       "path": "AUTHORSHIP_AND_REVIEW.md",
@@ -37,8 +37,8 @@
     },
     {
       "path": "MAINTENANCE.md",
-      "bytes": 2206,
-      "sha256": "755b56d17db67b2cfcc74d7d7d1b7423465d473ddd343a56abc05da17f0e5e83"
+      "bytes": 2248,
+      "sha256": "7121e4cff6e0b8459f2daaa491aaafaf50532b335d3da5df668d5c1a4c3f137d"
     },
     {
       "path": "DESIGN_NOTES.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "PORTFOLIO_INDEX.json",
-      "bytes": 4740,
-      "sha256": "ff2f0ed19193355a919f93c542341b2c44bf0d2cb321224c501473203ead9758"
+      "bytes": 5167,
+      "sha256": "010d86c6331b6afb8b3316852852fa020ac9429122942d7ceacfdd5a2da57a44"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/evidence-correction.yml",
@@ -62,8 +62,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 18583,
-      "sha256": "f67a40a3a853b20ddb63ca32d5c523cc5cb9076214736d9c919a36347e1b6128"
+      "bytes": 20773,
+      "sha256": "351749ac577f1fe6e42a71052e4ec9383a45c1f580747c3601662475a3c1325e"
     },
     {
       "path": "assets/portfolio.css",
