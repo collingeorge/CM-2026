@@ -23,8 +23,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 18570,
-      "sha256": "5ee5bbea9b29a246fd00af859f951e4802e44a0ec7ce5db8b066ed28075cd212"
+      "bytes": 18583,
+      "sha256": "f67a40a3a853b20ddb63ca32d5c523cc5cb9076214736d9c919a36347e1b6128"
     },
     {
       "path": "LICENSE",
@@ -59,7 +59,7 @@
     {
       "path": "EXAMPLES_MANIFEST.json",
       "bytes": 2692,
-      "sha256": "a5c1f27fe0668773c83526cc15a4731cc0e13721f3ddadfa8fc524745b70de15"
+      "sha256": "39a47e4c7d8dd6062903d83366fa8a84de5905861ba4e9874c0ca43726ffb823"
     },
     {
       "path": "START_HERE.md",
