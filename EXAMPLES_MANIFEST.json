@@ -1,5 +1,5 @@
 {
-  "date": "2026-10-28",
+  "date": "2026-10-29",
   "scope": "Files added/edited for the applied-case supplement; not a full repository/history audit",
   "case_pairs": null,
   "full_text_audit_complete": false,
@@ -7,18 +7,79 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 3129,
-      "sha256": "15a83fe3850a6e68f342c3321883c4c6853232433c775c525ce741a55072e719"
+      "bytes": 3775,
+      "sha256": "3120b42266f1aa056bf462cfdb2e61017ae3dfd1dbc22b17ce25a6261c66e558"
     },
     {
       "path": "CASE_EXAMPLE_INDEX.md",
-      "bytes": 4537,
-      "sha256": "40f60e18d5ee02d18fd615d7f26edaa8dcf268f097b8f9bcd02ade5236935d04"
+      "bytes": 5252,
+      "sha256": "c189982f5a52b5a0b30e572091d948c454e274b5bc6cade311d31ce9ec65a6ec"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 820,
-      "sha256": "1be0aeee29b34e8ff4608e9e3535db2c04fb3e8f3a0a31b562ae0c16318c649f"
+      "bytes": 1344,
+      "sha256": "386817178915dc2026900222a4df6589cfa20b5e96eeaa2ea79dfa6190ccf4db"
+    },
+    {
+      "path": "START_HERE.md",
+      "bytes": 2479,
+      "sha256": "6c91e579406f520649005ff0174352ea5bfaad9b757331c77880acfe60e27c11"
+    },
+    {
+      "path": "AUTHORSHIP_AND_REVIEW.md",
+      "bytes": 2207,
+      "sha256": "2126c4e198bfea857574e40fd81eb4bea0ef6651911ae0b6347c0357cae672a6"
+    },
+    {
+      "path": "LEARNING_AND_REVISION_LOG.md",
+      "bytes": 1933,
+      "sha256": "73e22c1eee373262deb5c00d1c3c7efc469376ad590c2cff8ac8184e1981bca9"
+    },
+    {
+      "path": "MAINTENANCE.md",
+      "bytes": 2206,
+      "sha256": "755b56d17db67b2cfcc74d7d7d1b7423465d473ddd343a56abc05da17f0e5e83"
+    },
+    {
+      "path": "DESIGN_NOTES.md",
+      "bytes": 1062,
+      "sha256": "434a42db064a89d984f12a280bcdda700aca39c3add03890c90bfc21fe0aaac8"
+    },
+    {
+      "path": "PORTFOLIO_INDEX.json",
+      "bytes": 4740,
+      "sha256": "ff2f0ed19193355a919f93c542341b2c44bf0d2cb321224c501473203ead9758"
+    },
+    {
+      "path": ".github/ISSUE_TEMPLATE/evidence-correction.yml",
+      "bytes": 1071,
+      "sha256": "ac5e5ceade8abb3d55650b3cd9b22b0e8295863a4c871f1a7082aebe7a52a0cf"
+    },
+    {
+      "path": "DOCUMENT_BUILD.json",
+      "bytes": 641,
+      "sha256": "2d548fd455fe5f9ec04ded4c5566fdf7d202b7e0a9ea8bf3768f466afc2cedc6"
+    },
+    {
+      "path": "index.html",
+      "bytes": 18570,
+      "sha256": "5ee5bbea9b29a246fd00af859f951e4802e44a0ec7ce5db8b066ed28075cd212"
+    },
+    {
+      "path": "assets/portfolio.css",
+      "bytes": 14314,
+      "sha256": "fddc40a9174a971252f77fc002fda5dc3e518715c172a8e3e5d8d51294bf449d"
+    },
+    {
+      "path": "assets/portfolio.js",
+      "bytes": 1691,
+      "sha256": "07c7fab8af93da3f61bc556325e8072447dd1493a8825e26070595356b366dd3"
+    },
+    {
+      "path": "assets/favicon.svg",
+      "bytes": 270,
+      "sha256": "581341b5defd1e476a1fa095b1d1603fc0efa2265861bab8aece2e5f4a8a24ad"
     }
-  ]
+  ],
+  "presentation_update": "Reader navigation and authorship documentation; no new clinical validation or substantive manuscript revision"
 }

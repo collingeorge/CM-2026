@@ -1,19 +1,23 @@
-# Perioperative pain research portfolio index
+# Clinical education & research portfolio
 
-Independent educational portfolio by Collin Blaine George. Updated 27 October 2026.
+Independent preclinical portfolio by Collin B. George. Updated 29 October 2026.
 
-The projects below are literature analyses, study exercises and a software simulation. They do not establish clinical competency, institutional endorsement or a validated patient-care tool.
+**[Explore the portfolio website](https://collingeorge.github.io/CM-2026/)** · [Start here](START_HERE.md) · [Case index](CASE_EXAMPLE_INDEX.md) · [Authorship & review](AUTHORSHIP_AND_REVIEW.md)
 
-| Project | Current work | Access |
-|---|---|---|
-| [Non-opioid anesthesia overview](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review) | Selected-source educational overview; unsupported historical review-method claims withdrawn | Private; publication review pending |
-| [TKA evidence map](https://github.com/collingeorge/tka-perioperative-review) | Selected-source narrative map; estimated screening counts, unverified extraction tables and original pooling withdrawn | Public educational draft |
-| [Breast reconstruction analgesia review](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review) | Narrative analysis with reference-identity records, search diagnostics and explicit population limits | Public educational draft |
-| [Breast perioperative learning modules](https://github.com/collingeorge/Breast-Reconstruction-Anesthesia-Protocol) | Discussion modules that replace the earlier operational protocol | Private; publication review pending |
-| [Critical care physiology](https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology) | 42 entirely synthetic reasoning exercises; no real-patient encounters | Private; publication review pending |
-| [Smart NOA](https://github.com/collingeorge/Smart-NOA-Controller) | Unvalidated rule-checking simulation with no device or patient interface | Private; publication review pending |
+Literature analyses, wholly synthetic clinical examples and a software simulation explore perioperative analgesia, critical care physiology and evidence interpretation. These artifacts are a record of study; they do not establish clinical competency, institutional endorsement or a validated patient-care tool.
 
-Private links require repository access. Their listing here does not make the source public.
+## Public project library
+
+| Project | Work and scope |
+|---|---|
+| [Critical care physiology](https://github.com/collingeorge/Premedical-Educational-Portfolio-Critical-Care-Physiology) | Worked ICU and CTICU cases connect physiology, investigations, clinical reasoning and reassessment. Wholly synthetic cases; no patient-care or clinical-validation claim. |
+| [Breast reconstruction analgesia](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review) | A narrative literature review with reference-identity records, search diagnostics and interpretation notes. Narrative educational analysis; selected source checks do not establish a systematic review. |
+| [Smart NOA simulation](https://github.com/collingeorge/Smart-NOA-Controller) | A Python rule-checking simulation with fictional profiles, reproducible traces and documented limits. In-memory simulation with no patient, monitor or pump interface; not clinically validated. |
+| [Non-opioid and opioid-sparing anesthesia](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review) | A selected-source educational overview with a correction record and paired case discussions. Educational overview; historical review-method and efficacy claims were withdrawn. |
+| [TKA perioperative analgesia](https://github.com/collingeorge/tka-perioperative-review) | A narrative evidence map with regional anesthesia, recovery and synthetic case material. The retained filename says Scoping-Review; the current work is a selected-source narrative map. |
+| [Breast perioperative learning](https://github.com/collingeorge/Breast-Reconstruction-Anesthesia-Protocol) | Perioperative learning modules and paired synthetic cases with source and applicability notes. The repository name retains Protocol; the revised material is educational discussion. |
+
+Two additional working drafts remain private: robot-assisted TKA material and an AI anesthesiology safety concept. Their legacy claims require separate substantive review. Unauthorized shadowing notes are excluded.
 
 ## Research interests
 
@@ -21,10 +25,10 @@ Perioperative analgesia, pain mechanisms, longer-term recovery and persistent po
 
 ## Review and provenance
 
-Earlier unsupported clinical, methodological and institutional claims are superseded by the current source. [Publication review](https://github.com/collingeorge/CM-2026/blob/main/PUBLICATION_REVIEW.md) and [provenance](https://github.com/collingeorge/CM-2026/blob/main/PROVENANCE.md) describe the completed checks and remaining limits. The corrected source does not certify legal compliance or authorize patient care.
+[Publication review](PUBLICATION_REVIEW.md), [provenance](PROVENANCE.md), [authorship and AI assistance](AUTHORSHIP_AND_REVIEW.md), [revision record](LEARNING_AND_REVISION_LOG.md), and [maintenance](MAINTENANCE.md) describe the documented work and remaining limits. No independent clinical sign-off is recorded. The corrected source does not certify legal compliance or authorize patient care.
 
-Author-owned material is shared under the repository's [license](https://github.com/collingeorge/CM-2026/blob/main/LICENSE); third-party sources retain their own rights. The named HTML/PDF exports follow this index.
+Author-owned material is shared under the [license](LICENSE); third-party sources retain their own rights.
 
-## Applied learning example index — 28 October 2026
+## Retained exports
 
-[Open the clinical education case index](CASE_EXAMPLE_INDEX.md) for local casebooks and source audits across all eight clinical education repositories. The case index is a new source-level supplement; existing dated architecture PDF/HTML exports are retained and do not include this addition.
+The named architecture [HTML](CM-BIO-ARCH-01-v2.0.html) and [PDF](CM-BIO-ARCH-01-v2.0.pdf) are historical snapshots. They remain intact and do not include later supplements or the current website revision. Current navigation is in this README and the website.

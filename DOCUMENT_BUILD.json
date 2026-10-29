@@ -8,5 +8,9 @@
       "source_sha256": "528df1328d9dfda65c1c94ad536cfd56c95c2e8dfe045e4794c7fdbb63860d17",
       "pdf_sha256": "6a5a4bb3f485c046571b25628bf4a15d1e3e8e81d7c4611f629939e4d7cd099f"
     }
-  ]
+  ],
+  "presentation_update": {
+    "date": "2026-10-29",
+    "note": "Recorded build hashes above describe retained historical exports. README and index.html were revised after that build. No PDF regeneration is asserted."
+  }
 }
