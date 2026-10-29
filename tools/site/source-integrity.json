@@ -1,0 +1,1759 @@
+[
+  {
+    "repo": "CM-2026",
+    "path": ".github/ISSUE_TEMPLATE/evidence-correction.yml",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 1071,
+    "sha256": "ac5e5ceade8abb3d55650b3cd9b22b0e8295863a4c871f1a7082aebe7a52a0cf"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "AUTHORSHIP_AND_REVIEW.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 2207,
+    "sha256": "2126c4e198bfea857574e40fd81eb4bea0ef6651911ae0b6347c0357cae672a6"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "CASE_EXAMPLE_INDEX.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 5252,
+    "sha256": "c189982f5a52b5a0b30e572091d948c454e274b5bc6cade311d31ce9ec65a6ec"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "CM-BIO-ARCH-01-v2.0.html",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 4335,
+    "sha256": "9bf5862cfd7db38ada7874b118cd5406a3ce59aff27fbdf7d5fca6dc98f39645"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "CM-BIO-ARCH-01-v2.0.pdf",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 77227,
+    "sha256": "6a5a4bb3f485c046571b25628bf4a15d1e3e8e81d7c4611f629939e4d7cd099f"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "DESIGN_NOTES.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 1062,
+    "sha256": "434a42db064a89d984f12a280bcdda700aca39c3add03890c90bfc21fe0aaac8"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "DOCUMENT_BUILD.json",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 641,
+    "sha256": "2d548fd455fe5f9ec04ded4c5566fdf7d202b7e0a9ea8bf3768f466afc2cedc6"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "EXAMPLES_MANIFEST.json",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 2692,
+    "sha256": "a80d0b96adbd7e7ea4469440a3e3fb21c0fc8a1490b1a8129d5c3678ff03b93b"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "LEARNING_AND_REVISION_LOG.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 1933,
+    "sha256": "73e22c1eee373262deb5c00d1c3c7efc469376ad590c2cff8ac8184e1981bca9"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "LICENSE",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 453,
+    "sha256": "391e615a934b0f25967fcd0a8943e6f27336add5e13ba0128a73c4f3963bd146"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "MAINTENANCE.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 2248,
+    "sha256": "7121e4cff6e0b8459f2daaa491aaafaf50532b335d3da5df668d5c1a4c3f137d"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "PORTFOLIO_INDEX.json",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 5167,
+    "sha256": "010d86c6331b6afb8b3316852852fa020ac9429122942d7ceacfdd5a2da57a44"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "PROVENANCE.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 1418,
+    "sha256": "e8d321b9ad4f01b4a53b25d5310b57b9c4d2aa14c28bc340a00fb8acfdb5a264"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "PUBLICATION_REVIEW.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 2570,
+    "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "README.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 4135,
+    "sha256": "cf1162604efd6dba8e06c71e76eb96a704a88040e277dca9e4cc06fc97ddd0e1"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "RELEASE_MANIFEST.json",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 3734,
+    "sha256": "c4fcf092dc0ea38e44a4778c6ca6677d8b468bc43b9c4f536efb021ef6a13c79"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "RELEASE_NOTES.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 1737,
+    "sha256": "b3defc02f4f9a6cfd49f5d605553fb501c984ab393db51ac127414aef8445cbe"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "START_HERE.md",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 3093,
+    "sha256": "fc7af8c661d73b3bc5981c56820f93cdee9508ed1ecfbd5b3b1e5aeb0242b68a"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "assets/favicon.svg",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 270,
+    "sha256": "581341b5defd1e476a1fa095b1d1603fc0efa2265861bab8aece2e5f4a8a24ad"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "assets/portfolio.css",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 14885,
+    "sha256": "3155f371bcf386d0c99c39d6378371a19624fb7c7a398bf242edd6d9955bb3a4"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "assets/portfolio.js",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 1691,
+    "sha256": "07c7fab8af93da3f61bc556325e8072447dd1493a8825e26070595356b366dd3"
+  },
+  {
+    "repo": "CM-2026",
+    "path": "index.html",
+    "commit": "f7bc9c63f74931bb052e4cb0135d14c5a053b63f",
+    "bytes": 20921,
+    "sha256": "948a03679c875da1d594d609d905316ce22555b01a858d187e672321f11d17a6"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "AIRWAY_PAIN_AND_VENTILATION_EXAMPLES.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 15700,
+    "sha256": "044cb5ab6773dd00c4d9d12d39294e3ef83fc2fb92c64faa9fa3fc6a102ff730"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 24999,
+    "sha256": "df94e6f475bacafafb9e9dea7ce3612545b59e7cde18f463f9086e33e398a13c"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "APPLIED_CASES.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 69578,
+    "sha256": "532881ea1fdbbd44fec088490fcf44c7cd26dfd585baeb478b3484821316b735"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "AUTHORSHIP_AND_REVIEW.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 2298,
+    "sha256": "aa7cfbc06a894ba2f42823b3790ab95f4eca34e4b6ff1fca8844a060faea0856"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "CASE_EXAMPLE_STANDARD.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 2871,
+    "sha256": "ba0ee5689fcf6fd569c02bf14f907e3c8b290cf6ff0eff24794bcc56586ed119"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "CITATION.cff",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 569,
+    "sha256": "bf849a5bbf71a3ebc69bd862a1b5c4a5f3d5e6c2758de101fc0f0349fb177bd3"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "CLINICAL_CARE_PUBLIC_SOURCES.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 11820,
+    "sha256": "07232a0f60a63ed51c86328f40e45eff1bace6e8474b30b9631057d941ab973f"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "CLINICAL_CARE_SOURCE_AUDIT.json",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 26557,
+    "sha256": "cea80dd16d7997145ea4a8441a84f95b1dbaf797f4c1aaf0f3e164cdae05f017"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "CLINICAL_LAB_EXAMPLES.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 17004,
+    "sha256": "6379e0bb1fdaa01c63fbf18f0016904d33f81b6fb6afea6f42b4e86bb4e6bd58"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "CTICU_PROCEDURE_EXAMPLES.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 80945,
+    "sha256": "cc9fd2f9583f50d61e8081f8ba1b926c44af6cb6ef355689a282cddef8fb78d1"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "CTICU_PROCEDURE_EXAMPLES_AUDIT.json",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 12083,
+    "sha256": "48d1c7c1be240badea01a5f66fb4e1dd09f1e63a63fc4516b49c1169e27c3cef"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "EVIDENCE_CLASSIFICATION.json",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 41099,
+    "sha256": "1eac89b5d61d02b80e597ab83cb9216305dcbc182f499963406369de76719297"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "EVIDENCE_CLASSIFICATION.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 21737,
+    "sha256": "d745539e6d6ad3fddb18ec3a79310d97bbb1944f2f2b9c099742a7420ee5cb28"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "EXAMPLES_MANIFEST.json",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 4686,
+    "sha256": "02f9f3bb76ad0ac8c9a3a07e037a6a16de0d4eec7885b99ff7aa71277b1c5314"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "EXAMPLE_SOURCE_AUDIT.json",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 42132,
+    "sha256": "7b42513496745767b55e60fb9a6a450241c19054b87c39ca1774f302b4252cdc"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "HISTORICAL_VERSION_NOTICE.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 467,
+    "sha256": "c35978856d877183e1500d5eb494f1dd0130ac581dc7f0a907cdfab65094128a"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "ICU_CTICU_WORKUP_CASES.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 145359,
+    "sha256": "de99b6879ee4394b26c34769f58e94ed47dd8b0aa53db38fa3bb8bab85f985bd"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "ICU_EQUIPMENT_BASICS.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 21151,
+    "sha256": "52c7074ca5caefc793a3ee3933dcced036619759f52b407715facf48a3172d4a"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "INTEGRATED_WORKUP_AUDIT.json",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 83632,
+    "sha256": "7b344ca24317760cf03f3e800feb951d8b21dd7262ff1ab52b11717c2589b1d3"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "LICENSE",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 881,
+    "sha256": "e7667226c97998507c8a932781fce64d7f6f11527364f79cb56d20a95e0e1afa"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "PROVENANCE.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1553,
+    "sha256": "cb9882e1024f195ff91a9aa32446dba8593bcbd10d3d7d043c4ca68061c6e205"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "PUBLICATION_REVIEW.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 2570,
+    "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "README.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 4521,
+    "sha256": "86b60a9b3b321b0b12e0caa596cf19b52cc082dbda3fe43a4fbb07123c979cab"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "RELEASE_MANIFEST.json",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 7801,
+    "sha256": "082b3709b87cb5683a0a7ce8c454b17dc93d2fa3204476db08f0c8e28fa92e4f"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "RELEASE_NOTES.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 4146,
+    "sha256": "eaa0550d7a2a26de24a15bd4f669c61d349dc7f64cd4bee24a94389e78bdb140"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "SHARED_SOURCE_AUDIT.json",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 4088,
+    "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "START_HERE.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1555,
+    "sha256": "a0b1fd63f945938e666a95f4b7abe910d79ee88bfab1450e0af6cd9a07308615"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "case_set_01_multisystem_critical_care_scenarios.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 8728,
+    "sha256": "f49fc3c89b7ba7c2d3e710f93da57d3345e36ab9ed2030fc73bc34fd21a4118e"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "case_set_02_advanced_hemodynamic_scenarios.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 7919,
+    "sha256": "94f7a548b8117f05daf164fdfbd3ce987843a2aa6fd02d8c20385097fdca5dd6"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "case_set_03_educational_summary.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1793,
+    "sha256": "3acda257705e3a559e8fa17ea04767e1e44d6336b059b1027dff69b5b3829332"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "case_set_03_postoperative_cardiothoracic_scenarios.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 7720,
+    "sha256": "02974ca1eb2485ed8c05fb7342c2ea7773d0ee5bbdf5fa71f55148b16a67a352"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "case_set_04_educational_summary.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 2292,
+    "sha256": "2dc68504bf4201353306b3df0f4b66e728f0e972d3b3a44415cd7c8468fa60a1"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "case_set_04_postoperative_hemodynamics_and_device_physiology.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 11629,
+    "sha256": "750d438beed12c412d3b99b4619e76c95b98bb11d93790def8d21b0643f07f5d"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "case_set_05_educational_summary.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1471,
+    "sha256": "ace7fb725d4e8a996c45d3948597e86879f5ccd363f23e70dc64362f5feb9c48"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "case_set_05_mechanical_support_and_goals_of_care.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 5298,
+    "sha256": "3a8c232caca023929237047f55067bda3fe6ae523caa828670e3c7efbae2d614"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "learning_objectives/hemodynamics.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1787,
+    "sha256": "db6afbc95f2dce8a16c7660e058ffa4b5bee045203283d2831216aad59425fd2"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "learning_objectives/neurocritical_care.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1506,
+    "sha256": "1ad06a57e8bd767b615ef86f30111602f41a05bf13594e2d3efab17886ecef67"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "learning_objectives/respiratory_failure.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1808,
+    "sha256": "6fe28c992856a95e022d4983eada58b1f91f962f26ffed093f9c731a5c1cc4f9"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "learning_objectives/sedation_analgesia.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1748,
+    "sha256": "d161abdf8f7468b2753bd3b8f84140c8dd807890a35c2ec2e2eb62d9bd7f64fc"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "learning_objectives/self_assessment_rubric.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 1463,
+    "sha256": "777f1a464a0e66be96e05278f526f670e3cca63fad97ae4354b823b1c26f780b"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "learning_objectives/terminology_and_abbreviations.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 2362,
+    "sha256": "b1833d1f8062fea473768682a4f64e78ffd253b553a77234c0e33e78797e7592"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "references/bibliography.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 5173,
+    "sha256": "f3b6892b540cfda96aad9a2b3be83e5352f1d9cc130d2a84ee971f253a4b3dc9"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "references/icu_physiology_notes.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 3847,
+    "sha256": "1c51e7ee731a2fabcda89f7c806fabd5f272d4260d7aac77d0b200816841cc34"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "references/shock_classification.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 2812,
+    "sha256": "aa708ffbe2579b2786d00b6dd1196c245d6068726f17734df0cabb5acfa23383"
+  },
+  {
+    "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
+    "path": "references/ventilator_strategies.md",
+    "commit": "529b96b2f968325e11a318b746804869269dd5d5",
+    "bytes": 3179,
+    "sha256": "c7bf6260a882dfe7b23c94af6453d19c0f90991b22a47be4b05cf582890eb3b3"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "02_Comparative_Educational_Review.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 26611,
+    "sha256": "b612699e60c9309c0b570c729de32d3cb9fdfb1a40fbc9488ee7035ba8e7c219"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "03_Patient_Communication_Analysis.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 23323,
+    "sha256": "d76896f070168781a000206e27116d9a382e89e41704bd4ad6fdf7713bb03077"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "04_Postoperative_Recovery_Considerations.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 18746,
+    "sha256": "f10009c7ebcedf5df59fc370f9725f55b83470dd9e868e678fe5636afaf392ed"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "06_References.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 17403,
+    "sha256": "b3fcf07596c26435e61975a557b2408e21f7c7111b0d62264e534b086ace4f33"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 24999,
+    "sha256": "df94e6f475bacafafb9e9dea7ce3612545b59e7cde18f463f9086e33e398a13c"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "APPLIED_CASES.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 14984,
+    "sha256": "76740c7a6365b367d7cf88cd4b09a39cfb60d6df0ab4c60c758a4ecb791f9d82"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "AUTHORSHIP_AND_REVIEW.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 2311,
+    "sha256": "3f5251a7ff272b023a1206dbe8ad121c572c8ee4fe65053d0ad3f8e0eaafbf7b"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "CASE_EXAMPLE_STANDARD.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 2519,
+    "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "CITATION.cff",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 526,
+    "sha256": "a29935cddeffd8e388a5efe6ff9ec8a9aaed189477341a1320a19178bf07f007"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "EXAMPLES_MANIFEST.json",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 1924,
+    "sha256": "a3c5400037a737a55d3b7c793716c9c344c4fb02549c19e39eadcdb717df118f"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "EXAMPLE_SOURCE_AUDIT.json",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 7679,
+    "sha256": "15af0ba0fe04b44e155f35981187111db0b95cc58cb143fa5b1d797d67ec10ee"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "George-BreastRecon-Review-v8.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 74226,
+    "sha256": "484060975424c453e19fad7171184a48236c937c0bd38c4900dc0411fb94dc23"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "LICENSE",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 880,
+    "sha256": "3cff795b2569866bdc491da3ac03f90b18ee9c5ae6d9708aa2ae7ec32b204370"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "PROVENANCE.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 1418,
+    "sha256": "e8d321b9ad4f01b4a53b25d5310b57b9c4d2aa14c28bc340a00fb8acfdb5a264"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "PUBLICATION_REVIEW.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 2570,
+    "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "README.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 9721,
+    "sha256": "7678529396dc59061bb93a23bfd5ca54c852d47bf5630f233d60d22921e3154b"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "REFERENCE_AUDIT.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 2477,
+    "sha256": "4dcd0eaa59d17c6aed107e124da51e77ecfed05f65d1376cfdaec06cd623ce63"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "RELEASE_MANIFEST.json",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 3967,
+    "sha256": "7d3b3a9ad7e88e3a170a9af580c3a5f8fe2846931b576f98b8ef3a1d88947f5b"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "RELEASE_NOTES.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 1346,
+    "sha256": "8fb5506c27de141b355c794aa67f746df3d01fd23ec91e70fdac551d22791ca0"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "SHARED_SOURCE_AUDIT.json",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 4088,
+    "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "START_HERE.md",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 1228,
+    "sha256": "64d1b52fc19a42b18faabc88e05766a9ecfd9b7f101dae3f91bec6e85c5d69be"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "reference-identity-audit.json",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 28714,
+    "sha256": "23ee54e7868d9c9d3a8638c5acbe8fabdd109c915dcc515da1f029e15fcb8608"
+  },
+  {
+    "repo": "Breast-Reconstruction-Analgesia-Review",
+    "path": "search-audit-2026-10-27.json",
+    "commit": "1c803706cd73b0697adf4d0212f5118e73391054",
+    "bytes": 5597,
+    "sha256": "c47855b1a5fd9e84154770ee01128a35329b271693bd54d37f7cdd1e4dae4384"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": ".gitignore",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 551,
+    "sha256": "7414eeeb12f5c9bd68bb42b01a10be90fad2ba0ed038825dcdc9239e13c15b51"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 24873,
+    "sha256": "82296c7b8cfe3a5204303f211fe1354373ac9a625fe3984148440165d0755426"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "ANESTHESIA_SOURCE_AUDIT.json",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 4088,
+    "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "AUTHORSHIP_AND_REVIEW.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 2309,
+    "sha256": "e325b18d956fe702fdcbf5ecd57cc62acda548dfe3229ffebd454b5fb54e280f"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "CASE_EXAMPLE_STANDARD.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 2519,
+    "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "CITATION.cff",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 491,
+    "sha256": "09bb725b0519eee9e611cd6978baf1c41f0fc7e134d2e98f297d5e79023d02a5"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "CLINICAL_EXAMPLE_INDEX.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 4537,
+    "sha256": "40f60e18d5ee02d18fd615d7f26edaa8dcf268f097b8f9bcd02ade5236935d04"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "DEVELOPMENT.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 1176,
+    "sha256": "70fc7c2da80df5dc383d35e99fe46ffc4c653cb114a2ae0c46c24e0fccd71c75"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "DOCUMENT_BUILD.json",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 716,
+    "sha256": "ee77c42b1cdb93a411884257fd6e3bfa457487267936098bcc795d4ca35a55c6"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "EXAMPLES_MANIFEST.json",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 1296,
+    "sha256": "d28038e392b084b0b0d2e91bb9ff81914b5f02f55ec93ac523f2e5bc2c6c0caf"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "EXAMPLE_RESULTS.json",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 12305,
+    "sha256": "2957a35077d9d10981f6e6f5f287411287ca813a753389e9765610a02f93c246"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "GUIDELINE_INFORMED_EXAMPLES.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 15131,
+    "sha256": "9a0a95f9bc204746887ac1c869e38a2a7f26e21521c2b00a964497e537363d23"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "HISTORICAL_VERSION_NOTICE.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 467,
+    "sha256": "c35978856d877183e1500d5eb494f1dd0130ac581dc7f0a907cdfab65094128a"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "LICENSE",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 1071,
+    "sha256": "74631de0ea0bc3c1c5e07712086468e3e1c95201a71135ea456c082162695640"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "MANUSCRIPT.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 4269,
+    "sha256": "08a455bd4fdbc5eeabb2eba4c883afb75b1cd568f46941470355a18f39758572"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "PROVENANCE.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 1418,
+    "sha256": "e8d321b9ad4f01b4a53b25d5310b57b9c4d2aa14c28bc340a00fb8acfdb5a264"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "PUBLICATION_REVIEW.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 2570,
+    "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "README.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 4599,
+    "sha256": "f31fe9360b360c7e1f4882fd024c40d7f21f4ea36b622ef7de8a51e2ef254228"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "RELEASE_MANIFEST.json",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 5393,
+    "sha256": "5fcfb30b21994ae8851637d7489318bb9110658117a1badc92abb361623334e0"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "RELEASE_NOTES.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 2173,
+    "sha256": "92852749d03dc821b0174a6e070a578f042eed7e49f0c5a59f1b8a3b78205ced"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "START_HERE.md",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 1010,
+    "sha256": "e146d4046371fed9408eace7c95dbb529be14904d0d86bb00fbbe54baf57a999"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "Smart_NOA__A_Deterministic_Closed_Loop_Safety_Controller.pdf",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 105389,
+    "sha256": "8c14a6daa44d86b75b10399b49ad0fe535a201e131219a7232278f9aa363e069"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "config.yaml",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 1154,
+    "sha256": "a650075e93c29300cda011e15d9c8d0084433c61df7b2880b9c5c381459e0886"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "example_walkthrough.py",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 3795,
+    "sha256": "1fbff6ecb3edfdc007276ae7244745b6d3f3befc1420ed7fc0756aecc281d9e8"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "main.tex",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 4563,
+    "sha256": "61ebfaec2af5e3388ada8fc685107274f416dd35497cf6cefe2432390b3a92f9"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "requirements.txt",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 78,
+    "sha256": "0d1fe1a88f28ae50c1b6ced1abde0967a46f00022a4358556ebcf10c64ea30ed"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "smart_noa_controller.py",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 23517,
+    "sha256": "cd1a920bf2b47702cb231378c55876af3af41cbd8137c218f0d66080a2f9ab7b"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "smartnoa_architecture.jpg",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 78318,
+    "sha256": "8e58d58fb51ec8b126dc5d9ba1750d60e47fb0a2d6a7e8325b0e04fe1ffa47a6"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "smartnoa_architecture.pdf",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 74562,
+    "sha256": "c36888a320d34bcdaeb6e2aa589565dcff56b1b8b02fb60687bf80f2301851ac"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "test_revision_regressions.py",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 5463,
+    "sha256": "f5793669f7a77dd23216cf61f5bad116d41446680484399869762eb40abc70f3"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
+    "path": "test_smart_noa_controller.py",
+    "commit": "aa522abba1528768aa7dd83465b0e201769395aa",
+    "bytes": 12968,
+    "sha256": "5f3e5aff44fe29c03df99268bb6c1cc38d7ff5c0eb87e20396db28adf048449a"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 24999,
+    "sha256": "df94e6f475bacafafb9e9dea7ce3612545b59e7cde18f463f9086e33e398a13c"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "APPLIED_CASES.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 10595,
+    "sha256": "ace3a3b649f3929db5118aba1727929d48c0822f1fa01756928422d02cf0e94d"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "AUTHORSHIP_AND_REVIEW.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 2300,
+    "sha256": "877c6588aeca9c5ddfd415912ea6f384ef55f1b760d8cef56a06feae264b8d2e"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "CASE_EXAMPLE_STANDARD.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 2519,
+    "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "CITATION.cff",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 572,
+    "sha256": "5184af6cca4c3ae964fed165a3f52fd917b834a4bec4d0816545cc3de1f5ff47"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "DOCUMENT_BUILD.json",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 928,
+    "sha256": "8f6f4fb4ce4311bee8a7db30758394303439860ced69137f4092d344678eb393"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "EVIDENCE_AUDIT.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 1362,
+    "sha256": "35334fbe08ce2cec0905a3f0a338bf5fda9ba3f7a06f213261b0749a336f28a8"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "EXAMPLES_MANIFEST.json",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 1771,
+    "sha256": "f4862a358e2d850b0beb7953d8656789ad73d27fd90f6f71ac08ff08523c19ba"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "EXAMPLE_SOURCE_AUDIT.json",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 5033,
+    "sha256": "109469f3f68206ffa0d96ceb7535161d6d52f5ec61fb9b2c4f7e6da916804808"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "Figure 1_ Multimodal NOA Mechanism",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 264,
+    "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "Figure 2_ Literature Search and Study Selection Flowchart",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 264,
+    "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "Figure 3_ Representative Opioid Reduction Percentages Representative Across Surgical Specialties",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 264,
+    "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "Figure 4_ Perioperative Timeline of NOA Within ERAS Protocols",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 264,
+    "sha256": "aa9d593db281b6cb3a861cff0f59f6e9a15808ffbcc7fe56d0b4a96dca728be6"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "HISTORICAL_VERSION_NOTICE.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 1770,
+    "sha256": "fdf98aafe59f7748ff1cc9b62ea1a08ec425c1eb2b1a46dfdbed13ba697bd66c"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "LICENSE",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 446,
+    "sha256": "82f3030c7953f80156214905d5b3e26b7136264ea608428df0530e95fc1dfd76"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "MANUSCRIPT.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 5920,
+    "sha256": "c1326e4f5a9e05c0bf5b49162902f6497afdf0557986fe78606de318239a2c2c"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "Non_Opioid_Anesthesia_for_Perioperative_Pain_Management__Evidence__Implementation__and_Future_Directions___A_Narrative_Review.pdf",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 78252,
+    "sha256": "7433c2006fa94ddb0fac6230744cf97440068f1c8aec561144eac2180d254b6f"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "PROVENANCE.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 1418,
+    "sha256": "e8d321b9ad4f01b4a53b25d5310b57b9c4d2aa14c28bc340a00fb8acfdb5a264"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "PUBLICATION_REVIEW.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 2570,
+    "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "README.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 4037,
+    "sha256": "2669034dfd2255b3669eef283b99fba25dcce6154a1ecd02656b73504b5664d8"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "RELEASE_MANIFEST.json",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 4907,
+    "sha256": "06d05fbac4e5bc5b944406a7f1ddd140934fe44730744f428131334cd3fd2c45"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "RELEASE_NOTES.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 1346,
+    "sha256": "c469908c988367dc320eeb84240d4cbd22d4848539ab5893435a83261cdd2875"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "SHARED_SOURCE_AUDIT.json",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 4088,
+    "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "START_HERE.md",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 1193,
+    "sha256": "8d42793606079156a8268f312f00ad40cf3b8125d807ca113968791c01c46bfe"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "bibliography.bib",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 937,
+    "sha256": "bf165e629c4b879578dd3f8659490efdb639a7c7d3f176345e1208db0c988a19"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "main.tex",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 6286,
+    "sha256": "2246baf0d5f3e2cd5993028d90185f7a6650d26dd373a68e0ead87834ac1c9d3"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "supplementary.pdf",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 74540,
+    "sha256": "4db417f2a6ea5496a620d9306581933fb96d82a468f6a26c3e44f685a4c7673a"
+  },
+  {
+    "repo": "non-opioid-anesthesia-narrative-review",
+    "path": "supplementary.tex",
+    "commit": "e519b7c97ce23b912ede0bdf098d6a2719e859c7",
+    "bytes": 1626,
+    "sha256": "6391421a1c90573bad4631e6da0fe4fab64f8f5a5ad277c981cd5f48b62c1609"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "01_Regional_Anesthesia_ACB_IPACK.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1532,
+    "sha256": "86d28605792fbba7a325c0b5d55bd1add36d8bb5cf8ada26475f9056350dca9b"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "02_Opioid_Free_Anesthesia_TKA.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 2858,
+    "sha256": "9d77a390506537176d2e2da3cd9e0ae5ae5a0b7cd9a127c1f6d5b1c71441c389"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "03_Patient_Reported_Outcomes_TKA.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1827,
+    "sha256": "84ddad3a6ab77a2c797572319e792729a73f8b0e32b76e127f716d73857c1946"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "04_Spinal_vs_General_Anesthesia_TKA.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1877,
+    "sha256": "2ce764c5b481de4a3216dcf80583ac53feaa03f00e3e18e3afd2b890398db3a4"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "05_Chronic_Pain_Opioid_Risk_Stratification_TKA.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1738,
+    "sha256": "9ce635ca38593890f7c2cacd611a7e79509080f365c4e4d0196a58b37cb4e3d3"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 24999,
+    "sha256": "df94e6f475bacafafb9e9dea7ce3612545b59e7cde18f463f9086e33e398a13c"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "APPLIED_CASES.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 11627,
+    "sha256": "e7e153801616b9f4e9f97aac9c79751b48d000cd405968971e96cfaab6ab579d"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "AUTHORSHIP_AND_REVIEW.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 2317,
+    "sha256": "ac7a4aa32fed6e06bf46e037efad716e84ccb9fc7f74a363677cfd56f74caa81"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "CASE_EXAMPLE_STANDARD.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 2519,
+    "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "CITATION.cff",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 517,
+    "sha256": "aa425fba9e1b0b58ca5ff8c6ee77241c6e50721d09a910dd2af665748e42ca8e"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "DOCUMENT_BUILD.json",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 481,
+    "sha256": "285863601cce0a8aa7548064670e9a289dcbc66040bf250aa7217c8699aad209"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "EXAMPLES_MANIFEST.json",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1771,
+    "sha256": "f4b4aebbb133d9c86fdd1090500de95bad54a3260254a0ad7fc19bd60090b1e8"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "EXAMPLE_SOURCE_AUDIT.json",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 4819,
+    "sha256": "1e4a12af8bc99fc2883860ad1e2709d8debecb9c5770da8c4e69e5fdc9a9e31d"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "George-TKA-Scoping-Review-v2.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 7120,
+    "sha256": "b57259c269af3f26eaf2d719c362ab52fa513120e753e6d1f5fc675c956d60c1"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "George-TKA-Scoping-Review-v2.pdf",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 82377,
+    "sha256": "79bb496c9bcac07506f97577b21db0b1138b445703863e90de8966aa233da5a0"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "HISTORICAL_VERSION_NOTICE.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 467,
+    "sha256": "c35978856d877183e1500d5eb494f1dd0130ac581dc7f0a907cdfab65094128a"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "LICENSE",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1182,
+    "sha256": "d6f6e87042d063d129938ecd5705374b0d5fa0afd7f85a6d0a609e91cf354af8"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "PROVENANCE.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1418,
+    "sha256": "e8d321b9ad4f01b4a53b25d5310b57b9c4d2aa14c28bc340a00fb8acfdb5a264"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "PUBLICATION_REVIEW.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 2570,
+    "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "README.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 2623,
+    "sha256": "374f7abd0f255e23771954bd10e7778a572f0fc8ce998349bd37aab213faaeb0"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "RELEASE_MANIFEST.json",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 4158,
+    "sha256": "7b44ef71f863663bd4e57ffeaf88ccf9b9edab5d30bbd9cb6b1af14c3f967eca"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "RELEASE_NOTES.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1346,
+    "sha256": "9ca1302ba643fef037bdb6084ec5e4b3c72654d7f6516265398d9dfaed27c462"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "SHARED_SOURCE_AUDIT.json",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 4088,
+    "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
+  },
+  {
+    "repo": "tka-perioperative-review",
+    "path": "START_HERE.md",
+    "commit": "377db6b6627379abd1ad29c7a6a8f71dbfab9dc8",
+    "bytes": 1222,
+    "sha256": "26447658d2af6c98a7731408fcdbbe15f133d7865c3dc0f19f096713d1128078"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "01_PreOp_Assessment_and_Checklist.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1428,
+    "sha256": "8df8c2a1c4a7b53dc60395caa51df6b7ff10da518e3de83b800072a6200eb1df"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "02_Patient_Counseling_Script.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1507,
+    "sha256": "9744856e79c764d2f8f8ac37af56b87dcf65c639878227fbd2039f541ec02aee"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "03_Anesthesia_Protocols/Protocol_1_OFIA_With_PECS_Block.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1732,
+    "sha256": "bd6967ddc5e71e8477b16564fdec73f246e29f8a6580239cf5a4302bb561cbc5"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "03_Anesthesia_Protocols/Protocol_2_OFIA_BlockFree.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1582,
+    "sha256": "c5c6436869913b1d56f94b6ec9aeebd0b6ba23c273dcf29fb42dd1be5104da1f"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "03_Anesthesia_Protocols/Protocol_3_OpioidBased_NoBlocks.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1655,
+    "sha256": "e15433e4c8cbb7e73c345b5ca89f3f301918dd3b9eb093160a4806eab5515fc4"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "03_Anesthesia_Protocols/Protocol_Comparison_Table.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1768,
+    "sha256": "d933962988561e29f26d5f29ea0d427fc0c71a79fa7af0dc60c404fbf26a8721"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "03_Anesthesia_Protocols/README.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1288,
+    "sha256": "546999955d7d112934ee2b46344cef693c464dd4e0ece2041651ce75fe3fb696"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "04_Surgical_Workflow_and_Timeline.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1422,
+    "sha256": "9e5affd7656f41f425f7383522f7399562128982f85af2f8d160465f46718aed"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "05_PACU_and_Discharge_Instructions.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1697,
+    "sha256": "244220b0e5b5c6e33abaeaf9c8272afc13b54c4bb39278c6b728c6042a621157"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "06_References_Evidence_Breast_Augmentation.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1704,
+    "sha256": "f16f979d5a0248b7973e65d8337b6137b8baed227b25736686aced2aef2c9c18"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 24999,
+    "sha256": "df94e6f475bacafafb9e9dea7ce3612545b59e7cde18f463f9086e33e398a13c"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "APPLIED_CASES.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 14965,
+    "sha256": "9cdfb3e2e5dbf0d2a1193c89560096d25556bee4642637e3cb4919e339ab5a1a"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "AUTHORSHIP_AND_REVIEW.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 2309,
+    "sha256": "a15f7aae7a7855282a48ee5444d1885dc89de6a578dd29709b01150c8ecee60e"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "CASE_EXAMPLE_STANDARD.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 2519,
+    "sha256": "82ee781bc5ed0dc9edee2fb607f2a877d3cdc151bf982d072eac9d999c6de93b"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "CHANGELOG",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 257,
+    "sha256": "57c4466e8d77da830c5338b66065aa648ef2cefaf932c765ff560d6f6a5f781a"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "CITATION.cff",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 531,
+    "sha256": "c88e739f3b125bdacf084827ad55dc59380b45320841abebfe9dd9badee3dc73"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "EXAMPLES_MANIFEST.json",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1771,
+    "sha256": "459deb124e4b0ec7bc987b0c79ff2a9b6b8609e14a83be86ae1632d6dbb01e59"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "EXAMPLE_SOURCE_AUDIT.json",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 7679,
+    "sha256": "15af0ba0fe04b44e155f35981187111db0b95cc58cb143fa5b1d797d67ec10ee"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "HISTORICAL_VERSION_NOTICE.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 467,
+    "sha256": "c35978856d877183e1500d5eb494f1dd0130ac581dc7f0a907cdfab65094128a"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "LICENSE",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 880,
+    "sha256": "3cff795b2569866bdc491da3ac03f90b18ee9c5ae6d9708aa2ae7ec32b204370"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "OR_Checklist_Pre-Induction.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1255,
+    "sha256": "48047497701e7e4b4f67613891af863e840a4f58b6dd5a5461a7109de15308fa"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "PROVENANCE.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1418,
+    "sha256": "e8d321b9ad4f01b4a53b25d5310b57b9c4d2aa14c28bc340a00fb8acfdb5a264"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "PUBLICATION_REVIEW.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 2570,
+    "sha256": "1675a87385af597a78d6d5914176c1d7041d4239ae1887b8fd47b5f5f854d0f7"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "README.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 3696,
+    "sha256": "170b382fa32d0d668e585c9c2e6079f3aaa08c257e8744dd721c35b1449b60e1"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "RELEASE_MANIFEST.json",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 4901,
+    "sha256": "a83e1ca190a831bcff162ef499e2bb77c7ef6016b2d53bdecf5a79499366b12f"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "RELEASE_NOTES.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1346,
+    "sha256": "8fb5506c27de141b355c794aa67f746df3d01fd23ec91e70fdac551d22791ca0"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "SHARED_SOURCE_AUDIT.json",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 4088,
+    "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
+  },
+  {
+    "repo": "Breast-Reconstruction-Anesthesia-Protocol",
+    "path": "START_HERE.md",
+    "commit": "c2e80ea232361ae603f11bce5a25a2b99d589c4b",
+    "bytes": 1189,
+    "sha256": "1106102726e369abf12d96731b10fcade3c22551a7d7a12fc5740f2150cd8af7"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "path": "ANALYSIS_PLAN.md",
+    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "bytes": 10765,
+    "sha256": "a9cb004e19bfc04c43d4361613ca54815cfb8598d33b10f92cdd868f45375d71"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "path": "LICENSE",
+    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "bytes": 1070,
+    "sha256": "9142424f8c038f2fc555cce01e92e3b178c6802ba219a0f2c9ab52573249b6a6"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "path": "README.md",
+    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "bytes": 4747,
+    "sha256": "4c88ddde0e46a3a028a0082891e7575f3b8bfee102fd07cfe1adf72e96876060"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "path": "STAGE1-2_RESULTS.md",
+    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "bytes": 6381,
+    "sha256": "4bdabf8ad32778c36adfb270aa848c9eb2ad0ab4af7dc9babf49c38f0a051494"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "path": "docs/data_acquisition.md",
+    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "bytes": 3899,
+    "sha256": "afaa9bafe124a866e05432f6868f7ba5efb30bc0264d95e9a9e86e8f07870a8e"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "path": "results/cohort.csv",
+    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "bytes": 45235,
+    "sha256": "5220f8de04f9b067c4ad6a1d1d9047c209333913f31a1011b7a1582baa92b098"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "path": "results/pipeline_attrition.csv",
+    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "bytes": 448,
+    "sha256": "8ecb654556fd93749d16dc91b92dedbf17f103d81f2e6aa3498415e81ed87ed9"
+  },
+  {
+    "repo": "hla-approximation-glioma",
+    "path": "src/stage3.py",
+    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "bytes": 4841,
+    "sha256": "ccb119c54d7516510a1e1510a1fbb9fe6a627494ee28c4d7d2cdf8deffdf1e10"
+  },
+  {
+    "repo": "MCAT",
+    "path": ".github/workflows/validate.yml",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 1614,
+    "sha256": "fac2cab48cf7ac509e5d1d1a1223e94a711ffc6e82220375d1839f0fd2e7a00d"
+  },
+  {
+    "repo": "MCAT",
+    "path": ".gitignore",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 80,
+    "sha256": "86ec7d459bc0f85192ac7fe7de3076df98fdf8c7100c4a04a900111e5618b14b"
+  },
+  {
+    "repo": "MCAT",
+    "path": "LICENSE",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 1846,
+    "sha256": "a016d5ce9199a813b74046cac7d723403900f09ff53eb1dd38694beccc0977d1"
+  },
+  {
+    "repo": "MCAT",
+    "path": "README.md",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 30164,
+    "sha256": "3503e15a476659f6853d39159c67c0b59184f0096be19f565bf54b8a7ce80834"
+  },
+  {
+    "repo": "MCAT",
+    "path": "css/styles.css",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 38794,
+    "sha256": "714b42bb350d3e149410d9140cb5df7e3af6c42a0e2de76695f4a4cbcf538603"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/exam1.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 233954,
+    "sha256": "e8d72a461f78fec12e5d2f54634965657c7ccc0c6cb7bb18ecc1cc7e14f36f67"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/exam2-bb.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 107830,
+    "sha256": "ffd9a7245a7e214b11e6c46cb9ffb15f0dc7696db4f273731a04297a03f638da"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/exam2-cp.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 93180,
+    "sha256": "9923f1d4b866936aa4a9be9217abbfd2453f5d07b11b7255c7d696f82b31308b"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/exam2-ps.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 93515,
+    "sha256": "c3894ad775d2a10bbc5c99fa8025e9f9117e64c0a1101dc3082f3fb780d4594c"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/exams.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 1986,
+    "sha256": "f8c2f7957cd5d7f67c9571a83d32daf947e7f09465c904533839ac2e40dd7441"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/passages-cars.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 223374,
+    "sha256": "7659c5603043cb7202481a34ff9316e4b2cff6e294c8a24da34e0c3e8f4e1b32"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/passages-data.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 111238,
+    "sha256": "d21b6d8879896af42b88a0b82ebd59e954b568c72b6d850d7876f95f9dc389c4"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/passages-science.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 164393,
+    "sha256": "5abb3afb74d32ee6023f2c0debf26a992981702836dacd42d529462689a2d9bb"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-behavioral-1.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 183295,
+    "sha256": "20621d7b0de407b9205f50483dc813d1d8a6b9e91411b08e3aa9821264fd18f8"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-behavioral-2.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 210126,
+    "sha256": "95f86e36ced7a62d390072ee83aecc7d9eed2cc1a46b86d9c447041d0656a424"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-biochemistry.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 241090,
+    "sha256": "8336f6e3a77ce1897bd2352d9dda2090d15a25564feaa43efce97c282186a3d1"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-biology.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 255386,
+    "sha256": "e8f2dc3516ec0ade5f182ebc3f8919aade747c931153ca3c6769ccab01514ee5"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-chemistry.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 225153,
+    "sha256": "0a7df7b8dd8d32b0915e72b26116dd96c2077a49bd548fcf5cc475cf8004183b"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-equations.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 58547,
+    "sha256": "d167cd41842325c6f1be0640d4260bcfe08ddc25f44189f867649e2acd7d1354"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-physics.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 117699,
+    "sha256": "d318e34e95c3607e1abcdb8bf36c435e1e28582e018c76fd8cfc0325e335e977"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-variants-1.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 123610,
+    "sha256": "26654e3557aad0bb95d14f37db7a110fa926dc8868b6edb31bbe4c8e4af537f9"
+  },
+  {
+    "repo": "MCAT",
+    "path": "data/qb-variants-2.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 116176,
+    "sha256": "28c51e3afe12454942f55f4c996fe0644990a0551aefe83160bb5d71fd9d9ecc"
+  },
+  {
+    "repo": "MCAT",
+    "path": "docs/AUDIT-2026-10-28.md",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 11648,
+    "sha256": "5540f05fb5f153b6d9c312315c0ccdf082fef4004715970a9330606d5f4908ae"
+  },
+  {
+    "repo": "MCAT",
+    "path": "docs/EDITORIAL-2026-10-28.md",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 7432,
+    "sha256": "4747a13bd9062513845df8b0ba663cbc43717fc679496b75f8a15047e8a66da5"
+  },
+  {
+    "repo": "MCAT",
+    "path": "docs/LEARNING-GUIDE-2026-10-28.md",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 2946,
+    "sha256": "ac3cf065a775afaf7e9dd0c6a205e0b84aa3d97126ee4f39cf07e4902a34a6b4"
+  },
+  {
+    "repo": "MCAT",
+    "path": "icon.svg",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 368,
+    "sha256": "f41374159e605ed2d1a3f109afd3a63de93d928c8070b4094a8f1e17c8219f7a"
+  },
+  {
+    "repo": "MCAT",
+    "path": "index.html",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 7706,
+    "sha256": "d56895cb36f429bf628522c8f4cfd8e6ea50edbd3218e4754d38cc040ae26991"
+  },
+  {
+    "repo": "MCAT",
+    "path": "js/app.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 170986,
+    "sha256": "d70cb0e6453022578ed55dfaca9b9dedc52994a5788cf9011c115f82f0046ccd"
+  },
+  {
+    "repo": "MCAT",
+    "path": "js/learning-evidence.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 8673,
+    "sha256": "9f6d8169a1dae7d639f40e574c1390172c222c61c49afcc7e6f84f0c9c301ded"
+  },
+  {
+    "repo": "MCAT",
+    "path": "js/study-path.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 21210,
+    "sha256": "bb05e60986ed21c7a82602239687d9d2b5f8c7579fae06acd54e156f863257a2"
+  },
+  {
+    "repo": "MCAT",
+    "path": "manifest.webmanifest",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 409,
+    "sha256": "2abf055d6b9221492672bc32e6a03c3e43b5205fadb418a937207814a380f3c9"
+  },
+  {
+    "repo": "MCAT",
+    "path": "sw.js",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 2705,
+    "sha256": "137fbd858613a06aa6c82ee432666f9ba68ed9699e1244186cd51ae84a5ed6de"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/check-content.cjs",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 978,
+    "sha256": "5e44660f21ca15c1f18443ba8dee35014576fb0e270b6bc2eec45ce13c7b0cbb"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/serve.ps1",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 2032,
+    "sha256": "57bea6c9da06e5183d043e207bd6a3289e639d17d8141d7f70282fa220d4f0a9"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-audit.cjs",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 6016,
+    "sha256": "05ef79c6028576619afb0a070e4e32991b102b2c443adfbd968832503dc78f17"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-browser.cjs",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 9022,
+    "sha256": "130d2fb217208983f6276f6f0ebcb247b1478c1b299f3623074274a99c18ef60"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-editorial.cjs",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 5475,
+    "sha256": "765a0cd481ebbc02718cc104be2f105d85caa8b1cc4ffc89eebaf4b362d9b931"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-final-two.cjs",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 2827,
+    "sha256": "2d734441e48b25037251eae308a2d025f838fc206013859c424e7ea6bccd3d99"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-learning-evidence.cjs",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 4128,
+    "sha256": "e5a79acba00771dba6819f1e6ce0b6a7fd91197f8c0c2261cdc74fbde32f3da2"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-learning-guide.cjs",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 6720,
+    "sha256": "a17bc770a40b09c947ee644c1a931bd34974ebf8c416f1ed3cab3bc169905caa"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-study-path.cjs",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 6040,
+    "sha256": "bed34208cf57b9fce2d68750b85187894ddc75685638b2dfd1cc89af34c0b28d"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/validate.html",
+    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
+    "bytes": 12213,
+    "sha256": "3cb1aad22d05c1b62616e1971882f2a1989c6da14a30530d76ef3a360327376d"
+  }
+]
