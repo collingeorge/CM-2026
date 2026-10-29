@@ -1,3 +1,4 @@
+const pageToc=document.querySelector('.toc');if(pageToc){const narrow=window.matchMedia('(max-width:800px)');const syncToc=()=>{pageToc.open=!narrow.matches;};syncToc();narrow.addEventListener('change',syncToc);}
 "use strict";
 document.querySelectorAll('.print-page').forEach(button=>button.addEventListener('click',()=>window.print()));
 if(document.querySelector('.mermaid')&&window.mermaid){window.mermaid.initialize({startOnLoad:false,securityLevel:'strict',theme:'base',themeVariables:{fontFamily:'Segoe UI,Arial,sans-serif',primaryColor:'#f5f6f3',primaryTextColor:'#18374b',primaryBorderColor:'#92713b',lineColor:'#586773',secondaryColor:'#e9eff1',tertiaryColor:'#fff'},flowchart:{htmlLabels:false,useMaxWidth:true}});window.mermaid.run({querySelector:'.mermaid'}).catch(()=>{document.querySelectorAll('.decision-figure figcaption').forEach(c=>c.textContent='The diagram could not render. Expand the source below to read the full decision flow.');});}
