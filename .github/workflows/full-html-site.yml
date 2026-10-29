@@ -24,6 +24,8 @@ jobs:
         run: node tools/site/build-site.mjs
       - name: Check page links and anchors
         run: python3 tools/site/check-site.py
+      - name: Validate security invariants and JavaScript syntax
+        run: python3 tools/site/security-validate.py
       - uses: actions/upload-artifact@v4
         with:
           name: cloudflare-static-site
