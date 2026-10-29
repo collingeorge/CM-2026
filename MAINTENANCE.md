@@ -20,6 +20,6 @@ Use the repository’s evidence-correction issue form with a file/section, the d
 
 ## Publication boundaries
 
-The public library contains six educational projects. Two working repositories remain private for separate substantive review. Unauthorized shadowing notes are excluded. Historical Git commits and external publications have separate version histories; a website update does not silently correct them.
+The public library contains six clinical educational projects and an additional MCAT study app. Two working repositories remain private for separate substantive review. Unauthorized shadowing notes are excluded. Historical Git commits and external publications have separate version histories; a website update does not silently correct them.
 
 [Authorship and review status](AUTHORSHIP_AND_REVIEW.md) · [Revision record](LEARNING_AND_REVISION_LOG.md)

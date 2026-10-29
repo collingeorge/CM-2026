@@ -10,11 +10,15 @@ Independent preclinical portfolio by Collin B. George. Updated 29 October 2026.
 2. **Examine an evidence review.** Read the [breast reconstruction analgesia review](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review/blob/main/George-BreastRecon-Review-v8.md) beside its [reference audit](https://github.com/collingeorge/Breast-Reconstruction-Analgesia-Review/blob/main/REFERENCE_AUDIT.md). Consider populations, endpoints and the limits of comparisons.
 3. **Inspect an implementation.** Follow the [Smart NOA fictional examples](https://github.com/collingeorge/Smart-NOA-Controller/blob/main/GUIDELINE_INFORMED_EXAMPLES.md) and [development record](https://github.com/collingeorge/Smart-NOA-Controller/blob/main/DEVELOPMENT.md). Software behavior and arithmetic checks do not establish clinical safety or efficacy.
 
+## For students: MCAT practice
+
+[Launch the MCAT study app](https://collingeorge.github.io/MCAT/) for recall questions, passages and timed practice exams. Read its [study guide](https://github.com/collingeorge/MCAT/blob/main/docs/LEARNING-GUIDE-2026-10-28.md) and [repository](https://github.com/collingeorge/MCAT) for usage, provenance and limitations. It is an independent study aid, not affiliated with or endorsed by the AAMC. App score estimates are not predictions of official results. Progress is stored on your device; no account is required.
+
 ## How to read the work
 
 Start with the repository’s scope, open the substantive source, trace its claims to public evidence, and read the correction and limitation records. Cases are wholly synthetic. Teaching examples do not establish patient-care experience, clinical competency or a validated treatment system.
 
-The [case index](CASE_EXAMPLE_INDEX.md) lists six public projects and two private working drafts. Private drafts remain subject to separate substantive review. Unauthorized shadowing notes are excluded.
+The [case index](CASE_EXAMPLE_INDEX.md) lists six public clinical projects and two private working drafts; the MCAT app is an additional public study resource. Private drafts remain subject to separate substantive review. Unauthorized shadowing notes are excluded.
 
 ## Contribution and continuity
 

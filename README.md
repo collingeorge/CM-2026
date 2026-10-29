@@ -16,6 +16,7 @@ Literature analyses, wholly synthetic clinical examples and a software simulatio
 | [Non-opioid and opioid-sparing anesthesia](https://github.com/collingeorge/non-opioid-anesthesia-narrative-review) | A selected-source educational overview with a correction record and paired case discussions. Educational overview; historical review-method and efficacy claims were withdrawn. |
 | [TKA perioperative analgesia](https://github.com/collingeorge/tka-perioperative-review) | A narrative evidence map with regional anesthesia, recovery and synthetic case material. The retained filename says Scoping-Review; the current work is a selected-source narrative map. |
 | [Breast perioperative learning](https://github.com/collingeorge/Breast-Reconstruction-Anesthesia-Protocol) | Perioperative learning modules and paired synthetic cases with source and applicability notes. The repository name retains Protocol; the revised material is educational discussion. |
+| [MCAT study app](https://collingeorge.github.io/MCAT/) | Recall practice, passages and timed practice exams. [Repository](https://github.com/collingeorge/MCAT) and [study guide](https://github.com/collingeorge/MCAT/blob/main/docs/LEARNING-GUIDE-2026-10-28.md). Independent study aid, not AAMC-endorsed; app score estimates do not predict official results. |
 
 Two additional working drafts remain private: robot-assisted TKA material and an AI anesthesiology safety concept. Their legacy claims require separate substantive review. Unauthorized shadowing notes are excluded.
 
