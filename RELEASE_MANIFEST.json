@@ -23,8 +23,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 20773,
-      "sha256": "351749ac577f1fe6e42a71052e4ec9383a45c1f580747c3601662475a3c1325e"
+      "bytes": 20921,
+      "sha256": "948a03679c875da1d594d609d905316ce22555b01a858d187e672321f11d17a6"
     },
     {
       "path": "LICENSE",
@@ -59,7 +59,7 @@
     {
       "path": "EXAMPLES_MANIFEST.json",
       "bytes": 2692,
-      "sha256": "c629f68d9b9ebe0eb43d231f3929f228e31e5c1aedc712be079c4139a441bf94"
+      "sha256": "a80d0b96adbd7e7ea4469440a3e3fb21c0fc8a1490b1a8129d5c3678ff03b93b"
     },
     {
       "path": "START_HERE.md",
@@ -98,8 +98,8 @@
     },
     {
       "path": "assets/portfolio.css",
-      "bytes": 14327,
-      "sha256": "e5142fac4943932ab8f62f7a512fdb33b1041e566acc527f58e8d915655ece3b"
+      "bytes": 14885,
+      "sha256": "3155f371bcf386d0c99c39d6378371a19624fb7c7a398bf242edd6d9955bb3a4"
     },
     {
       "path": "assets/portfolio.js",
