@@ -1465,295 +1465,216 @@
   {
     "repo": "MCAT",
     "path": ".github/workflows/validate.yml",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 1614,
     "sha256": "fac2cab48cf7ac509e5d1d1a1223e94a711ffc6e82220375d1839f0fd2e7a00d"
   },
   {
     "repo": "MCAT",
     "path": ".gitignore",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 80,
     "sha256": "86ec7d459bc0f85192ac7fe7de3076df98fdf8c7100c4a04a900111e5618b14b"
   },
   {
     "repo": "MCAT",
-    "path": "LICENSE",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 1846,
-    "sha256": "a016d5ce9199a813b74046cac7d723403900f09ff53eb1dd38694beccc0977d1"
-  },
-  {
-    "repo": "MCAT",
-    "path": "README.md",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 30164,
-    "sha256": "3503e15a476659f6853d39159c67c0b59184f0096be19f565bf54b8a7ce80834"
+    "path": "css/portfolio-theme.css",
+    "sha256": "a2657da901834a3b5755e50b53eaf31d666548d0ab4bdf0aa09eb374921e5a6e"
   },
   {
     "repo": "MCAT",
     "path": "css/styles.css",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 38794,
     "sha256": "714b42bb350d3e149410d9140cb5df7e3af6c42a0e2de76695f4a4cbcf538603"
   },
   {
     "repo": "MCAT",
     "path": "data/exam1.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 233954,
     "sha256": "e8d72a461f78fec12e5d2f54634965657c7ccc0c6cb7bb18ecc1cc7e14f36f67"
   },
   {
     "repo": "MCAT",
     "path": "data/exam2-bb.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 107830,
     "sha256": "ffd9a7245a7e214b11e6c46cb9ffb15f0dc7696db4f273731a04297a03f638da"
   },
   {
     "repo": "MCAT",
     "path": "data/exam2-cp.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 93180,
     "sha256": "9923f1d4b866936aa4a9be9217abbfd2453f5d07b11b7255c7d696f82b31308b"
   },
   {
     "repo": "MCAT",
     "path": "data/exam2-ps.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 93515,
     "sha256": "c3894ad775d2a10bbc5c99fa8025e9f9117e64c0a1101dc3082f3fb780d4594c"
   },
   {
     "repo": "MCAT",
     "path": "data/exams.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 1986,
     "sha256": "f8c2f7957cd5d7f67c9571a83d32daf947e7f09465c904533839ac2e40dd7441"
   },
   {
     "repo": "MCAT",
     "path": "data/passages-cars.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 223374,
     "sha256": "7659c5603043cb7202481a34ff9316e4b2cff6e294c8a24da34e0c3e8f4e1b32"
   },
   {
     "repo": "MCAT",
     "path": "data/passages-data.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 111238,
     "sha256": "d21b6d8879896af42b88a0b82ebd59e954b568c72b6d850d7876f95f9dc389c4"
   },
   {
     "repo": "MCAT",
     "path": "data/passages-science.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 164393,
     "sha256": "5abb3afb74d32ee6023f2c0debf26a992981702836dacd42d529462689a2d9bb"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-behavioral-1.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 183295,
     "sha256": "20621d7b0de407b9205f50483dc813d1d8a6b9e91411b08e3aa9821264fd18f8"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-behavioral-2.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 210126,
     "sha256": "95f86e36ced7a62d390072ee83aecc7d9eed2cc1a46b86d9c447041d0656a424"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-biochemistry.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 241090,
     "sha256": "8336f6e3a77ce1897bd2352d9dda2090d15a25564feaa43efce97c282186a3d1"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-biology.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 255386,
     "sha256": "e8f2dc3516ec0ade5f182ebc3f8919aade747c931153ca3c6769ccab01514ee5"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-chemistry.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 225153,
     "sha256": "0a7df7b8dd8d32b0915e72b26116dd96c2077a49bd548fcf5cc475cf8004183b"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-equations.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 58547,
     "sha256": "d167cd41842325c6f1be0640d4260bcfe08ddc25f44189f867649e2acd7d1354"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-physics.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 117699,
     "sha256": "d318e34e95c3607e1abcdb8bf36c435e1e28582e018c76fd8cfc0325e335e977"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-variants-1.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 123610,
     "sha256": "26654e3557aad0bb95d14f37db7a110fa926dc8868b6edb31bbe4c8e4af537f9"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-variants-2.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 116176,
     "sha256": "28c51e3afe12454942f55f4c996fe0644990a0551aefe83160bb5d71fd9d9ecc"
   },
   {
     "repo": "MCAT",
     "path": "docs/AUDIT-2026-10-28.md",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 11648,
     "sha256": "5540f05fb5f153b6d9c312315c0ccdf082fef4004715970a9330606d5f4908ae"
   },
   {
     "repo": "MCAT",
     "path": "docs/EDITORIAL-2026-10-28.md",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 7432,
     "sha256": "4747a13bd9062513845df8b0ba663cbc43717fc679496b75f8a15047e8a66da5"
   },
   {
     "repo": "MCAT",
     "path": "docs/LEARNING-GUIDE-2026-10-28.md",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 2946,
     "sha256": "ac3cf065a775afaf7e9dd0c6a205e0b84aa3d97126ee4f39cf07e4902a34a6b4"
   },
   {
     "repo": "MCAT",
     "path": "icon.svg",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 368,
     "sha256": "f41374159e605ed2d1a3f109afd3a63de93d928c8070b4094a8f1e17c8219f7a"
   },
   {
     "repo": "MCAT",
     "path": "index.html",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 7706,
-    "sha256": "d56895cb36f429bf628522c8f4cfd8e6ea50edbd3218e4754d38cc040ae26991"
+    "sha256": "57762cec0c6631dc05b653891a995527cbdfdca7b36de021575a3319f92c53f3"
   },
   {
     "repo": "MCAT",
     "path": "js/app.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 170986,
     "sha256": "d70cb0e6453022578ed55dfaca9b9dedc52994a5788cf9011c115f82f0046ccd"
   },
   {
     "repo": "MCAT",
     "path": "js/learning-evidence.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 8673,
     "sha256": "9f6d8169a1dae7d639f40e574c1390172c222c61c49afcc7e6f84f0c9c301ded"
   },
   {
     "repo": "MCAT",
     "path": "js/study-path.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 21210,
     "sha256": "bb05e60986ed21c7a82602239687d9d2b5f8c7579fae06acd54e156f863257a2"
   },
   {
     "repo": "MCAT",
+    "path": "LICENSE",
+    "sha256": "a016d5ce9199a813b74046cac7d723403900f09ff53eb1dd38694beccc0977d1"
+  },
+  {
+    "repo": "MCAT",
     "path": "manifest.webmanifest",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 409,
-    "sha256": "2abf055d6b9221492672bc32e6a03c3e43b5205fadb418a937207814a380f3c9"
+    "sha256": "d1dbb0eda4df2d7c3f9dee62dd967b6448eb800df15e044c77049840ffe614e7"
+  },
+  {
+    "repo": "MCAT",
+    "path": "README.md",
+    "sha256": "3503e15a476659f6853d39159c67c0b59184f0096be19f565bf54b8a7ce80834"
   },
   {
     "repo": "MCAT",
     "path": "sw.js",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 2705,
-    "sha256": "137fbd858613a06aa6c82ee432666f9ba68ed9699e1244186cd51ae84a5ed6de"
+    "sha256": "7271e822ac3b2b90cc7e71a45b28be28407f5751fc513df2b125ecdd93720605"
   },
   {
     "repo": "MCAT",
     "path": "tools/check-content.cjs",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 978,
     "sha256": "5e44660f21ca15c1f18443ba8dee35014576fb0e270b6bc2eec45ce13c7b0cbb"
   },
   {
     "repo": "MCAT",
     "path": "tools/serve.ps1",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 2032,
     "sha256": "57bea6c9da06e5183d043e207bd6a3289e639d17d8141d7f70282fa220d4f0a9"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-audit.cjs",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 6016,
     "sha256": "05ef79c6028576619afb0a070e4e32991b102b2c443adfbd968832503dc78f17"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-browser.cjs",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 9022,
     "sha256": "130d2fb217208983f6276f6f0ebcb247b1478c1b299f3623074274a99c18ef60"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-editorial.cjs",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 5475,
     "sha256": "765a0cd481ebbc02718cc104be2f105d85caa8b1cc4ffc89eebaf4b362d9b931"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-final-two.cjs",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 2827,
     "sha256": "2d734441e48b25037251eae308a2d025f838fc206013859c424e7ea6bccd3d99"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-learning-evidence.cjs",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 4128,
     "sha256": "e5a79acba00771dba6819f1e6ce0b6a7fd91197f8c0c2261cdc74fbde32f3da2"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-learning-guide.cjs",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 6720,
     "sha256": "a17bc770a40b09c947ee644c1a931bd34974ebf8c416f1ed3cab3bc169905caa"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-study-path.cjs",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 6040,
     "sha256": "bed34208cf57b9fce2d68750b85187894ddc75685638b2dfd1cc89af34c0b28d"
   },
   {
     "repo": "MCAT",
     "path": "tools/validate.html",
-    "commit": "5a4d0ae8849a90e60b5fa44b0de18cb02d5df251",
-    "bytes": 12213,
     "sha256": "3cb1aad22d05c1b62616e1971882f2a1989c6da14a30530d76ef3a360327376d"
   }
 ]
