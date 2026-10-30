@@ -1464,18 +1464,13 @@
   },
   {
     "repo": "MCAT",
-    "path": ".github/workflows/validate.yml",
-    "sha256": "fac2cab48cf7ac509e5d1d1a1223e94a711ffc6e82220375d1839f0fd2e7a00d"
-  },
-  {
-    "repo": "MCAT",
-    "path": ".gitignore",
-    "sha256": "86ec7d459bc0f85192ac7fe7de3076df98fdf8c7100c4a04a900111e5618b14b"
+    "path": "about.html",
+    "sha256": "86582289f75aa052b2dbf3ac941bb9dd6ce55fc74a8c8490306644cbd1ff2c81"
   },
   {
     "repo": "MCAT",
     "path": "css/portfolio-theme.css",
-    "sha256": "a2657da901834a3b5755e50b53eaf31d666548d0ab4bdf0aa09eb374921e5a6e"
+    "sha256": "5c38e7cd236ba3e8518c179143bd61ac6d2547d1d5649d1b6bae1b35f0367974"
   },
   {
     "repo": "MCAT",
@@ -1584,23 +1579,43 @@
   },
   {
     "repo": "MCAT",
+    "path": "exam-results.html",
+    "sha256": "26eaca3d7fb01256add251b7e348c11afa30fb9df7753a20fdc2948b0c8e6063"
+  },
+  {
+    "repo": "MCAT",
+    "path": "exam-session.html",
+    "sha256": "989a55baf7fa76de1ef74979fd6aad14cd80c61f9a622fcc35d9e1dda4d295b9"
+  },
+  {
+    "repo": "MCAT",
+    "path": "exams.html",
+    "sha256": "347128b113beffb0ff70703c9b33ba751336657b9847ae4fc792b30c9556fe4c"
+  },
+  {
+    "repo": "MCAT",
     "path": "icon.svg",
     "sha256": "f41374159e605ed2d1a3f109afd3a63de93d928c8070b4094a8f1e17c8219f7a"
   },
   {
     "repo": "MCAT",
     "path": "index.html",
-    "sha256": "57762cec0c6631dc05b653891a995527cbdfdca7b36de021575a3319f92c53f3"
+    "sha256": "0da2640cf2a866e49cd59d81bc5a89c6b3f6c6a8bfde318989890d6f746f51bd"
   },
   {
     "repo": "MCAT",
     "path": "js/app.js",
-    "sha256": "d70cb0e6453022578ed55dfaca9b9dedc52994a5788cf9011c115f82f0046ccd"
+    "sha256": "7f5bf948651dd81a214d076a9bf96db398088e21137e10b6125d52837a0486f9"
   },
   {
     "repo": "MCAT",
     "path": "js/learning-evidence.js",
     "sha256": "9f6d8169a1dae7d639f40e574c1390172c222c61c49afcc7e6f84f0c9c301ded"
+  },
+  {
+    "repo": "MCAT",
+    "path": "js/pages.js",
+    "sha256": "a3075d83064286ea29e1078fb39542cbd690b2dba535e2cc37473c5a49394a96"
   },
   {
     "repo": "MCAT",
@@ -1619,18 +1634,53 @@
   },
   {
     "repo": "MCAT",
+    "path": "passage-session.html",
+    "sha256": "dedd3bb013ddc3330d62ffb8e178375e58780fa6cf87f1895d92e0d36cd28bcf"
+  },
+  {
+    "repo": "MCAT",
+    "path": "passages.html",
+    "sha256": "f19b80cae79717fa380d845332b48bdff00be15f199ff5780d476fb96805e40f"
+  },
+  {
+    "repo": "MCAT",
     "path": "README.md",
-    "sha256": "3503e15a476659f6853d39159c67c0b59184f0096be19f565bf54b8a7ce80834"
+    "sha256": "5f3cd8e058def15cdeb414c77344d9e13019bf5090284bae647c72127bb1535e"
+  },
+  {
+    "repo": "MCAT",
+    "path": "recall-session.html",
+    "sha256": "1739d3eccbf3fe5e16c03fbb62fa29760eefabb56371cae813f2cfed3db22267"
+  },
+  {
+    "repo": "MCAT",
+    "path": "recall.html",
+    "sha256": "5e16598eec89de460af740a8f2bbe3e3e452be9c7d61f52f290526a81293195f"
+  },
+  {
+    "repo": "MCAT",
+    "path": "results.html",
+    "sha256": "3f70383d18060928b0a832f2851329313cda925bcff3ba68a3de21003925d974"
+  },
+  {
+    "repo": "MCAT",
+    "path": "score-report.html",
+    "sha256": "9df61b5c845e52733455cc71aa881ae14352b632c73838a6699980e53e2f63f6"
   },
   {
     "repo": "MCAT",
     "path": "sw.js",
-    "sha256": "7271e822ac3b2b90cc7e71a45b28be28407f5751fc513df2b125ecdd93720605"
+    "sha256": "4fb939b6adfd858c5bda80b4a588ab87b96b18da2da0f870c79926e03cd565b0"
   },
   {
     "repo": "MCAT",
     "path": "tools/check-content.cjs",
     "sha256": "5e44660f21ca15c1f18443ba8dee35014576fb0e270b6bc2eec45ce13c7b0cbb"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/generate-pages.cjs",
+    "sha256": "cd937cabb0894839b3fa22c4f6a3782a4cddbc75a434b0faf1f36982be52538d"
   },
   {
     "repo": "MCAT",
@@ -1666,6 +1716,11 @@
     "repo": "MCAT",
     "path": "tools/test-learning-guide.cjs",
     "sha256": "a17bc770a40b09c947ee644c1a931bd34974ebf8c416f1ed3cab3bc169905caa"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-pages.cjs",
+    "sha256": "0d32b754474698038d80c7472f7597340f67a1b97c8c14d185fa8587253f4e3b"
   },
   {
     "repo": "MCAT",
