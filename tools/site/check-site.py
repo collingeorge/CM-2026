@@ -1,7 +1,8 @@
+import json
 from html.parser import HTMLParser
 from pathlib import Path
-from urllib.parse import urlsplit,unquote
-import json,re
+from urllib.parse import unquote, urlsplit
+
 root=Path(__file__).parent/'dist'
 class Page(HTMLParser):
  def __init__(self):super().__init__();self.links=[];self.ids=[];self.h1=0
