@@ -7,38 +7,38 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4135,
-      "sha256": "cf1162604efd6dba8e06c71e76eb96a704a88040e277dca9e4cc06fc97ddd0e1"
+      "bytes": 4368,
+      "sha256": "bc03f6b705f4e49fc480ac51ffb39e8e384005fa6f0b1000cb8cdfecc4c831a5"
     },
     {
       "path": "CASE_EXAMPLE_INDEX.md",
-      "bytes": 5252,
-      "sha256": "c189982f5a52b5a0b30e572091d948c454e274b5bc6cade311d31ce9ec65a6ec"
+      "bytes": 5454,
+      "sha256": "404c17d779567b568d1721c37229c97bd4b4cac59181942434522dd6948cf783"
     },
     {
       "path": "RELEASE_NOTES.md",
-      "bytes": 1737,
-      "sha256": "b3defc02f4f9a6cfd49f5d605553fb501c984ab393db51ac127414aef8445cbe"
+      "bytes": 1928,
+      "sha256": "394b891f767e630b95d3d5a7c93e9ee0e5f09fa8a7e58bd3724e0661ca0868e1"
     },
     {
       "path": "START_HERE.md",
-      "bytes": 3093,
-      "sha256": "fc7af8c661d73b3bc5981c56820f93cdee9508ed1ecfbd5b3b1e5aeb0242b68a"
+      "bytes": 3295,
+      "sha256": "ffd1e1d60ad9d0d7d62d9b194c3b2886206a469dbb088c470433372f9bc7ce8e"
     },
     {
       "path": "AUTHORSHIP_AND_REVIEW.md",
-      "bytes": 2207,
-      "sha256": "2126c4e198bfea857574e40fd81eb4bea0ef6651911ae0b6347c0357cae672a6"
+      "bytes": 2805,
+      "sha256": "66319d1e584f362f7e635857c988e2cfd902b5710e6e63d11d054db46d46e02e"
     },
     {
       "path": "LEARNING_AND_REVISION_LOG.md",
-      "bytes": 1933,
-      "sha256": "73e22c1eee373262deb5c00d1c3c7efc469376ad590c2cff8ac8184e1981bca9"
+      "bytes": 2124,
+      "sha256": "dfaf73b02dddc17235f3f09af0f189955801a469db8976e26b918607ef064f6b"
     },
     {
       "path": "MAINTENANCE.md",
-      "bytes": 2248,
-      "sha256": "7121e4cff6e0b8459f2daaa491aaafaf50532b335d3da5df668d5c1a4c3f137d"
+      "bytes": 2450,
+      "sha256": "f6221e41025c488f4ce09d6b89bb16aab15fc290db9cad1305b54785cb4497e6"
     },
     {
       "path": "DESIGN_NOTES.md",
@@ -57,13 +57,13 @@
     },
     {
       "path": "DOCUMENT_BUILD.json",
-      "bytes": 641,
-      "sha256": "2d548fd455fe5f9ec04ded4c5566fdf7d202b7e0a9ea8bf3768f466afc2cedc6"
+      "bytes": 531,
+      "sha256": "52fdbba7517e7ab38936c0da0aea0654031163de73a01c65fccfd9c23b6fa54c"
     },
     {
       "path": "index.html",
-      "bytes": 20921,
-      "sha256": "948a03679c875da1d594d609d905316ce22555b01a858d187e672321f11d17a6"
+      "bytes": 21206,
+      "sha256": "fa7f1aa08f4583a24096c372a48ea3c4f0449916fd6688026e46b551e38d6e03"
     },
     {
       "path": "assets/portfolio.css",

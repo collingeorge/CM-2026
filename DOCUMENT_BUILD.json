@@ -1,16 +1,12 @@
 {
-  "version": "2026.10-rc2",
-  "method": "Direct ReportLab export from named Markdown; TeX compilation not asserted",
+  "version": "2026.11",
+  "method": "November 2026 rebuild: pandoc (GFM -> HTML5) then Chromium print-to-PDF via Playwright, from the named Markdown source. Earlier exports used a ReportLab script not included in the repository.",
   "documents": [
     {
       "source": "CM-2026/README.md",
       "pdf": "CM-2026/CM-BIO-ARCH-01-v2.0.pdf",
-      "source_sha256": "528df1328d9dfda65c1c94ad536cfd56c95c2e8dfe045e4794c7fdbb63860d17",
-      "pdf_sha256": "6a5a4bb3f485c046571b25628bf4a15d1e3e8e81d7c4611f629939e4d7cd099f"
+      "source_sha256": "bc03f6b705f4e49fc480ac51ffb39e8e384005fa6f0b1000cb8cdfecc4c831a5",
+      "pdf_sha256": "4d61b0a34c9b71bccc7e8419d12cc484024a676321a6ee3eaf8a99a3a43bf9cc"
     }
-  ],
-  "presentation_update": {
-    "date": "2026-10-29",
-    "note": "Recorded build hashes above describe retained historical exports. README and index.html were revised after that build. No PDF regeneration is asserted."
-  }
+  ]
 }

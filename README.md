@@ -1,8 +1,10 @@
 # Clinical education & research portfolio
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Independent preclinical portfolio by Collin B. George. Updated 29 October 2026.
 
-**[Explore the portfolio website](https://collingeorge.github.io/CM-2026/)** · [Start here](START_HERE.md) · [Case index](CASE_EXAMPLE_INDEX.md) · [Authorship & review](AUTHORSHIP_AND_REVIEW.md)
+**[Explore the portfolio website](https://collingeorge.github.io/CM-2026/)** · [Start here](START_HERE.md) · [Case index](CASE_EXAMPLE_INDEX.md) · [Authorship & review](AUTHORSHIP_AND_REVIEW.md) · [Disclaimer](DISCLAIMER.md)
 
 Literature analyses, wholly synthetic clinical examples and a software simulation explore perioperative analgesia, critical care physiology and evidence interpretation. These artifacts are a record of study; they do not establish clinical competency, institutional endorsement or a validated patient-care tool.
 
@@ -18,7 +20,7 @@ Literature analyses, wholly synthetic clinical examples and a software simulatio
 | [Breast perioperative learning](https://github.com/collingeorge/Breast-Reconstruction-Anesthesia-Protocol) | Perioperative learning modules and paired synthetic cases with source and applicability notes. The repository name retains Protocol; the revised material is educational discussion. |
 | [MCAT study app](https://collingeorge.github.io/MCAT/) | Recall practice, passages and timed practice exams. [Repository](https://github.com/collingeorge/MCAT) and [study guide](https://github.com/collingeorge/MCAT/blob/main/docs/LEARNING-GUIDE-2026-10-28.md). Independent study aid, not AAMC-endorsed; app score estimates do not predict official results. |
 
-Two additional working drafts remain private: robot-assisted TKA material and an AI anesthesiology safety concept. Their legacy claims require separate substantive review. Unauthorized shadowing notes are excluded.
+Two additional working drafts remain private: robot-assisted TKA material and an AI anesthesiology safety concept. Their legacy claims require separate substantive review. No clinical shadowing notes or observations are used.
 
 ## Research interests
 

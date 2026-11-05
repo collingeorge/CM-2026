@@ -1,5 +1,7 @@
 # Learning and revision record
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 This is a factual record of portfolio revisions, not an invented personal reflection. For original file history, consult the corresponding repository commits and release notes.
 
 | Revision period | Documented change | What the reader can examine |
