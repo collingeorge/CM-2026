@@ -618,175 +618,175 @@
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "02_Comparative_Educational_Review.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
-    "bytes": 29103,
-    "sha256": "b6579cef595478ebcf92bb7489674b7e8861827e35121efeb8571b06cfe14736"
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
+    "bytes": 29104,
+    "sha256": "25b60f29afb0390a236d174f8a0bf5d2d15665af9dd02bccb56dce9071f96dd6"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "03_Patient_Communication_Analysis.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
-    "bytes": 22736,
-    "sha256": "bbc6da0ba0a365ba8ed344a512e39c29ec5ca30dec8af3f2e34f17e85ac6dd54"
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
+    "bytes": 22737,
+    "sha256": "1f033cf5546c28290d9accadac907aec5b9aef416b25a4759742b923e40b5c63"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "04_Postoperative_Recovery_Considerations.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
-    "bytes": 18103,
-    "sha256": "0f24c8f9dc0b3ee80ea7d0b131a714eb75bb54de9a5e7b7f36669474df237452"
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
+    "bytes": 18104,
+    "sha256": "8879b3ab626202d31fdd84947ebe15124abdcec6650daebba1e5eff6ab11d9af"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "06_References.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 20268,
     "sha256": "1fc497bd2f35352ef7139bf4002b535860995ebbb6dec9409542105d84248601"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 25383,
     "sha256": "24dbd38d90c999f924c49a9898e14bca1b5716c225eebc02ebac18e56066b5a3"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "APPLIED_CASES.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 16531,
     "sha256": "5b6a420da89c0634f9e7598a31a850a0f0b5558bc3f9154a10ba2060e856d52c"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 2909,
     "sha256": "b7d3428f9659cd1a6274352fc30d579057f814638ab5830634090d4edee2c851"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "CASE_EXAMPLE_STANDARD.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 2710,
     "sha256": "48557d603c85bffca81f8abab2a365b92328f79676ebab16bbb1b1a7840c4226"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "CITATION.cff",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 522,
     "sha256": "44eb7a6b847c08515fbbce234401bf6f70297d1926e8ab3c14a71af10a251fc7"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "DISCLAIMER.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 3221,
     "sha256": "e14559201e03ec7a6d5003c1ada177845f59d1059a0b36c60f467e52045f39be"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 1925,
     "sha256": "e31760c66d1c6d3fed94982a264339f5cbdb71b264a1fe35a6d2ef53eb9c2bc2"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "EXAMPLE_SOURCE_AUDIT.json",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 7983,
     "sha256": "0a4401e577cc57b04d7e04eacb9689227d7bc69656a4d15274f8b9504bbcf7f0"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "George-BreastRecon-Review-v8.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
-    "bytes": 86878,
-    "sha256": "f2d6f338da21da7564cf0133cf38096289952bb621988b6af6cc18fb740df436"
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
+    "bytes": 86879,
+    "sha256": "5d7455d02a7684158f1878deabbec299e0b5bf84b7d174505b0a1bfaa19fa42e"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "HISTORICAL_VERSION_NOTICE.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 1067,
     "sha256": "f6f3d3e0169066320b0a8d275c7f0d60accd4cae997f9b5baba2a2b320347c9f"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "LICENSE",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 1056,
     "sha256": "b5d13307f7a23281f28a2043571f0d27f1b1c7729130646e2533cdc141d71ee0"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "PROVENANCE.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "README.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 10290,
     "sha256": "e4335dee9ede28e4c8b099a01af2a35a191d9e0deb92f42e97a8c6877dd7e6df"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "REFERENCE_AUDIT.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 3382,
     "sha256": "142f8484fbc11f0ae046fa4615076c3abf2ee07f9c113fc0d3e4152fe7a0012e"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 4280,
-    "sha256": "1f2d147c2620a4d373afcec5ef2ad91b436b211f6a1e046fe5146a1fe4bc2675"
+    "sha256": "14ffb925690d9513f049d161a80ebdfa20de613fc280003a2abc607a7930549e"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "RELEASE_NOTES.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 4886,
     "sha256": "72576623bba4f549598c44b4ea16b049b4823b4966c1e54ed8c6cb94aecd2695"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "SHARED_SOURCE_AUDIT.json",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 4088,
     "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "START_HERE.md",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 1419,
     "sha256": "d3b6e4416654735af1a5f17346d3cb58470fd4c32960892084c627892d53f88f"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "reference-identity-audit.json",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 28715,
     "sha256": "3bb8c940ceebe4bee188aba16437aecbdb9297f8bbe775a5c3bd9740efd5d0cf"
   },
   {
     "repo": "Breast-Reconstruction-Analgesia-Review",
     "path": "search-audit-2026-10-27.json",
-    "commit": "a517d73ac2c794a3b2e5c726b13ddecc6fb7cb1a",
+    "commit": "b679b7de1c6de59a068ecac1cd2b741d7fb8cfcc",
     "bytes": 5598,
     "sha256": "423ebfa41b678d22fab130ac4857ddf164226ce059b9214e5dfad428ace3d465"
   },
@@ -1227,175 +1227,175 @@
   {
     "repo": "tka-perioperative-review",
     "path": "01_Regional_Anesthesia_ACB_IPACK.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 1697,
     "sha256": "affa306004434b475c8ee01a04ff900c56f16df90ba2c6128bd5b9743f989128"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "02_Opioid_Free_Anesthesia_TKA.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 3291,
     "sha256": "92cbe5bf25a1ec74c4b260907aeaee4f79ee3d55b96140c8bb5675a1b715daf7"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "03_Patient_Reported_Outcomes_TKA.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 2018,
     "sha256": "c302e684408e8a5eaaf9c11a9f833ce26ca1260178152be16da7eec9c7d03eca"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "04_Spinal_vs_General_Anesthesia_TKA.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 2271,
     "sha256": "2ecdcd0b7aed4970c97ed56cb5b47eef7cc64bff5ad0df887e77c1c797272fc2"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "05_Chronic_Pain_Opioid_Risk_Stratification_TKA.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 1929,
     "sha256": "cc9637daae9fcac0cdb9e30ffd160c702c5afc3c3ff3f5ec08e2f871f8a6c370"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 25383,
     "sha256": "24dbd38d90c999f924c49a9898e14bca1b5716c225eebc02ebac18e56066b5a3"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "APPLIED_CASES.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 12473,
     "sha256": "2e11eaac975ccfb62d9224b2066f90876d76ff5d26647c07b00b7022cf8ef8d5"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 2915,
     "sha256": "cdd856105daf0e2505e7addabe3a08a62869715ebcd440796433be6bcd7c5a8a"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "CASE_EXAMPLE_STANDARD.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 2710,
     "sha256": "48557d603c85bffca81f8abab2a365b92328f79676ebab16bbb1b1a7840c4226"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "CITATION.cff",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 517,
     "sha256": "aa425fba9e1b0b58ca5ff8c6ee77241c6e50721d09a910dd2af665748e42ca8e"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "DISCLAIMER.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 3221,
     "sha256": "e14559201e03ec7a6d5003c1ada177845f59d1059a0b36c60f467e52045f39be"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "DOCUMENT_BUILD.json",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 596,
     "sha256": "faace2b1571e2c8c060ce6fb18891fc4bd160745f4bc49614e52df5d976b0d8f"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 1771,
     "sha256": "d7362817215fb942af6ffa1a24cf6fb605260569a9cf873d98b4535564517489"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "EXAMPLE_SOURCE_AUDIT.json",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 5685,
     "sha256": "1b5ba1b0924dc169ba5ad5d0bf404a752a8d192c33cb1bddc9f6bddbceb76c01"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "George-TKA-Scoping-Review-v2.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 9675,
     "sha256": "01f4383f2d858fb8d478f2e44382ea14b01a60221f4522fd23fdb0ffd731f05d"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "George-TKA-Scoping-Review-v2.pdf",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 64652,
     "sha256": "607545c19ea74e1dff9774360d01197e80079d6d021042e9d260fb433e7083f2"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "HISTORICAL_VERSION_NOTICE.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 658,
     "sha256": "b04e71ae469d376c29544d27a155846db71d54f91fab12c9f95209d477ce489c"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "LICENSE",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
-    "bytes": 1354,
-    "sha256": "378d1aef2f0ffebfa21001d7dbefef1fda793f911fe37ca8deef74fb40c78670"
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
+    "bytes": 1355,
+    "sha256": "b1716cd87db71a2f6d8390c89d1e8abc0db4bb2f11a12610fd0c57cb8caff981"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "PROVENANCE.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "README.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 2913,
     "sha256": "5ef8a704e8c4df74616919c0c173ccb8f6b27cf606e769dbc9600e49ca78ff0f"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 4306,
-    "sha256": "de2230087a2fab2b22c3829efdb95da0b7d68af9608c3de6a8923a3c4cfccef6"
+    "sha256": "99e695771c4d08930e517100ff8ef0029cccd8ffa01d1d72bb34533b1a09a7c8"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "RELEASE_NOTES.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 3247,
     "sha256": "bb707d9eae2dad2fe6a31fd1d46c341ed2da568536444a8fb451e53c77a59aaa"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "SHARED_SOURCE_AUDIT.json",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 4088,
     "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
   },
   {
     "repo": "tka-perioperative-review",
     "path": "START_HERE.md",
-    "commit": "4258818d10b5ceba4ef77a016c1bfdff1f76c658",
+    "commit": "ce161882533503d23a610bfebdd4c991b09f5634",
     "bytes": 1413,
     "sha256": "fa7c2f16146016ce987019fc02a4225ac4e9018c8cf4404d06246953d387617f"
   },
@@ -1612,327 +1612,526 @@
   {
     "repo": "hla-approximation-glioma",
     "path": "ANALYSIS_PLAN.md",
-    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
     "bytes": 10765,
     "sha256": "a9cb004e19bfc04c43d4361613ca54815cfb8598d33b10f92cdd868f45375d71"
   },
   {
     "repo": "hla-approximation-glioma",
+    "path": "DISCLAIMER.md",
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
+    "bytes": 3087,
+    "sha256": "dfb3ea2a3abb20f2fcfeba0924b104b3fc82bca76d1e8ad5a46516d1003649e4"
+  },
+  {
+    "repo": "hla-approximation-glioma",
     "path": "LICENSE",
-    "commit": "44e901826a63791742858bc07317887433ee4957",
-    "bytes": 1070,
-    "sha256": "9142424f8c038f2fc555cce01e92e3b178c6802ba219a0f2c9ab52573249b6a6"
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
+    "bytes": 1073,
+    "sha256": "9b3a4d3db6e6ea1a1e7fb16f9bd591ba855ef5682eb6b6b156ddc5de3cfa327d"
   },
   {
     "repo": "hla-approximation-glioma",
     "path": "README.md",
-    "commit": "44e901826a63791742858bc07317887433ee4957",
-    "bytes": 4747,
-    "sha256": "4c88ddde0e46a3a028a0082891e7575f3b8bfee102fd07cfe1adf72e96876060"
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
+    "bytes": 4764,
+    "sha256": "ee95daa84134cf928b029893ed4d571c49b34463c49cf674f909b6b46c22766e"
   },
   {
     "repo": "hla-approximation-glioma",
     "path": "STAGE1-2_RESULTS.md",
-    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
     "bytes": 6381,
     "sha256": "4bdabf8ad32778c36adfb270aa848c9eb2ad0ab4af7dc9babf49c38f0a051494"
   },
   {
     "repo": "hla-approximation-glioma",
     "path": "docs/data_acquisition.md",
-    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
     "bytes": 3899,
     "sha256": "afaa9bafe124a866e05432f6868f7ba5efb30bc0264d95e9a9e86e8f07870a8e"
   },
   {
     "repo": "hla-approximation-glioma",
     "path": "results/cohort.csv",
-    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
     "bytes": 45235,
     "sha256": "5220f8de04f9b067c4ad6a1d1d9047c209333913f31a1011b7a1582baa92b098"
   },
   {
     "repo": "hla-approximation-glioma",
     "path": "results/pipeline_attrition.csv",
-    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
     "bytes": 448,
     "sha256": "8ecb654556fd93749d16dc91b92dedbf17f103d81f2e6aa3498415e81ed87ed9"
   },
   {
     "repo": "hla-approximation-glioma",
     "path": "src/stage3.py",
-    "commit": "44e901826a63791742858bc07317887433ee4957",
+    "commit": "30411472cf194e9a208d4a183db45b4810bb625b",
     "bytes": 4841,
     "sha256": "ccb119c54d7516510a1e1510a1fbb9fe6a627494ee28c4d7d2cdf8deffdf1e10"
   },
   {
     "repo": "MCAT",
+    "path": ".github/workflows/validate.yml",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 1983,
+    "sha256": "b298f63c47115d9bfb95e2cc393e01550841f6b5ce9b68f36a1a22bf6bdc4e5c"
+  },
+  {
+    "repo": "MCAT",
+    "path": ".gitignore",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 80,
+    "sha256": "86ec7d459bc0f85192ac7fe7de3076df98fdf8c7100c4a04a900111e5618b14b"
+  },
+  {
+    "repo": "MCAT",
+    "path": "DISCLAIMER.md",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 3733,
+    "sha256": "513f20934f75f14a53972a9d431a98e8c06c60999d06fe60455e8499421ee267"
+  },
+  {
+    "repo": "MCAT",
     "path": "LICENSE",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 1846,
     "sha256": "a016d5ce9199a813b74046cac7d723403900f09ff53eb1dd38694beccc0977d1"
   },
   {
     "repo": "MCAT",
     "path": "README.md",
-    "sha256": "5f3cd8e058def15cdeb414c77344d9e13019bf5090284bae647c72127bb1535e"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 36025,
+    "sha256": "0fc8f07281f9bbb6b83cc64fa0c1e100e0a2b786a4f3e08815265dde2a9aef22"
   },
   {
     "repo": "MCAT",
     "path": "about.html",
-    "sha256": "86582289f75aa052b2dbf3ac941bb9dd6ce55fc74a8c8490306644cbd1ff2c81"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9545,
+    "sha256": "04defc5e0330f0973b1ef9eb646832c852621b7ff621db63f2031c1347347bed"
   },
   {
     "repo": "MCAT",
     "path": "css/portfolio-theme.css",
-    "sha256": "5c38e7cd236ba3e8518c179143bd61ac6d2547d1d5649d1b6bae1b35f0367974"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 13433,
+    "sha256": "69bae01c582be1212e22f37707620342fbd0fcfb8b5b47ade626ae18de334706"
   },
   {
     "repo": "MCAT",
     "path": "css/styles.css",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 38794,
     "sha256": "714b42bb350d3e149410d9140cb5df7e3af6c42a0e2de76695f4a4cbcf538603"
   },
   {
     "repo": "MCAT",
     "path": "data/exam1.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 233954,
     "sha256": "e8d72a461f78fec12e5d2f54634965657c7ccc0c6cb7bb18ecc1cc7e14f36f67"
   },
   {
     "repo": "MCAT",
     "path": "data/exam2-bb.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 107830,
     "sha256": "ffd9a7245a7e214b11e6c46cb9ffb15f0dc7696db4f273731a04297a03f638da"
   },
   {
     "repo": "MCAT",
     "path": "data/exam2-cp.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 93180,
     "sha256": "9923f1d4b866936aa4a9be9217abbfd2453f5d07b11b7255c7d696f82b31308b"
   },
   {
     "repo": "MCAT",
     "path": "data/exam2-ps.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 93515,
     "sha256": "c3894ad775d2a10bbc5c99fa8025e9f9117e64c0a1101dc3082f3fb780d4594c"
   },
   {
     "repo": "MCAT",
     "path": "data/exams.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 1986,
     "sha256": "f8c2f7957cd5d7f67c9571a83d32daf947e7f09465c904533839ac2e40dd7441"
   },
   {
     "repo": "MCAT",
     "path": "data/passages-cars.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 223374,
     "sha256": "7659c5603043cb7202481a34ff9316e4b2cff6e294c8a24da34e0c3e8f4e1b32"
   },
   {
     "repo": "MCAT",
     "path": "data/passages-data.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 111238,
     "sha256": "d21b6d8879896af42b88a0b82ebd59e954b568c72b6d850d7876f95f9dc389c4"
   },
   {
     "repo": "MCAT",
     "path": "data/passages-science.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 164393,
     "sha256": "5abb3afb74d32ee6023f2c0debf26a992981702836dacd42d529462689a2d9bb"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-behavioral-1.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 183295,
     "sha256": "20621d7b0de407b9205f50483dc813d1d8a6b9e91411b08e3aa9821264fd18f8"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-behavioral-2.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 210126,
     "sha256": "95f86e36ced7a62d390072ee83aecc7d9eed2cc1a46b86d9c447041d0656a424"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-biochemistry.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 241090,
     "sha256": "8336f6e3a77ce1897bd2352d9dda2090d15a25564feaa43efce97c282186a3d1"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-biology.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 255386,
     "sha256": "e8f2dc3516ec0ade5f182ebc3f8919aade747c931153ca3c6769ccab01514ee5"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-chemistry.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 225153,
     "sha256": "0a7df7b8dd8d32b0915e72b26116dd96c2077a49bd548fcf5cc475cf8004183b"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-equations.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 58547,
     "sha256": "d167cd41842325c6f1be0640d4260bcfe08ddc25f44189f867649e2acd7d1354"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-physics.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 117699,
     "sha256": "d318e34e95c3607e1abcdb8bf36c435e1e28582e018c76fd8cfc0325e335e977"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-variants-1.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 123610,
     "sha256": "26654e3557aad0bb95d14f37db7a110fa926dc8868b6edb31bbe4c8e4af537f9"
   },
   {
     "repo": "MCAT",
     "path": "data/qb-variants-2.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 116176,
     "sha256": "28c51e3afe12454942f55f4c996fe0644990a0551aefe83160bb5d71fd9d9ecc"
   },
   {
     "repo": "MCAT",
+    "path": "deploy/README.md",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 1167,
+    "sha256": "68b4ebf557d2a17030823f9f70904cb331e866643a4545a62d69aa5c99c6d541"
+  },
+  {
+    "repo": "MCAT",
+    "path": "deploy/cloudflare-mcat-proxy.mjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 1812,
+    "sha256": "5b070e086efb0b0b00396f8b5eede62ce53c029474cf848899f8d987442330b0"
+  },
+  {
+    "repo": "MCAT",
     "path": "docs/AUDIT-2026-10-28.md",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 11648,
     "sha256": "5540f05fb5f153b6d9c312315c0ccdf082fef4004715970a9330606d5f4908ae"
   },
   {
     "repo": "MCAT",
     "path": "docs/EDITORIAL-2026-10-28.md",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 7432,
     "sha256": "4747a13bd9062513845df8b0ba663cbc43717fc679496b75f8a15047e8a66da5"
   },
   {
     "repo": "MCAT",
     "path": "docs/LEARNING-GUIDE-2026-10-28.md",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 2946,
     "sha256": "ac3cf065a775afaf7e9dd0c6a205e0b84aa3d97126ee4f39cf07e4902a34a6b4"
   },
   {
     "repo": "MCAT",
     "path": "exam-results.html",
-    "sha256": "26eaca3d7fb01256add251b7e348c11afa30fb9df7753a20fdc2948b0c8e6063"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9552,
+    "sha256": "99ed16a81700add4f396e834a44b6cca80129b356a6f3f92368a969d6ffec391"
   },
   {
     "repo": "MCAT",
     "path": "exam-session.html",
-    "sha256": "989a55baf7fa76de1ef74979fd6aad14cd80c61f9a622fcc35d9e1dda4d295b9"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9552,
+    "sha256": "f786371d7a446c98d6794e6f598b77e84b96232102ce596dde73aa40a2b988c4"
   },
   {
     "repo": "MCAT",
     "path": "exams.html",
-    "sha256": "347128b113beffb0ff70703c9b33ba751336657b9847ae4fc792b30c9556fe4c"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9545,
+    "sha256": "d41c61324fb219884931b11ce9eb0189d8b6944dafe73fd18c4facf36594bbc5"
   },
   {
     "repo": "MCAT",
     "path": "icon.svg",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 368,
     "sha256": "f41374159e605ed2d1a3f109afd3a63de93d928c8070b4094a8f1e17c8219f7a"
   },
   {
     "repo": "MCAT",
     "path": "index.html",
-    "sha256": "0da2640cf2a866e49cd59d81bc5a89c6b3f6c6a8bfde318989890d6f746f51bd"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9537,
+    "sha256": "6990542a95fc42ff49870cbdb3fe4a331adf8093e0863a21e4422ff0c06483b6"
+  },
+  {
+    "repo": "MCAT",
+    "path": "js/account.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 13941,
+    "sha256": "0c081e31f51e321ff9400f4ddc6c3ec7a00ed7f10f339193c6d95919454a4006"
   },
   {
     "repo": "MCAT",
     "path": "js/app.js",
-    "sha256": "7f5bf948651dd81a214d076a9bf96db398088e21137e10b6125d52837a0486f9"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 172003,
+    "sha256": "1823df9fa049f07e345df9497ef2bad6212c0224852f29217e535c6a389778b4"
+  },
+  {
+    "repo": "MCAT",
+    "path": "js/cloud-config.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 259,
+    "sha256": "7b08a5ad357e7b13587d11422f8c15d257983321e4ea11dd05304fd016c51d47"
   },
   {
     "repo": "MCAT",
     "path": "js/learning-evidence.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 8673,
     "sha256": "9f6d8169a1dae7d639f40e574c1390172c222c61c49afcc7e6f84f0c9c301ded"
   },
   {
     "repo": "MCAT",
     "path": "js/pages.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 5521,
     "sha256": "a3075d83064286ea29e1078fb39542cbd690b2dba535e2cc37473c5a49394a96"
   },
   {
     "repo": "MCAT",
     "path": "js/study-path.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 21210,
     "sha256": "bb05e60986ed21c7a82602239687d9d2b5f8c7579fae06acd54e156f863257a2"
   },
   {
     "repo": "MCAT",
+    "path": "js/study-timer.js",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 6723,
+    "sha256": "6a5c0db144c165cbef65df84c68032ee08edc100f1793bf7e63607827a710f3f"
+  },
+  {
+    "repo": "MCAT",
     "path": "manifest.webmanifest",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 437,
     "sha256": "d1dbb0eda4df2d7c3f9dee62dd967b6448eb800df15e044c77049840ffe614e7"
   },
   {
     "repo": "MCAT",
     "path": "passage-session.html",
-    "sha256": "dedd3bb013ddc3330d62ffb8e178375e58780fa6cf87f1895d92e0d36cd28bcf"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9555,
+    "sha256": "a5eb5e29681b63fab58cea3a061e44665063c8c49bf1b51dd71984c9442eefbf"
   },
   {
     "repo": "MCAT",
     "path": "passages.html",
-    "sha256": "f19b80cae79717fa380d845332b48bdff00be15f199ff5780d476fb96805e40f"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9548,
+    "sha256": "1382398ecfacb6d46762dfce1be07f03bb35a6fb4e8f91ac49e9f75369e364b9"
   },
   {
     "repo": "MCAT",
     "path": "recall-session.html",
-    "sha256": "1739d3eccbf3fe5e16c03fbb62fa29760eefabb56371cae813f2cfed3db22267"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9554,
+    "sha256": "85100e663db8495bec2ee7c28cc73b774059a9a30237aa0f98484528f2cf2b10"
   },
   {
     "repo": "MCAT",
     "path": "recall.html",
-    "sha256": "5e16598eec89de460af740a8f2bbe3e3e452be9c7d61f52f290526a81293195f"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9546,
+    "sha256": "da60db78b7a10e910b36feae0540b2b4f823bfa78c5881889aba66a3ec3f56c1"
   },
   {
     "repo": "MCAT",
     "path": "results.html",
-    "sha256": "3f70383d18060928b0a832f2851329313cda925bcff3ba68a3de21003925d974"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9547,
+    "sha256": "c7ec10ba5892a750e7abaa856d0ee4cf56c772c88ed29fa142ff2487749b1e9b"
   },
   {
     "repo": "MCAT",
     "path": "score-report.html",
-    "sha256": "9df61b5c845e52733455cc71aa881ae14352b632c73838a6699980e53e2f63f6"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 9552,
+    "sha256": "02396152db9496b3fd844ce87a639994aebf786003f61df9ea6e5320c381f8c3"
+  },
+  {
+    "repo": "MCAT",
+    "path": "supabase/schema.sql",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 2505,
+    "sha256": "26ffab074a0907c7508a3d29c27f9e9929c93ce98422fd5d31b0627d9247cf51"
   },
   {
     "repo": "MCAT",
     "path": "sw.js",
-    "sha256": "4fb939b6adfd858c5bda80b4a588ab87b96b18da2da0f870c79926e03cd565b0"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 3213,
+    "sha256": "9a1b2999826602406f55a6942443a7c5cabe5f8d4b96fa5bb6d81d2beb88e675"
   },
   {
     "repo": "MCAT",
     "path": "tools/check-content.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 978,
     "sha256": "5e44660f21ca15c1f18443ba8dee35014576fb0e270b6bc2eec45ce13c7b0cbb"
   },
   {
     "repo": "MCAT",
     "path": "tools/generate-pages.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 654,
     "sha256": "cd937cabb0894839b3fa22c4f6a3782a4cddbc75a434b0faf1f36982be52538d"
   },
   {
     "repo": "MCAT",
     "path": "tools/serve.ps1",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 2032,
     "sha256": "57bea6c9da06e5183d043e207bd6a3289e639d17d8141d7f70282fa220d4f0a9"
   },
   {
     "repo": "MCAT",
+    "path": "tools/test-account.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 6234,
+    "sha256": "12a0b2e48a5991eddf8d0dfec4246d2afa29b07279dd29f7b6f88501d6907804"
+  },
+  {
+    "repo": "MCAT",
     "path": "tools/test-audit.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 6016,
     "sha256": "05ef79c6028576619afb0a070e4e32991b102b2c443adfbd968832503dc78f17"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-browser.cjs",
-    "sha256": "130d2fb217208983f6276f6f0ebcb247b1478c1b299f3623074274a99c18ef60"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 10812,
+    "sha256": "eda9ee7fdaaed938a5eb33077889704b6efe6919de22c3939cb503ab3cfe054e"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-deployment.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 1868,
+    "sha256": "f34c4c67d468e937e64aef5365b7d8f1f119f0652042255eac8a0a21baf3fc54"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-editorial.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 5475,
     "sha256": "765a0cd481ebbc02718cc104be2f105d85caa8b1cc4ffc89eebaf4b362d9b931"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-final-two.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 2827,
     "sha256": "2d734441e48b25037251eae308a2d025f838fc206013859c424e7ea6bccd3d99"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-learning-evidence.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 4128,
     "sha256": "e5a79acba00771dba6819f1e6ce0b6a7fd91197f8c0c2261cdc74fbde32f3da2"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-learning-guide.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 6720,
     "sha256": "a17bc770a40b09c947ee644c1a931bd34974ebf8c416f1ed3cab3bc169905caa"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-pages.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 4222,
     "sha256": "0d32b754474698038d80c7472f7597340f67a1b97c8c14d185fa8587253f4e3b"
   },
   {
     "repo": "MCAT",
     "path": "tools/test-study-path.cjs",
-    "sha256": "bed34208cf57b9fce2d68750b85187894ddc75685638b2dfd1cc89af34c0b28d"
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 6096,
+    "sha256": "80da71c01416904186fa60c5746cda516c2e9c483cefb6ee7efad052eb4dfa7a"
+  },
+  {
+    "repo": "MCAT",
+    "path": "tools/test-study-timer.cjs",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 4530,
+    "sha256": "c431aa1f0923e17ddae9a711935d24c7a0a033719716643d0920f76d8acb14e8"
   },
   {
     "repo": "MCAT",
     "path": "tools/validate.html",
+    "commit": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
+    "bytes": 12213,
     "sha256": "3cb1aad22d05c1b62616e1971882f2a1989c6da14a30530d76ef3a360327376d"
   }
 ]
