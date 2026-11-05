@@ -1,5 +1,7 @@
 # Follow-up publication review - 27 October 2026
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 **Candidate 2026.10-rc2.** This is an educational-source correction pass, not legal certification, clinical validation, peer review or public-release authorization.
 
 ## Work completed
@@ -9,7 +11,7 @@
 - TKA: withdrew unsubstantiated estimated screening counts, JBI/PRISMA-ScR compliance, extraction/grade tables and false source-result pairings. The current series is a selected-source narrative map, with no original pooling or submission-ready claim.
 - Breast review: checked identity metadata for 58 PMID-bearing references and the remaining book; reviewed available abstracts and selected full text. Corrected IV-versus-oral morphine units, nonsignificant-result wording and outdated guideline framing. Search diagnostic responses are archived.
 - Historical NOA PDF: all 37 rendered pages were visually reviewed. No patient identifiers were apparent in that visual pass, but old institutional/clinical-observation framing, unsupported methods, efficacy and dose claims remain in Git history. Those versions are superseded and not clinical evidence.
-- Author provenance statement recorded. Shadowing notes without authorization remain excluded.
+- Author provenance statement recorded. No clinical shadowing notes or observations are used.
 
 ## Remaining limits
 

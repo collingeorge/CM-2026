@@ -1,6 +1,6 @@
 # Full HTML portfolio build
 
-This builder produces a portable static site from pinned public source snapshots. It preserves complete source files and renders documents as reading pages. Private drafts and unauthorized shadowing material are excluded.
+This builder produces a portable static site from pinned public source snapshots. It preserves complete source files and renders documents as reading pages. Private drafts and shadowing material are excluded.
 
 Run Python prepare.py, Node build-site.mjs, then Python check-site.py. The output is dist/. No server or framework is required to serve the result. Dependencies are fetched as exact versions and verified by SHA-512; source files are verified by SHA-256. Sources are not silently refreshed: update pins and integrity records deliberately after review.
 

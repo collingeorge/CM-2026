@@ -1,5 +1,7 @@
 # Clinical education case index
 
+> **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
+
 Updated 29 October 2026. [Reader’s guide](START_HERE.md) · [Portfolio website](https://collingeorge.github.io/CM-2026/)
 
 The examples use a consistent educational format. They are wholly synthetic, not patient reports, prescribed regimens or evidence of independent clinical activity. Read recommendation scope, general knowledge, context-dependent practice and fictional application separately.
@@ -36,6 +38,6 @@ Their added case supplements do not establish that legacy manuscripts have under
 
 ## Reading boundaries
 
-Sex-paired examples illustrate synthetic patient factors; sex alone does not determine a regimen. Clinical source identity, relevant content and population applicability are distinct checks. Consult each project’s reader’s guide, source audit and limitations. No independent clinical sign-off is recorded. Unauthorized shadowing notes are excluded.
+Sex-paired examples illustrate synthetic patient factors; sex alone does not determine a regimen. Clinical source identity, relevant content and population applicability are distinct checks. Consult each project’s reader’s guide, source audit and limitations. No independent clinical sign-off is recorded. No clinical shadowing notes or observations are used.
 
 Existing dated manuscript and architecture exports are retained. Added casebooks and this index are source-level supplements, not claims that every older export has been regenerated.
