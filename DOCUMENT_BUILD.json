@@ -1,12 +1,12 @@
 {
   "version": "2026.11",
-  "method": "November 2026 rebuild: pandoc (GFM -> HTML5) then Chromium print-to-PDF via Playwright, from the named Markdown source. Earlier exports used a ReportLab script not included in the repository.",
+  "method": "November 2026 rebuild: pandoc (GFM -> HTML5) then Chromium print-to-PDF via Playwright, from the named Markdown source. Earlier exports used a ReportLab script not included in the repository. 6 November 2026: CM-BIO-ARCH-01-v2.0.pdf re-exported by Chromium print-to-PDF directly from its paired CM-BIO-ARCH-01-v2.0.html snapshot (the 5 November export had used README.md), with PDF Title metadata set to the document heading.",
   "documents": [
     {
-      "source": "CM-2026/README.md",
+      "source": "CM-2026/CM-BIO-ARCH-01-v2.0.html",
       "pdf": "CM-2026/CM-BIO-ARCH-01-v2.0.pdf",
-      "source_sha256": "bc03f6b705f4e49fc480ac51ffb39e8e384005fa6f0b1000cb8cdfecc4c831a5",
-      "pdf_sha256": "4d61b0a34c9b71bccc7e8419d12cc484024a676321a6ee3eaf8a99a3a43bf9cc"
+      "source_sha256": "c13f18af3d356d6dda5ae61b300cf945fa70b2bdf366054cbe2f3a58861cce8b",
+      "pdf_sha256": "9275912618650fe9210a513f13c8500daeb55354b8c9797eb4f02a730639e9f6"
     }
   ]
 }

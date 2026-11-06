@@ -12,8 +12,8 @@
     },
     {
       "path": "CASE_EXAMPLE_INDEX.md",
-      "bytes": 5454,
-      "sha256": "404c17d779567b568d1721c37229c97bd4b4cac59181942434522dd6948cf783"
+      "bytes": 5384,
+      "sha256": "e7411bfd7a5ccc0716ee1d1043d702d19b7dc058c96fb5f0e2db19dca1cb7b10"
     },
     {
       "path": "RELEASE_NOTES.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "PORTFOLIO_INDEX.json",
-      "bytes": 5167,
-      "sha256": "010d86c6331b6afb8b3316852852fa020ac9429122942d7ceacfdd5a2da57a44"
+      "bytes": 5227,
+      "sha256": "01557b7f68c2c943ce6281bba765ae35ff791fb75d3fadf96d3066413b5c9383"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/evidence-correction.yml",
@@ -57,13 +57,13 @@
     },
     {
       "path": "DOCUMENT_BUILD.json",
-      "bytes": 531,
-      "sha256": "52fdbba7517e7ab38936c0da0aea0654031163de73a01c65fccfd9c23b6fa54c"
+      "bytes": 780,
+      "sha256": "2e049d10af4688ae5b3944eb0da333c177c4a8b043d1293fad97daa7b069246a"
     },
     {
       "path": "index.html",
-      "bytes": 21206,
-      "sha256": "03bffdababb81964565245e55130b9ce8e5ae09865ab1f44a24967b0ee1449cd"
+      "bytes": 21364,
+      "sha256": "229274ff7fe41c251b71714b81d94c3df987873b0586202912b7f251609403b7"
     },
     {
       "path": "assets/portfolio.css",

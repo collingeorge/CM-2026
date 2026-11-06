@@ -31,8 +31,8 @@ Procedure examples, investigations, pain/airway/ventilation discussions and mach
 
 ## Private working drafts
 
-- [Robot-assisted TKA working material](https://github.com/collingeorge/rTKA-Multimodal-Anesthesia-Protocol) — requires repository access. Legacy claims require separate substantive review. Kept private.
-- [AI anesthesiology safety working material](https://github.com/collingeorge/ai-anesthesiology-safety-framework) — requires repository access. Legacy claims require separate substantive review. Kept private.
+- Robot-assisted TKA working material (rTKA-Multimodal-Anesthesia-Protocol; repository no longer public). Legacy claims require separate substantive review. Kept private.
+- AI anesthesiology safety working material (ai-anesthesiology-safety-framework; repository no longer public). Legacy claims require separate substantive review. Kept private.
 
 Their added case supplements do not establish that legacy manuscripts have undergone a complete clinical or publication review. Their visibility is unchanged.
 

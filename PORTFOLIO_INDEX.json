@@ -76,7 +76,7 @@
       "evidence": "README.md",
       "description": "Private working material with a synthetic case supplement.",
       "focus": "Separate added teaching examples from legacy clinical claims.",
-      "boundary": "Legacy claims require separate substantive review. Kept private.",
+      "boundary": "Legacy claims require separate substantive review. Kept private (repository no longer public).",
       "private": true
     },
     {
@@ -87,7 +87,7 @@
       "evidence": "README.md",
       "description": "Private conceptual working material with hypothetical cases.",
       "focus": "Separate conceptual discussion from an implemented or validated clinical system.",
-      "boundary": "Legacy claims require separate substantive review. Kept private.",
+      "boundary": "Legacy claims require separate substantive review. Kept private (repository no longer public).",
       "private": true
     },
     {
