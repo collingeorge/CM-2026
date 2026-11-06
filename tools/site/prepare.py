@@ -28,14 +28,21 @@ def source(p):
  dest=root/'sources'/p['name']
  if dest.exists():shutil.rmtree(dest)
  dest.mkdir(parents=True)
+ extracted=set()
  with zipfile.ZipFile(io.BytesIO(data)) as z:
   for f in z.infolist():
    rel=pathlib.PurePosixPath(*pathlib.PurePosixPath(f.filename).parts[1:])
    if str(rel)=='.' or f.is_dir():continue
    target=dest.joinpath(*rel.parts)
    if not target.resolve().is_relative_to(dest.resolve()):raise ValueError('unsafe source path')
-   target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(z.read(f))
- for e in [e for e in expected if e['repo']==p['name']]:
+   target.parent.mkdir(parents=True,exist_ok=True);target.write_bytes(z.read(f));extracted.add(rel.as_posix())
+ entries=[e for e in expected if e['repo']==p['name']]
+ # Every extracted file must be pinned, and every pinned file must be present: nothing is published unverified.
+ listed={e['path'] for e in entries}
+ extra=sorted(extracted-listed);missing=sorted(listed-extracted)
+ if extra or missing or len(listed)!=len(entries):
+  raise ValueError('source file set mismatch for '+p['name']+': '+str(len(extra))+' unlisted '+str(extra[:10])+', '+str(len(missing))+' missing '+str(missing[:10])+', '+str(len(entries)-len(listed))+' duplicate manifest entries')
+ for e in entries:
   b=(dest/e['path']).read_bytes()
   if hashlib.sha256(b).hexdigest()!=e['sha256']:raise ValueError('source integrity failed: '+p['name']+'/'+e['path'])
  return p['name']
