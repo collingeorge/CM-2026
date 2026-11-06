@@ -2,6 +2,7 @@ import hashlib
 import importlib.util
 import json
 import pathlib
+import re
 import shutil
 
 # Security note: used only with fixed argument lists, never a shell
@@ -85,9 +86,15 @@ class ImgAudit(HTMLParser):
    if not m.same_site_url(src):errors.append('external image in built page '+self.name+': '+src)
 for f in sorted((root/'dist').rglob('*.html')):
  rel=f.relative_to(root/'dist')
- if rel.parts[0] in ('downloads','study'):continue
+ if rel.parts[0]=='downloads':continue
  ImgAudit(str(rel)).feed(f.read_text(encoding='utf-8'));checks+=1
+# Repositories pinned with "downloads": false are rendered as reading pages only; their files are not republished.
+unpublished={p['name'] for p in json.loads((root/'source-pins.json').read_text()) if p.get('downloads') is False}
+for name in sorted(unpublished):
+ if (root/'dist'/'downloads'/name).exists():errors.append('unpublished source republished under downloads/'+name)
+ checks+=1
 for e in json.loads((root/'source-integrity.json').read_text()):
+ if e['repo'] in unpublished:continue
  f=root/'dist'/'downloads'/e['repo']/e['path']
  if hashlib.sha256(f.read_bytes()).hexdigest()!=e['sha256']:errors.append('source changed '+str(f))
  checks+=1
@@ -97,5 +104,32 @@ headers=(root/'dist'/'_headers').read_text()
 for required in ['Strict-Transport-Security: max-age=31536000','X-Content-Type-Options: nosniff',"frame-ancestors 'none'","object-src 'none'","base-uri 'none'",'Permissions-Policy:']:
  if required not in headers:errors.append('missing '+required)
  checks+=1
-report={'checks':checks,'errors':errors,'warnings':['MCAT inline handlers require unsafe-inline in its scoped CSP; no unsafe-eval enabled.','HSTS preload and includeSubDomains are intentionally off; unrelated subdomain HTTPS has not been established.','This scoped review is not an independent penetration test or proof of absence of vulnerabilities.']}
+# Parse _headers the way Cloudflare applies it: every rule whose path pattern matches contributes its headers,
+# and a header set by several matching rules is merged into one comma-joined value.
+rules:list[tuple[re.Pattern[str],list[tuple[str,str]]]]=[]
+for line in headers.splitlines():
+ if not line.strip() or line.lstrip().startswith('#'):continue
+ if not line[0].isspace():rules.append((re.compile('^'+re.escape(line.strip()).replace(r'\*','.*')+'$'),[]))
+ else:
+  name,_,value=line.strip().partition(':')
+  rules[-1][1].append((name.strip().lower(),value.strip()))
+def served_headers(path:str)->dict[str,str]:
+ merged:dict[str,list[str]]={}
+ for pattern,values in rules:
+  if pattern.match(path):
+   for name,value in values:merged.setdefault(name,[]).append(value)
+ return {name:', '.join(values) for name,values in merged.items()}
+IMMUTABLE='public, max-age=31536000, immutable'
+REVALIDATE='public, max-age=0, must-revalidate'
+hashed=['/assets/portfolio.css','/assets/portfolio.js','/assets/reading.css','/assets/reading.js','/assets/vendor/mermaid.min.js']
+for path,want in [*[(p,IMMUTABLE) for p in hashed],*[(p,REVALIDATE) for p in ['/','/library','/projects/smart-noa/','/projects/smart-noa/LICENSE','/pages/README','/simulator/','/search-index.json','/sitemap.xml']]]:
+ got=served_headers(path).get('cache-control')
+ if got!=want:errors.append('Cache-Control for '+path+' is '+repr(got)+', expected '+repr(want))
+ checks+=1
+for pattern,values in rules:
+ for name,value in values:
+  if name=='content-security-policy' and re.search(r"script-src[^;]*'unsafe-inline'",value):errors.append('script-src allows unsafe-inline for '+pattern.pattern)
+ if 'study' in pattern.pattern:errors.append('retired /study/ rule in _headers: '+pattern.pattern)
+ checks+=1
+report={'checks':checks,'errors':errors,'warnings':['HSTS preload and includeSubDomains are intentionally off; unrelated subdomain HTTPS has not been established.','This scoped review is not an independent penetration test or proof of absence of vulnerabilities.']}
 (root/'security-validation.json').write_text(json.dumps(report,indent=2));print(json.dumps(report,indent=2));sys.exit(bool(errors))

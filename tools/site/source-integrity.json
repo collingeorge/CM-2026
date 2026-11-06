@@ -2,296 +2,296 @@
   {
     "repo": "CM-2026",
     "path": ".github/ISSUE_TEMPLATE/evidence-correction.yml",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 1071,
     "sha256": "ac5e5ceade8abb3d55650b3cd9b22b0e8295863a4c871f1a7082aebe7a52a0cf"
   },
   {
     "repo": "CM-2026",
     "path": ".github/workflows/full-html-site.yml",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 950,
-    "sha256": "0593c6fe77e9548f838c09833be91ea13f9a13e170da6906dec11b3cd41cea41"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 1044,
+    "sha256": "21b466d9cd01aa15248365e87e58a82a553aae47af1975386fb8fc69a9f76508"
   },
   {
     "repo": "CM-2026",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 2805,
     "sha256": "66319d1e584f362f7e635857c988e2cfd902b5710e6e63d11d054db46d46e02e"
   },
   {
     "repo": "CM-2026",
     "path": "CASE_EXAMPLE_INDEX.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 5454,
-    "sha256": "404c17d779567b568d1721c37229c97bd4b4cac59181942434522dd6948cf783"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 5384,
+    "sha256": "e7411bfd7a5ccc0716ee1d1043d702d19b7dc058c96fb5f0e2db19dca1cb7b10"
   },
   {
     "repo": "CM-2026",
     "path": "CLOUDFLARE_HOSTING.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 1025,
     "sha256": "330b56ba0a7c88eebe2db2556dd3cd198bbd5828c6867ec4655f3678395d81df"
   },
   {
     "repo": "CM-2026",
     "path": "CM-BIO-ARCH-01-v2.0.html",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 4330,
-    "sha256": "b6c20f62fa55384f13422946fbb2b8533d47d106022580832756f96323ec8b85"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 4650,
+    "sha256": "c13f18af3d356d6dda5ae61b300cf945fa70b2bdf366054cbe2f3a58861cce8b"
   },
   {
     "repo": "CM-2026",
     "path": "CM-BIO-ARCH-01-v2.0.pdf",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 57493,
-    "sha256": "4d61b0a34c9b71bccc7e8419d12cc484024a676321a6ee3eaf8a99a3a43bf9cc"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 82558,
+    "sha256": "9275912618650fe9210a513f13c8500daeb55354b8c9797eb4f02a730639e9f6"
   },
   {
     "repo": "CM-2026",
     "path": "CNAME",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 18,
     "sha256": "f33f94080989daeb85e7ab152e8ade8e18abc47429225014feef4481252a78dc"
   },
   {
     "repo": "CM-2026",
     "path": "DESIGN_NOTES.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 1062,
     "sha256": "434a42db064a89d984f12a280bcdda700aca39c3add03890c90bfc21fe0aaac8"
   },
   {
     "repo": "CM-2026",
     "path": "DISCLAIMER.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 3268,
     "sha256": "2ffa824e49533a519115919280c20c4c575de5633fc3a2f04c1f313f0a5167d5"
   },
   {
     "repo": "CM-2026",
     "path": "DOCUMENT_BUILD.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 531,
-    "sha256": "52fdbba7517e7ab38936c0da0aea0654031163de73a01c65fccfd9c23b6fa54c"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 780,
+    "sha256": "2e049d10af4688ae5b3944eb0da333c177c4a8b043d1293fad97daa7b069246a"
   },
   {
     "repo": "CM-2026",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 2692,
-    "sha256": "2803926c2d30c27bcb83dd27664302c1d066ca216d8068b003a2e8971e2c6245"
+    "sha256": "09eeedda54640b97c4c02485325de7d641601661de065158faf327d6f9b688a9"
   },
   {
     "repo": "CM-2026",
     "path": "LEARNING_AND_REVISION_LOG.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 2124,
     "sha256": "dfaf73b02dddc17235f3f09af0f189955801a469db8976e26b918607ef064f6b"
   },
   {
     "repo": "CM-2026",
     "path": "LICENSE",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 631,
     "sha256": "e45a9edd36d93473c975844d7affa14ce1c398d43ec94241cb789f71ab0ba8a0"
   },
   {
     "repo": "CM-2026",
     "path": "MAINTENANCE.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 2450,
     "sha256": "f6221e41025c488f4ce09d6b89bb16aab15fc290db9cad1305b54785cb4497e6"
   },
   {
     "repo": "CM-2026",
     "path": "PORTFOLIO_INDEX.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 5167,
-    "sha256": "010d86c6331b6afb8b3316852852fa020ac9429122942d7ceacfdd5a2da57a44"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 5227,
+    "sha256": "01557b7f68c2c943ce6281bba765ae35ff791fb75d3fadf96d3066413b5c9383"
   },
   {
     "repo": "CM-2026",
     "path": "PROVENANCE.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "CM-2026",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "CM-2026",
     "path": "README.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 4368,
     "sha256": "bc03f6b705f4e49fc480ac51ffb39e8e384005fa6f0b1000cb8cdfecc4c831a5"
   },
   {
     "repo": "CM-2026",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 3878,
-    "sha256": "8374a26098b0c82669a532e09b1d9fd75815b579c946c563200c4e2b642f5788"
+    "sha256": "4037fbbfc942e69b8ec77f1f40a62ece4c8e63a1f4f04d6f4da9c585a941b4e1"
   },
   {
     "repo": "CM-2026",
     "path": "RELEASE_NOTES.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 1928,
     "sha256": "394b891f767e630b95d3d5a7c93e9ee0e5f09fa8a7e58bd3724e0661ca0868e1"
   },
   {
     "repo": "CM-2026",
     "path": "START_HERE.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 3295,
     "sha256": "ffd1e1d60ad9d0d7d62d9b194c3b2886206a469dbb088c470433372f9bc7ce8e"
   },
   {
     "repo": "CM-2026",
     "path": "WEBSITE_SECURITY_REVIEW.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 3660,
     "sha256": "6adbe3006c85e1702c5cd3fedc8a2955bcde12efbf25f205f32b324c632cd544"
   },
   {
     "repo": "CM-2026",
     "path": "assets/favicon.svg",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 270,
     "sha256": "581341b5defd1e476a1fa095b1d1603fc0efa2265861bab8aece2e5f4a8a24ad"
   },
   {
     "repo": "CM-2026",
     "path": "assets/portfolio.css",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 14885,
     "sha256": "3155f371bcf386d0c99c39d6378371a19624fb7c7a398bf242edd6d9955bb3a4"
   },
   {
     "repo": "CM-2026",
     "path": "assets/portfolio.js",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 1691,
     "sha256": "07c7fab8af93da3f61bc556325e8072447dd1493a8825e26070595356b366dd3"
   },
   {
     "repo": "CM-2026",
     "path": "index.html",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 21364,
     "sha256": "229274ff7fe41c251b71714b81d94c3df987873b0586202912b7f251609403b7"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/README.md",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 981,
     "sha256": "12d152c462c3058eee280ae423d47f0aab682ecfce8f49f1e4a5c0e4612276c2"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/assets/mcat-theme.css",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 11483,
     "sha256": "5c38e7cd236ba3e8518c179143bd61ac6d2547d1d5649d1b6bae1b35f0367974"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/assets/reading.css",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 6642,
-    "sha256": "aefa2bd5aaecd374ef79a448a90466f752ba1d50d8ee37be1438ade93f9fca0c"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 6604,
+    "sha256": "2b0b9a3fa4fcc1c73a080ee6e59d26521fc7fad53e9ad736e448beb12d0e919a"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/assets/reading.js",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 2590,
-    "sha256": "59de8321f4dac9503c48db7b160f46a0f8445bbcdb4bfc25973d142e2b9170a6"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 2650,
+    "sha256": "56b9ae7a77dc91de486d732ea108fbd7843f07b6675c7bfcd72080da07c58dbd"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/build-site.mjs",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 20389,
-    "sha256": "2a532ad27cbb16a7037a8b13a228d8d7309b008b2e3885ec7f92af3580d675a1"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 21421,
+    "sha256": "e641215e1c3da7127a86d90089ec8aa4331e169f5909cae60f68331735fd7e5f"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/check-site.py",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 1459,
-    "sha256": "eae5acf716f24eddb10303516610d7872977d399ea3fcba3f740d5f0c04524f6"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 2589,
+    "sha256": "026fae1199a99aa53e0197a066f00e72047e6a170fa2cd247b377743907719a1"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/dependency-pins.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 730,
     "sha256": "d1453d92ff8f9ad3a4b08167cf0d8a767038466c4a5047b1f77128271e3ec1d2"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/prepare.py",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 2262,
-    "sha256": "f05b0a3eaec975b588358c9e25e5c041d84a23acf914d98857c2385c1c67ac22"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 3381,
+    "sha256": "34c2d496c65567c47e8b3dc9432068656c15c7f954745aafc6bde35f2783b944"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/projects.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 4559,
     "sha256": "9c1b6b77de840a7615990f18faf8c57cef1adfeec6b923f1effcc566137e1f47"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/sanitize-html.py",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 2102,
-    "sha256": "05165d2393b5344b8607327c00e2fd47f2e99266e7b554b5a35e5b4794c170e5"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 4376,
+    "sha256": "837890975a15db44aebaef21b9a161e09e9427cbc61fcf4272595421d3237b08"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/security-headers.txt",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 4093,
     "sha256": "0019a1f2896bf57b93252f531d835a8fc8290d07d0a75370aba3733a9758d7db"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/security-validate.py",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 2313,
-    "sha256": "29d56091108b9127e76d9943328e623f3d0daa9db14cdfc8c1d8d8144bede85e"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 7265,
+    "sha256": "06f393033c9255ee8e659b6d51e8e434eb4cb07bbe786c55a6d0a2919abf9370"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/site-config.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 45,
     "sha256": "0ed7b8594767817212b5da5abb42dbf25d03a2ae0781b1ddf6e438d158a56b8c"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/source-integrity.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "bytes": 75839,
-    "sha256": "1ab67efb0187588911cecd16af79b5e68d9f5412154b3769232373a64736cc56"
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "bytes": 95169,
+    "sha256": "e0af96fb27682a67c9fb6a397fa2615f047f8e68dc85311105f627759a4aa299"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/source-pins.json",
-    "commit": "78bcf6107b118751085549eb2b81b19f0e1c7528",
+    "commit": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
     "bytes": 1471,
-    "sha256": "cbfd03311bec0f1d09c45d0a3c15d39913adfbb6f78cce013e3e8b1d0d8bc9e7"
+    "sha256": "f948f75f53bfe21b9e63e7d0cc2fb992ed9fe896427dd020a6a6260b6369d0dd"
   },
   {
     "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
@@ -1948,210 +1948,210 @@
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "01_PreOp_Assessment_and_Checklist.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 10465,
     "sha256": "f313b292a9743ffd4742f0d2ba75875224fd9d9b993a9d390947bbf9ea41af6e"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "02_Patient_Counseling_Script.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 6130,
     "sha256": "1fedc40b19cccd2b080a2b311e2051320e0110ec1ad7c8048ca7a535ee8c0517"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/Protocol_1_OFIA_With_PECS_Block.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 16264,
     "sha256": "5df86effcc93ff68e236f2533866535ba97ae528838ae9a771062e208ae9560c"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/Protocol_2_OFIA_BlockFree.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 10193,
     "sha256": "62062f16bdfdac7b7b21d1314892a026585036d155099521fbaf6f4ada6ab796"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/Protocol_3_OpioidBased_NoBlocks.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 16147,
     "sha256": "febb19db9ab94e5da5cacf586205bb364727149fa79a3c250b7124e07b2f2a15"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/Protocol_Comparison_Table.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 8033,
     "sha256": "de807f9f18efdac8e9677bb921f51878b2d7d4e3b477a2ade4ae61871b5d632a"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/README.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 2966,
     "sha256": "a4d15fc038209c72d0387b7cfa44ce3d85b473d4d56f70051c12c241c2cdafd9"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "04_Surgical_Workflow_and_Timeline.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 7640,
     "sha256": "801002c44f41d5cc6be51240b22133a1c37a6d9e898067c0e764f1e137932ad5"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "05_PACU_and_Discharge_Instructions.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 10111,
     "sha256": "943ee5b851e9f45ada28e74afb26276b76d0184546787fb9a4758e78eb32cbbe"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "06_References_Evidence_Breast_Augmentation.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
-    "bytes": 21025,
-    "sha256": "0779a568c1c1ca8a2dfd54ee96dc0eeca7372eadcda43e1f28cd5128807f6659"
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "bytes": 21377,
+    "sha256": "269033933e6bf66b28bb5c5e905d0bebd3e0ef0441f7da9275d0b26647ce4f19"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 25383,
     "sha256": "24dbd38d90c999f924c49a9898e14bca1b5716c225eebc02ebac18e56066b5a3"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "APPLIED_CASES.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 15054,
     "sha256": "215b8da4fe02960ea84cad419a15cce649c91ff01f1438ee4f3f56e68aff93bc"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 2907,
     "sha256": "465444711d60dccf84f84e06c713eb375373ff161a2a84576fc27319c6eeb358"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "CASE_EXAMPLE_STANDARD.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 2710,
     "sha256": "48557d603c85bffca81f8abab2a365b92328f79676ebab16bbb1b1a7840c4226"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "CHANGELOG",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
-    "bytes": 1473,
-    "sha256": "c92dc7d16ac30333cf9dfdb3747764e853a46e8029a2c91d301f1d4222c1133b"
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "bytes": 1913,
+    "sha256": "49786514467d4f5ecdee358d7adab7a175dba51311d9e4c4a797fa3f9ffff969"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "CITATION.cff",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 527,
     "sha256": "a6dc947e468fa197d994dbd5c14299f83b04c6ac8aea5c0be6263f718db68e6b"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "DISCLAIMER.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 3221,
     "sha256": "e14559201e03ec7a6d5003c1ada177845f59d1059a0b36c60f467e52045f39be"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "DOSING_SOURCES.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
-    "bytes": 36135,
-    "sha256": "b9852f1cfa680ad0146f5e934ce2383e1dbed8be519b8edfd14e50457c7289c2"
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "bytes": 38291,
+    "sha256": "83b96bf7728a00da60d750473c69eca7c6f76a0ee26b15ddeade4efc29bc9775"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 1772,
     "sha256": "1a23dafe2270377e07f683133d10ab8c66729bdcc9988afd7444e64905c814b7"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "EXAMPLE_SOURCE_AUDIT.json",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 7678,
     "sha256": "6346b36ae6c33d21fce92b7f8887e6e025b761bc0f5b402069f36b82be1c07f9"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "HISTORICAL_VERSION_NOTICE.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 1428,
     "sha256": "8e86f7b70a9ee9d46fef734a8185c2583573bc1f7a77e059f4ed731b779650ce"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "LICENSE",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 1056,
     "sha256": "b5d13307f7a23281f28a2043571f0d27f1b1c7729130646e2533cdc141d71ee0"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "OR_Checklist_Pre-Induction.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 5410,
     "sha256": "96aa04b1ec811e570799207dd5993c495216327a42129bfd385e404bab0ebf2a"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "PROVENANCE.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "README.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 5182,
     "sha256": "44aabf3d8221a128e1a4ed963237f6f00b0dc7fd88c0b843dacd8a244f95260e"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 5208,
-    "sha256": "578d4e657fb8fe2ca14512fcef44d3a8912944115e289c2a6cf720af303ad1cc"
+    "sha256": "3829b7126c4cab7f487b44e21d710f7d2aeb4715e3d98ea2487f60936e97e7fe"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "RELEASE_NOTES.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 17610,
     "sha256": "f912a7970b11a995f02b4860e9c364419f8a54f324fe19b43caf74c181cd6796"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "SHARED_SOURCE_AUDIT.json",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 4088,
     "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "START_HERE.md",
-    "commit": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
+    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
     "bytes": 2189,
     "sha256": "0186d30c3bf7e3505aa6e1678f68b8ec8cefabb5724467b6694a4bdb9cdcaabf"
   },

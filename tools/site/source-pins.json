@@ -1,8 +1,8 @@
 [
   {
     "name": "CM-2026",
-    "sha": "78bcf6107b118751085549eb2b81b19f0e1c7528",
-    "tree": "8c08417bb374c38af9603dac860746e7195703fb"
+    "sha": "87705f9fa1535b5c27bf8558e47f6d3dbb407f92",
+    "tree": "5a9f40f0254b07e6eb2ebafc0ba504692bf56b07"
   },
   {
     "name": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
@@ -31,8 +31,8 @@
   },
   {
     "name": "Breast-Reconstruction-Anesthesia-Protocol",
-    "sha": "57ae9ea06e79f5fae0389f0a8fe2e3f3ae963c0e",
-    "tree": "e7ace34c3d7b3a3eccb7771c677d7b47ee2c0a20"
+    "sha": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "tree": "21a0b37de0d7535d95f80d82048f3e6717dff99e"
   },
   {
     "name": "hla-approximation-glioma",
@@ -42,6 +42,7 @@
   {
     "name": "MCAT",
     "sha": "b572342d528b8f0f6c2d6f9c84a1ec4536c370b7",
-    "tree": "793af0968eda5de79eeba0a73ed83772223b8366"
+    "tree": "793af0968eda5de79eeba0a73ed83772223b8366",
+    "downloads": false
   }
 ]
