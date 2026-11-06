@@ -28,8 +28,8 @@ def serve(path):
  if path=='' or path.endswith('/'):
   index=base/'index.html'
   return index if index.is_file() else None
- # Cloudflare redirects any request ending in .html; only literal downloads/ files are linked that way.
- if path.endswith('.html') and not downloads(path):return None
+ # Cloudflare redirects any request ending in .html (downloads/ included), so no link may end in .html.
+ if path.endswith('.html'):return None
  if base.is_file():return base
  if base.is_dir():return None  # directory without its trailing slash: redirected
  html=base.with_name(base.name+'.html')
@@ -71,7 +71,7 @@ for f,p in pages.items():
   if norm.startswith('/..'):problem(malformed,f,url,'escapes the site root');continue
   path=norm.lstrip('/')+('/' if trailing and norm!='/' else '')
   # Pages are linked by clean URL: an internal href ending in .html would be answered with a redirect.
-  if attr=='href' and u.path.endswith('.html') and not downloads(path):html_links.append({'page':local(f),'url':url})
+  if attr=='href' and u.path.endswith('.html'):html_links.append({'page':local(f),'url':url})
   target=serve(path) if u.path else f
   if target is None:problem(errors,f,url,'no file is served at this URL without a redirect');continue
   target=target.resolve()
