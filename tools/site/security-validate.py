@@ -59,11 +59,30 @@ for p in ['<img src="https://img.shields.io/x.svg" alt="badge">','<img src="//ev
  checks+=1
 if m.sanitize('<img src="figures/a.png" alt="a">')!='<img src="figures/a.png" alt="a">':errors.append('relative image removed')
 checks+=1
+# Duplicate src: browsers use the FIRST value, so an external first src must not survive (05l final review).
+for p in ['<img src="https://evil.invalid/a.png" src="ok.png" alt="badge">','<img src="ok.png" src="https://evil.invalid/a.png" alt="badge">']:
+ out=m.sanitize(p)
+ if 'evil.invalid' in out or out!='<span class="img-alt">badge</span>':errors.append('duplicate-src image not replaced by alt text: '+p)
+ checks+=1
+# Duplicate attributes on any tag keep only the first value (what the browser renders).
+if m.sanitize('<a href="https://ok.example/" href="javascript:alert(1)">x</a>')!='<a href="https://ok.example/" rel="noopener noreferrer">x</a>':errors.append('duplicate attribute not reduced to the first value')
+checks+=1
+# Batch input must be well-formed and every failure must name its document.
+for bad,expect in [('{}','JSON array'),('[{"name":"d1"}]','d1: each item needs a string "html" field'),('[{"name":"d2","html":5}]','d2: each item'),('[{"name":"d3","html":"<style>x"}]','d3: unclosed blocked element')]:
+ try:m.sanitize_batch(json.loads(bad));errors.append('malformed batch accepted: '+bad)
+ except (ValueError,TypeError) as err:
+  if expect not in str(err):errors.append('batch error does not name the document: '+str(err))
+ checks+=1
+if m.sanitize_batch([{'name':'u','html':'<p>café — ✓</p>'}])!=['<p>café — ✓</p>']:errors.append('batch sanitizer changed non-ASCII text')
+checks+=1
 class ImgAudit(HTMLParser):
  def __init__(self,name):super().__init__();self.name=name
  def handle_starttag(self,t,attrs):
-  src=dict(attrs).get('src')
-  if t=='img' and src is not None and not m.same_site_url(src):errors.append('external image in built page '+self.name+': '+src)
+  if t!='img':return
+  srcs=[v or '' for k,v in attrs if k=='src']
+  if len(srcs)>1:errors.append('duplicate src on image in built page '+self.name)
+  for src in srcs:
+   if not m.same_site_url(src):errors.append('external image in built page '+self.name+': '+src)
 for f in sorted((root/'dist').rglob('*.html')):
  rel=f.relative_to(root/'dist')
  if rel.parts[0] in ('downloads','study'):continue

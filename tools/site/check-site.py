@@ -26,7 +26,12 @@ for f,p in pages.items():
    # Absolute URLs are not fetched, but dot segments mean a relative path was mangled into one.
    dot=unquote(u.path)+'/'
    if '/../' in dot or '/./' in dot:malformed.append({'page':str(f.relative_to(root)),'url':url});continue
-   if u.netloc.lower()!=site.netloc.lower() or u.scheme not in ('http','https'):continue
+   if u.scheme in ('http','https') and not u.netloc:malformed.append({'page':str(f.relative_to(root)),'url':url});continue
+   # Same site = this host (or www.), any default port, http(s) or protocol-relative (//host/...).
+   try:port=u.port
+   except ValueError:malformed.append({'page':str(f.relative_to(root)),'url':url});continue
+   host=(u.hostname or '').lower().removeprefix('www.')
+   if host!=(site.hostname or '').lower().removeprefix('www.') or u.scheme not in ('','http','https') or port not in (None,80,443):continue
    # Absolute link to this site: it must exist in dist.
    target=(root/unquote(u.path).lstrip('/')).resolve()
    if not target.is_relative_to(root.resolve()):malformed.append({'page':str(f.relative_to(root)),'url':url});continue

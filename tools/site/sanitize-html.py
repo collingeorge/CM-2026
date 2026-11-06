@@ -31,14 +31,18 @@ class Sanitizer(HTMLParser):
   if tag not in ALLOWED:return
   if tag=='img':
    a=dict(attrs)
-   if not same_site_url(a.get('src') or ''):
+   srcs=[v or '' for k,v in attrs if k=='src']
+   # Exactly one same-site src (a duplicate src could smuggle an external first value past dict()).
+   if len(srcs)!=1 or not same_site_url(srcs[0]):
     # External or missing image source: keep only the alternative text.
     alt=(a.get('alt') or '').strip()
     if alt:self.out.append('<span class="img-alt">'+escape(alt,quote=False)+'</span>')
     return
-  safe=[]
+  safe=[];seen=set()
   for k,v in attrs:
-   if k not in ATTRS:continue
+   # Browsers use the first of duplicate attributes; keep only the first so what we check is what renders.
+   if k not in ATTRS or k in seen:continue
+   seen.add(k)
    v=v or ''
    if k in ('href','src') and not safe_url(v):continue
    if k=='target' and v!='_blank':continue
@@ -63,18 +67,22 @@ def sanitize(value):
  return ''.join(parser.out)
 def sanitize_batch(items):
  # Input: JSON array of {"name": str, "html": str}; output: array of sanitized strings.
+ if not isinstance(items,list):raise TypeError('batch input must be a JSON array')
  out=[]
- for item in items:
+ for n,item in enumerate(items):
+  name=str(item.get('name','document '+str(n))) if isinstance(item,dict) else 'document '+str(n)
+  if not isinstance(item,dict) or not isinstance(item.get('html'),str):raise TypeError(name+': each item needs a string "html" field')
   try:out.append(sanitize(item['html']))
-  except ValueError as e:raise ValueError(str(item.get('name','document'))+': '+str(e)) from e
+  except ValueError as e:raise ValueError(name+': '+str(e)) from e
  return out
 def main(argv):
  if argv[1:]==['--batch']:
-  try:result=sanitize_batch(json.loads(sys.stdin.read()))
-  except ValueError as e:
+  # Read bytes as UTF-8 regardless of the locale (Windows consoles default to cp1252).
+  try:result=sanitize_batch(json.loads(sys.stdin.buffer.read().decode('utf-8')))
+  except (ValueError,TypeError) as e:
    sys.stderr.write('sanitize-html: '+str(e)+'\n');return 1
   sys.stdout.write(json.dumps(result));return 0
  if argv[1:]:
   sys.stderr.write('usage: sanitize-html.py [--batch]\n');return 2
- sys.stdout.write(sanitize(sys.stdin.read()));return 0
+ sys.stdout.buffer.write(sanitize(sys.stdin.buffer.read().decode('utf-8')).encode('utf-8'));return 0
 if __name__=='__main__':sys.exit(main(sys.argv))
