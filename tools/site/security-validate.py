@@ -1,12 +1,26 @@
-import pathlib,sys,hashlib,json,subprocess,re,importlib.util
+import hashlib
+import importlib.util
+import json
+import pathlib
+import shutil
+
+# Security note: used only with fixed argument lists, never a shell
+import subprocess  # nosec B404
+import sys
 from html.parser import HTMLParser
+
 root=pathlib.Path(__file__).parent
-spec=importlib.util.spec_from_file_location('sanitizer',root/'sanitize-html.py');m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
+NODE=shutil.which('node') or 'node'
+def node_check(path):
+ # Security note: fixed argv, no shell; path is a file produced by this build
+ return subprocess.run([NODE,'--check',str(path)],capture_output=True,text=True,check=False)  # nosec
+spec=importlib.util.spec_from_file_location('sanitizer',root/'sanitize-html.py')
+if spec is None or spec.loader is None:raise ImportError('cannot load sanitize-html.py')
+m=importlib.util.module_from_spec(spec);spec.loader.exec_module(m)
 errors=[];checks=0
 payloads=['<img src=x onerror=alert(1)>','<a href="jav&#x61;script:alert(1)">x</a>','<svg><script>alert(1)</script></svg>','<iframe srcdoc="x"></iframe>','<a href="java\nscript:alert(1)">x</a>','<base href="https://evil.invalid/">','<meta http-equiv="refresh" content="0;url=x">','<form action="https://evil.invalid/"><input></form>']
 class Audit(HTMLParser):
  def handle_starttag(self,t,attrs):
-  a=dict(attrs)
   if t in {'script','iframe','object','embed','form','base','meta','svg','math','input'}:errors.append('unsafe tag in sanitizer '+t)
   for k,v in attrs:
    if k.startswith('on') or k=='srcdoc':errors.append('unsafe attribute '+k)
@@ -18,8 +32,8 @@ for e in json.loads((root/'source-integrity.json').read_text()):
  checks+=1
 for f in (root/'dist').rglob('*.js'):
  if f.name=='mermaid.min.js' or 'downloads' in f.parts:continue
- p=subprocess.run(['node','--check',str(f)],capture_output=True,text=True)
- if p.returncode:errors.append(p.stderr)
+ proc=node_check(f)
+ if proc.returncode:errors.append(proc.stderr)
  checks+=1
 headers=(root/'dist'/'_headers').read_text()
 for required in ['Strict-Transport-Security: max-age=31536000','X-Content-Type-Options: nosniff',"frame-ancestors 'none'","object-src 'none'","base-uri 'none'",'Permissions-Policy:']:

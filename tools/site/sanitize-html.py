@@ -1,8 +1,10 @@
-from html.parser import HTMLParser
+import re
+import sys
 from html import escape
+from html.parser import HTMLParser
 from urllib.parse import urlsplit
-import sys,re
-ALLOWED=set('a abbr article aside b blockquote br caption code col colgroup dd del details div dl dt em figcaption figure h1 h2 h3 h4 h5 h6 hr i img kbd li main mark ol p pre s section small span strong sub summary sup table tbody td th thead tr u ul'.split())
+
+ALLOWED={'a', 'abbr', 'article', 'aside', 'b', 'blockquote', 'br', 'caption', 'code', 'col', 'colgroup', 'dd', 'del', 'details', 'div', 'dl', 'dt', 'em', 'figcaption', 'figure', 'h1', 'h2', 'h3', 'h4', 'h5', 'h6', 'hr', 'i', 'img', 'kbd', 'li', 'main', 'mark', 'ol', 'p', 'pre', 's', 'section', 'small', 'span', 'strong', 'sub', 'summary', 'sup', 'table', 'tbody', 'td', 'th', 'thead', 'tr', 'u', 'ul'}
 VOID={'br','hr','img','col'}
 BLOCK={'script','style','iframe','object','embed','template','svg','math','textarea','noscript'}
 ATTRS={'id','class','title','role','aria-label','aria-hidden','tabindex','open','colspan','rowspan','scope','alt','width','height','href','src','download','target','rel'}
@@ -41,5 +43,7 @@ class Sanitizer(HTMLParser):
  def handle_data(self,data):
   if not self.block:self.out.append(escape(data,quote=False))
 def sanitize(value):
- parser=Sanitizer();parser.feed(value);parser.close();return ''.join(parser.out)
+ parser=Sanitizer();parser.feed(value);parser.close()
+ if parser.block:raise ValueError('unclosed blocked element <'+parser.block[0]+'>: content after it would be dropped')
+ return ''.join(parser.out)
 if __name__=='__main__':sys.stdout.write(sanitize(sys.stdin.read()))
