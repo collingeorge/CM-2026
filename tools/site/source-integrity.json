@@ -793,728 +793,742 @@
   {
     "repo": "Smart-NOA-Controller",
     "path": ".gitignore",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 551,
     "sha256": "7414eeeb12f5c9bd68bb42b01a10be90fad2ba0ed038825dcdc9239e13c15b51"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 25257,
     "sha256": "232c8885a6cd560fb9b5c71a59438dbe2642d0b242ab728cad1259976c822418"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "ANESTHESIA_SOURCE_AUDIT.json",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4088,
     "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 2907,
     "sha256": "26ff1233dbca631e8d625814dac50e44edb9112e948ca3a7e3a1c240e284b2e6"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "CASE_EXAMPLE_STANDARD.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 2710,
     "sha256": "48557d603c85bffca81f8abab2a365b92328f79676ebab16bbb1b1a7840c4226"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "CITATION.cff",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 487,
     "sha256": "aa657293ec00a0b14308b4bf62caee209b2d71afe19c2216b72968ff9d02d7e7"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "CLINICAL_EXAMPLE_INDEX.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4728,
     "sha256": "06c0d37b293f54e7b88dd878cf5c91a7caf995697736e401452cb389adb2b2dd"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "DEVELOPMENT.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1844,
     "sha256": "cc27c40f1252e62a6bc6d8de2ece9d02fc2d1449d0788063fc5c91b67876787d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "DISCLAIMER.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 3180,
     "sha256": "2deccac1716552800ae5e215f4176ebeaad7e9b7d36b34fdf8e7d6b0f023770d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "DOCUMENT_BUILD.json",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 933,
     "sha256": "bdef9c6d88cece1bd3f03bfd3224946fd04650955b011722ec8775ecb52599d3"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1296,
     "sha256": "6c8a6769719a6ccabe1bcb69acdaf00f53d9e638b4a2bac8f4e4c4d74934ce98"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "EXAMPLE_RESULTS.json",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 11839,
     "sha256": "251099249bebaf5242a876bd68713db57c053d502d8ea3066149ca38cdb6ae65"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "GUIDELINE_INFORMED_EXAMPLES.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 15322,
     "sha256": "28f77897a2565b6c41daf8655701a7b21f9e818128c76d122ec9b9a6786eb18e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "HISTORICAL_VERSION_NOTICE.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 658,
     "sha256": "b04e71ae469d376c29544d27a155846db71d54f91fab12c9f95209d477ce489c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "LICENSE",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1071,
     "sha256": "74631de0ea0bc3c1c5e07712086468e3e1c95201a71135ea456c082162695640"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "MANUSCRIPT.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4636,
     "sha256": "de450260a77e42845345688a2c8123c0fd92240c8794183d1d1536a62911033c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "PROVENANCE.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "README.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 6819,
     "sha256": "3e933a9936be0ad638436b491f9d31cd975d5d2c99386434750e1ff9eced5a92"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 5695,
     "sha256": "f829e5c16eb6a26ca884372d005aa60d8f45c385f56c88c6a0de7b2f6dc6c4d9"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "RELEASE_NOTES.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4542,
     "sha256": "405bd18b8781ffc5d47b68f296c9d1db1abdbd97f8af7ca6b529418ff4801a67"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "START_HERE.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1201,
     "sha256": "14a2757ef45bad197c2aea8d6fccb47faa877e4ec72d1558ed42ee82ce0d3045"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "Smart_NOA__A_Deterministic_Closed_Loop_Safety_Controller.pdf",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 55025,
     "sha256": "17ef3c49b22c55490d8ad04cfdc983dec81425ec44d6a6cbcb9c13886ac4e94b"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "config.yaml",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1788,
     "sha256": "e2b908025336498b991b5f5c92bcf4637e5d10ea19809a846e966764c83beb11"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "example_walkthrough.py",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4967,
     "sha256": "93f371d1e00c841bfd3eb93a6a017ad4568b400b0f2b4908a53e6caf3c7d4696"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "main.tex",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4699,
     "sha256": "7a3b36d31750e4cb1ae2a1f819b3522b28c296720693fdce368515b20a0eeffd"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "pyproject.toml",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1053,
     "sha256": "27ec7200cf50911af09e85ade0dd184096a50905f30c1eada77fb2aa0b830def"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "requirements.txt",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 78,
     "sha256": "0d1fe1a88f28ae50c1b6ced1abde0967a46f00022a4358556ebcf10c64ea30ed"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/.gitignore",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 14,
     "sha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/AUDIT_2026-11.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 32203,
-    "sha256": "079c3db0c9b22603c0008c559518b4ef77e37bc200b3bf7edac37f50ed6fe5de"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 35868,
+    "sha256": "566229313f69ad2f8b9286b5359221be777a14baaf7c7635952b7f3414ba5c5c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/MODEL_CARD.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 159463,
-    "sha256": "55e0abf213c7c37c68cfcb52e84271c8a034dfc6f4e2bd4950e527b584e7cb03"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 164865,
+    "sha256": "25e90e474e1f7f5ff6dfa8d94f5048e5573b1922f8c614751c8be5fda09fc4e3"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/README.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 32131,
-    "sha256": "4e476a5f9b2bf21fdff6e361f0e06736e68f1604d009c9825aa659f4dbfaf898"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 35071,
+    "sha256": "798aa6be5dad6ee77fdbff77255081268ebc71f277f67f1e9e34d3ebeea034e6"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/SOURCES.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 140149,
-    "sha256": "4228e0dd012987635eab74cb72fc12b8ca1055bf030fbd6ac2a3254ae83c66a1"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 140969,
+    "sha256": "ebcab3daae54d9e73db5bd106f55dcf4b51bfe61242479d69efd7b15108d36a7"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/SPEC.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 19594,
     "sha256": "eb5e0ec96bbb4df0ca5702072341ef74069b540ca1f23806b0a81b8306008df9"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/TIMING_EVIDENCE.md",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 32306,
-    "sha256": "56bbdbd532c6a37e4cd0f5c439e2b0794349a4990d31225de765a7a7d177fbe1"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 32873,
+    "sha256": "dbae85417ec3816a9d1bc5bdf808f67ed540e586c89628b12e65f69b5b624c66"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/css/simulator.css",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 32220,
-    "sha256": "1f95c73125121f231115511d63926ab8d5128a16c9a8a0e193a895b855b600b2"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 32328,
+    "sha256": "f6d4ace84945b36af56c7b132a0702233fc444593c5779b68fe5164a67338a23"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/data/drugs.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 147015,
     "sha256": "095c8e617264251254faf2ec6db4b957018633e21afd9812716b42e794fffe4e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/data/palliative.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 49859,
     "sha256": "e9017931f3be4f08470c87471825321c0c1c39dd306ab932d3b20d5f460d330d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/data/scenarios.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 21311,
-    "sha256": "fa9d9ce28eb1f1cc84e9b1b5cc74e323533410634eae0068c65b27c23917bfe6"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 21895,
+    "sha256": "c595aaf2b9f1a9fe69c053643e39c2a8836789e3675c7bdbd5e5fa102c077d7e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/data/templates.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 14844,
-    "sha256": "ff0469219d1c6f86db03ee2012d65998934d1ee66c04657cfcb8f3b806a2b838"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 15483,
+    "sha256": "e87356083d9d6e10167dc22d1144a457f49e39fa5b2d5118fa8f86965baa3504"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/alarms.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 2767,
     "sha256": "091140e80cf99f93a37284245b33793611f673a40cb15a0c6fff1bdd2665f885"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/autorun-config.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 10685,
-    "sha256": "43ab930eb9c639bc4ba6cddbe345a6c1be0626ba9ecf0d6f564299bf43685096"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 11711,
+    "sha256": "7eb0db7aca0fb390ff82b2e138e36ba6be2a06257d74015b3f3f08dc7ac1a121"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/autorun.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 36487,
-    "sha256": "bd03163fe77b4770766b52c62aa24b89d5711417fd676addd6b47bfb1b75a93b"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 40686,
+    "sha256": "511589221b864b1c49800d38d0dcc99375e759b35d6a32490e5f7ecf1fb1a6be"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/case-actions.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4018,
     "sha256": "05f447a9ded3a957c5f4d1080a73882c2ec3ba88ebf09607e433e57f17a4ba6b"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/dosing.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 21259,
     "sha256": "42375f8760b57cddd34647007c15e82cda3f0bca4f7b04de0cb9e9dddd7ad26f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/interlocks.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 13458,
-    "sha256": "fc09824c793b46d7b5fb2437654e22236084d887b62f7114c1f69e406ad7ec93"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 13821,
+    "sha256": "2ddf6e406b09bb805f41842683763b14a7910ccad6c04318f5576b982093217d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/inventory.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 22670,
     "sha256": "33eb098556dd82f4823b5e5789ab326fac9d6a390b98b63152ce52134ac10901"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/library.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 2616,
     "sha256": "efd2a0527405940b53a3edee75256ad64b36f3ffcd3e0c55d59c24750c71c9ff"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/palliative.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 47315,
     "sha256": "e8fc1a0d173019652e5c779ac028cb2dde1ea6be5bcd38695e1e1e4ab2f39ca4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/patient.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 8958,
     "sha256": "dba06cb38c8e82fbb2f836341b26627c1163bf426e9cf4cd38c954f969158960"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/pd.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 10084,
     "sha256": "caa4a541166a47eb3e6dff5e4d745e71887d3160ce80254b981cec636482bcd5"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/physiology.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 10119,
     "sha256": "a96418aa92b55ec9fdb9fabff85a51b83e1a94dac6e2dc361e49b7d26df5034e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/pk.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 27053,
     "sha256": "d6319482fe130f7b76daa516eb8801ca44072039e5f08dced6b62ba046d052c2"
   },
   {
     "repo": "Smart-NOA-Controller",
+    "path": "simulator/engine/plan-safety.js",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 6245,
+    "sha256": "04ba16c52db1dcb54794690be56bd452c37c9a0e86f537b62a1dd6f7042e67b4"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/prophylaxis.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 6484,
     "sha256": "b8b7a7d8c8f24c44dc4c46bf12b3bcc7f1c38bfb40ddfd0bf7f449539d6d41f4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/rescue-config.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 8898,
     "sha256": "56710e9e1c553e76b24c7e5d71836fbefb7bcfcb0f441333508fb32a4f50d99e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/rescue.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 16909,
     "sha256": "e6fb2ac98faca3b903635c79f14b4779986bba29b0e051e95999d3ab59d61015"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/rng.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 905,
     "sha256": "eb169234351da66503a66e16819f64f0f2ec5458763341624ce297eeb97830be"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/sim.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 81278,
-    "sha256": "7ac8f1f0113009f101dfa6f5c8261c0af49b57710063f28f15dec83500569f04"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 87016,
+    "sha256": "790fb5d409e55ba0e1a7fe21471a59ca8bfbee984963cde2944975cd9c770e1f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/templates.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 6737,
     "sha256": "f1355aecd274cb8bc647c415dfd302903acca75f6cd5640495b82b13d80faa02"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/timing.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 37527,
-    "sha256": "b1dfe6fa30b0298470043bdd6e3a706aecbee3a4b503a69e26657b8cfa926711"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 39216,
+    "sha256": "d47acf450676240ba4cf7d0e99f449066630a54c11b70986b4eee8f8b39e22eb"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/units.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 3982,
     "sha256": "70e684703c2b8f5e50fa7a2488a6ca8ada429ef88a2dba620ba75e3e0a85d073"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/eslint.config.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1170,
     "sha256": "79389037b01712aa50294c81cd38fd716c9f76c24cf33129a04333e8738da971"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/index.html",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 5362,
     "sha256": "48a383507ddfd25edb746334ae009ff7c7df2ab047ce1898ba52f7247bde5c57"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/package-lock.json",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 39200,
     "sha256": "6ec48079470b8b4313eebdfc06dbbbdfc9703c030c3b1d598ebd590afbf67857"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/package.json",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 505,
     "sha256": "a24755d556fa8ad50aed5c3472c589757f1ef7782bbeb256b69b5e8437f8795d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/additions-2026-11.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 35387,
     "sha256": "8fc4388f186dacc32439ff37024d8d0490c684e9dfd06cc170ebf3809aa45711"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/audit-2026-11.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 22107,
     "sha256": "8287a6b8c851bbfb724f0785ce215efb0438fdef601f59da0b51a649a6642aae"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/autorun.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 21469,
     "sha256": "975f7f0cfa1ada31e68901726e7f7fad37656793bdb18e98522d532e2c4e4baf"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/dosing.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 9047,
     "sha256": "a457508d8db45982aad4a584883ec778972e9d09a8e0ca885fc0dbd70b1c7feb"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/drugs.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 13646,
     "sha256": "f95c9d8fb78eb789fdcd97029681be0c1c6bf33c9130ea1430ec848edad19670"
   },
   {
     "repo": "Smart-NOA-Controller",
+    "path": "simulator/tests/final-check-2026-11.test.mjs",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 30788,
+    "sha256": "be0ed1d63461146debbc09695fc3845f6f81efd6f71122d82f243dde00335a26"
+  },
+  {
+    "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/fixtures/drugs.fixture.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 11755,
     "sha256": "d3f9accd799322920de284badeac9f962483f6830bbb798efe83a39e87a33b52"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/helpers.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 2057,
     "sha256": "b7dd24d7dc3397a71a6b8c8ca094d9dd76d1db7ea595c2a1f27cf76c3bdf1b83"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/index.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 670,
     "sha256": "1f0bcd597288541a7c903a3652eb068841a25a55026cbf3c1baca5b3cd779d4e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/models.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 16781,
     "sha256": "4d595cb82965b431b03658e3812f1f9c231b1a48eac7d0dcd8d0d021b86223f9"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/palliative.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 22289,
     "sha256": "5a5681020bec790d83b9e63ae7ef5886a7edf900eb52d2f1548b00107926710f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/parity.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 15959,
     "sha256": "b1a52622680bcc9406b2fa27b8743a4c6eabbcdb85985711ef31d46a06023d8c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/patient.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 5122,
     "sha256": "974b2da3ee34c3d107fa2994a08dcbe53fd2997194617f4827cc7ffdf46682df"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/rescue-2026-11.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 21135,
     "sha256": "87ff175a93bf42ca1a299063810a73819f26b81eb762f81615c2184733ecb09f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/sim.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 23728,
     "sha256": "5deafe389b6fc2cbd6e727dbe083d7472ba75227d5410c35a976fea7052fb727"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/timing-2026-11.test.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 32300,
     "sha256": "36c9918aa0cadd9809ed6e1a92179ba6130b075de786678763f4a80a7eae04b4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/ui.smoke.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 56389,
-    "sha256": "8e03d8952e6510f06dc89c045c118a2fbf1d5028999966d5d9f7576b87201ff7"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 62209,
+    "sha256": "8982ec9ca85896746076785f14573dcc3d78e1d6f4407c71ef6008464c95769e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tools/model-card-tables.mjs",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 13306,
     "sha256": "1dc541062162dca0241a2a9c97136ab06549978b633816bc8b99fe9f79e5c588"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/advisory.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4316,
     "sha256": "6d50e69f2158c8381e3e02bddcdc0285ebe36299c7fb5bc5b6c6b32c8035b4f4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/app.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 18506,
-    "sha256": "273d58ddaeae14d132c09f5bf1011c171776c24e8fbaaf138c5f11cc41c7b4bb"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 18785,
+    "sha256": "1bc43ead00f9fcf30705fa3f6770a07a72f352b2f6ba750e303327f7cf30bd81"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/assessment.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 6820,
     "sha256": "97fd0998976308c213bcd7662d4230027559c0324d406c5d6e89ad80f5ff171e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/charts.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 3073,
     "sha256": "feaa781ba456ccf7e0dc6c86fc7a5c229d4f313800607f49acded7f856e49ab7"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/debrief.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 14686,
-    "sha256": "2cc03ac3bb915e80c7b514cbbdd55e5663482bbd1d0a0edc480eb92c9418f55e"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 14771,
+    "sha256": "8acf62615d2f9d33c8a1a029ac28bd5f391a1a4039dfd691616ba3659f885001"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/dom.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 3138,
     "sha256": "ac46805e2f4c93ebc88aac4e25b3814c0b79c9221dfe349ee6d9ebc6a940b847"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/labels.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4775,
     "sha256": "47a6c0c4314d4fb678d5a28a74ca019a08d3c288eca05aa9a917ab0bc4e0ce84"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/model-card.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 10891,
     "sha256": "337c11d67088301d69552f415e4c424cbbd83fbbcb5f8b566b820b55107af7c0"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/monitor.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 69839,
-    "sha256": "d227aa10a8ddfe1ca971ac66ea1da03c7de1e8aeec217a4a234ab73055b12fba"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 71503,
+    "sha256": "db3c89e08031e3957770c793e315cf8d029d8e28e63ad7822f7411884849ee03"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/palliative.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 57702,
     "sha256": "9336859764f93cab8e90118b3257fc86c01b24d68bea4eb2b501a2fb2b8cef2e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/patient-form.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 12973,
     "sha256": "cb9758d3bf34618682c2ece7bcfd3c9bb081b60a2db25f679ec5dad820b54365"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/plan-editor.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 43461,
-    "sha256": "003ddcf0dfbe6b56af031bbf8f460bd523dfba21870be65ee5e815178d368e01"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 45200,
+    "sha256": "5e17a3fcb6f4a92690827bfc321a7ef9dfffd5b6dc55b7f56a409a82cdd55d06"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/plan-model.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
-    "bytes": 23667,
-    "sha256": "0e95956b9e6ed07b072eb42e259b12dae7d94c364662969ef4defc41333e05c0"
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
+    "bytes": 26731,
+    "sha256": "14c4e156b223b2092e7b1e613c54d391f2c509b4414fa9e87eca3dd68429543e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/sources.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 4343,
     "sha256": "4e310e3360f12af42f09ac567a3e1d7c357bd392639168df76985de0f8c35b07"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/timing-view.js",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 1749,
     "sha256": "1d615c6332c02f1818983f27f0604d8c5ab665f8aade9af7f0fa51cb2753e2b6"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "smart_noa_controller.py",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 30596,
     "sha256": "a06cb6834c93969c4e48e5cdb31f782f807b1aa0b5435a5737c03fe0dd71e537"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "smartnoa_architecture.jpg",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 78318,
     "sha256": "8e58d58fb51ec8b126dc5d9ba1750d60e47fb0a2d6a7e8325b0e04fe1ffa47a6"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "smartnoa_architecture.pdf",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 74562,
     "sha256": "c36888a320d34bcdaeb6e2aa589565dcff56b1b8b02fb60687bf80f2301851ac"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "test_revision_regressions.py",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 5563,
     "sha256": "d5edfa0d9646a3069d9522622eee0edd643f43fb044af7cb28bba09acc0e4561"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "test_safety_hardening.py",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 7314,
     "sha256": "b26c26ed26b4713b58f8e129abceeec3f2a6a5ee89a3153a60664571bd3f7b05"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "test_scripted_demo.py",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 3294,
     "sha256": "9f4b5b2fbdfba40fb47475a33df9a1848acb8c7a8d725c1817ca3219c1e9c96a"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "test_smart_noa_controller.py",
-    "commit": "38a14d144e74468f2a055a38d7b99a5976fc0425",
+    "commit": "f4684e4f62fac562eb3f1f77ec8bf6b87c6fce45",
     "bytes": 12542,
     "sha256": "ed3706c1e69d299b5fdc7257a9af7c82ce5b886a642d49d37bc8fbb61fdd5bfd"
   },
