@@ -10,7 +10,7 @@ The owner supplied project direction, subject priorities and provenance statemen
 
 The November 2026 review and correction pass used Anthropic's Claude to audit citations, clinical and pharmacological content and disclaimers across the portfolio, run software simulations and tests, and draft corrections. The portfolio owner directed the pass and approved the changes. As above, AI-assisted text is not evidence that the owner independently performed every analysis described.
 
-AI-assisted prose and code are not evidence that the owner independently performed every analysis or clinical task described. This statement covers the documented revision process; it does not reconstruct authorship of every historical file. Repository history and existing provenance records provide further context. No personal reflection, credential, clinical experience or independent reviewer contribution has been invented for this presentation pass.
+AI-assisted prose and code are not evidence that the owner independently performed every analysis or clinical task described. This statement covers the documented revision process; it does not reconstruct authorship of every historical file. Repository history and existing provenance records provide further context. No personal reflection, credential, clinical experience or independent reviewer contribution has been invented for this presentation pass. The background on the [About page](ABOUT.md) was supplied and confirmed by the portfolio owner.
 
 ## What the checks establish
 
