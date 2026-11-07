@@ -142,7 +142,35 @@ for f in sorted((root/'downloads'/'CM-2026').rglob('*.html')):
   norm=posixpath.normpath('/'+path.lstrip('/'))
   path=norm.lstrip('/')+('/' if trailing and norm!='/' else '')
   if serve(path) is None:problem(snapshot,f,url,'not served without a redirect')
-report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'snapshotRedirects':snapshot,'missingPinnedFiles':ghfiles,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale}
+# Smart Controller Anesthesiology Simulation buttons: exact MCAT-style markup, a clean URL served without a redirect
+# (the hosted simulator at /simulator/), and the scope line right after the button's action group, at each expected place.
+SIM_TEXT='Smart Controller Anesthesiology Simulation'
+SIM_NOTE='<p class="boundary">Educational simulation · fictional patients · not a medical device</p>'
+SIM_BUTTON=re.compile(r'<a class="button button-primary" href="([^"]*)">'+SIM_TEXT+r' <span aria-hidden="true">↗</span></a>((?:<a\b[^>]*>(?:[^<]|<span[^>]*>[^<]*</span>)*</a>)*)</div>(.{0,'+str(len(SIM_NOTE))+'})',re.DOTALL)
+SIM_PLACES={'index.html':[('hero',re.compile(r'<section class="hero container" id="top".*?</section>',re.DOTALL)),('Smart NOA card',re.compile(r'<article class="feature">(?:(?!</article>).)*Software simulation.*?</article>',re.DOTALL))],'projects/smart-noa/index.html':[('project page top',re.compile(r'<section class="container project-intro">.*?</section>',re.DOTALL))]}
+sim_buttons:list=[]
+for f in pages:
+ name=local(f)
+ if name.startswith('simulator/'):continue
+ html=f.read_text(encoding='utf-8')
+ found=[m for m in SIM_BUTTON.finditer(html)]
+ if html.count('>'+SIM_TEXT+' <')!=len(found):problem(sim_buttons,f,SIM_TEXT,'button markup differs from the MCAT button')
+ for m in found:
+  href=m[1];u=urlsplit(href)
+  if u.scheme or u.netloc or u.query or u.fragment or not href.endswith('/') or href.startswith('/'):problem(sim_buttons,f,href,'not a clean relative URL');continue
+  path=posixpath.normpath(posixpath.join(posixpath.dirname(name),href)).lstrip('/')+'/'
+  target=serve(path)
+  if path!='simulator/' or target is None or target.resolve()!=(root/'simulator'/'index.html').resolve():problem(sim_buttons,f,href,'does not serve /simulator/ without a redirect')
+  if m[3]!=SIM_NOTE:problem(sim_buttons,f,href,'scope line does not follow the button')
+ for place,rx in SIM_PLACES.get(name,[]):
+  region=rx.search(html)
+  if not region or not SIM_BUTTON.search(region[0]):problem(sim_buttons,f,place,'expected simulator button missing')
+for name in SIM_PLACES:
+ if (root/name).resolve() not in pages:sim_buttons.append({'page':name,'reason':'page missing'})
+# The safety-design write-up is linked from the Smart NOA project page whenever the pinned snapshot has it.
+if (root/'projects'/'smart-noa'/'SAFETY_DESIGN.html').is_file() and '<a class="text-link" href="SAFETY_DESIGN">How the safety logic works' not in (root/'projects'/'smart-noa'/'index.html').read_text(encoding='utf-8'):
+ sim_buttons.append({'page':'projects/smart-noa/index.html','reason':'SAFETY_DESIGN is published but not linked'})
+report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'snapshotRedirects':snapshot,'missingPinnedFiles':ghfiles,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale,'simulatorButtons':sim_buttons}
 (here/'link-report.json').write_text(json.dumps(report,indent=2))
 print(json.dumps({k:len(v) if isinstance(v,list) else v for k,v in report.items()},indent=2))
 failed={k:v for k,v in report.items() if isinstance(v,list) and v and k!='missingAnchors'}
