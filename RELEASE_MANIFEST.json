@@ -49,7 +49,7 @@
     {
       "path": "EXAMPLES_MANIFEST.json",
       "bytes": 2692,
-      "sha256": "8df77ee81405cb59af5231a300e625b0f698e92d2e26231ed0ba10e4c30d47f8"
+      "sha256": "2a75d8099dfcc3c88dcae5a3c3107146d5166d462e33333a9c7d65e39d6c7836"
     },
     {
       "path": "LEARNING_AND_REVISION_LOG.md",
@@ -113,8 +113,8 @@
     },
     {
       "path": "index.html",
-      "bytes": 21331,
-      "sha256": "d4884098c4fe91d2a7ea9579563ad1589d55705e8cf077e56c3d9dde7638fd29"
+      "bytes": 21326,
+      "sha256": "b5fcf6d2995fdb31ae1cb71e995c5fb0c0a37432f108bdd8c4ef50538a25ebc8"
     }
   ],
   "supplement": "clinical-applied-cases-2026-10-28",

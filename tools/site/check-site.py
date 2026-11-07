@@ -114,7 +114,26 @@ if (root/'study').exists():stale.append('study/')
 STUDY=re.compile(r'''(?:href|src)\s*=\s*["']?(?:https?://(?:www\.)?collinbgeorge\.com)?(?:/|(?:\.\./)*)study/''',re.IGNORECASE)
 for f in sorted(root.rglob('*.html')):
  if STUDY.search(f.read_text(encoding='utf-8',errors='replace')):stale.append(local(f))
-report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale}
+# CM-2026's own source snapshot (downloads/CM-2026/*.html) is published byte-for-byte but is this builder's own
+# repository, so its links must also be served without a redirect (other repositories' raw exports are historical).
+snapshot:list=[]
+for f in sorted((root/'downloads'/'CM-2026').rglob('*.html')):
+ sp=Page();sp.feed(f.read_text(encoding='utf-8'))
+ for attr,url in sp.links:
+  u=urlsplit(url)
+  if url.startswith('#') or u.scheme in ('mailto','tel'):continue
+  if u.scheme or u.netloc:
+   same=same_site(u)
+   if not same:continue
+   path=unquote(u.path)
+  elif u.path.startswith('/'):path=unquote(u.path)
+  elif u.path:path=posixpath.join(posixpath.dirname(local(f)),unquote(u.path))
+  else:continue
+  trailing=path.endswith('/')
+  norm=posixpath.normpath('/'+path.lstrip('/'))
+  path=norm.lstrip('/')+('/' if trailing and norm!='/' else '')
+  if serve(path) is None:problem(snapshot,f,url,'not served without a redirect')
+report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'snapshotRedirects':snapshot,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale}
 (here/'link-report.json').write_text(json.dumps(report,indent=2))
 print(json.dumps({k:len(v) if isinstance(v,list) else v for k,v in report.items()},indent=2))
 failed={k:v for k,v in report.items() if isinstance(v,list) and v and k!='missingAnchors'}
