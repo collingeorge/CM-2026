@@ -117,6 +117,15 @@ for f in sorted(root.rglob('*.html')):
 # CM-2026's own source snapshot (downloads/CM-2026/*.html) is published byte-for-byte but is this builder's own
 # repository, so its links must also be served without a redirect (other repositories' raw exports are historical).
 snapshot:list=[]
+# Links to a pinned source file on GitHub (github.com/collingeorge/<repo>/blob/<pinned sha>/<path>) must name a
+# file that exists in that pinned snapshot, or GitHub answers 404.
+pinned:dict[tuple[str,str],set[str]]={(e['repo'],e['commit']):set() for e in json.loads((here/'source-integrity.json').read_text())}
+for e in json.loads((here/'source-integrity.json').read_text()):pinned[(e['repo'],e['commit'])].add(e['path'])
+ghfiles:list=[]
+for f,p in pages.items():
+ for attr,url in p.links:
+  m=re.match(r'https://github\.com/collingeorge/([^/]+)/blob/([0-9a-f]{40})/([^#?]+)',url)
+  if m and (m[1],m[2]) in pinned and unquote(m[3]) not in pinned[(m[1],m[2])]:problem(ghfiles,f,url,'no such file in the pinned snapshot')
 for f in sorted((root/'downloads'/'CM-2026').rglob('*.html')):
  sp=Page();sp.feed(f.read_text(encoding='utf-8'))
  for attr,url in sp.links:
@@ -133,7 +142,7 @@ for f in sorted((root/'downloads'/'CM-2026').rglob('*.html')):
   norm=posixpath.normpath('/'+path.lstrip('/'))
   path=norm.lstrip('/')+('/' if trailing and norm!='/' else '')
   if serve(path) is None:problem(snapshot,f,url,'not served without a redirect')
-report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'snapshotRedirects':snapshot,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale}
+report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'snapshotRedirects':snapshot,'missingPinnedFiles':ghfiles,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale}
 (here/'link-report.json').write_text(json.dumps(report,indent=2))
 print(json.dumps({k:len(v) if isinstance(v,list) else v for k,v in report.items()},indent=2))
 failed={k:v for k,v in report.items() if isinstance(v,list) and v and k!='missingAnchors'}
