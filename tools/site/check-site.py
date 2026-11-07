@@ -154,7 +154,7 @@ for f in pages:
  if name.startswith('simulator/'):continue
  html=f.read_text(encoding='utf-8')
  found=[m for m in SIM_BUTTON.finditer(html)]
- if html.count('>'+SIM_TEXT+' <')!=len(found):problem(sim_buttons,f,SIM_TEXT,'button markup differs from the MCAT button')
+ if len(re.findall(r'<a\b[^>]*>\s*'+SIM_TEXT,html))!=len(found):problem(sim_buttons,f,SIM_TEXT,'button markup differs from the MCAT button')
  for m in found:
   href=m[1];u=urlsplit(href)
   if u.scheme or u.netloc or u.query or u.fragment or not href.endswith('/') or href.startswith('/'):problem(sim_buttons,f,href,'not a clean relative URL');continue
