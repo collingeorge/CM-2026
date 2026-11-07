@@ -93,6 +93,16 @@ unpublished={p['name'] for p in json.loads((root/'source-pins.json').read_text()
 for name in sorted(unpublished):
  if (root/'dist'/'downloads'/name).exists():errors.append('unpublished source republished under downloads/'+name)
  checks+=1
+# Mermaid must load before reading.js (both deferred, so document order is execution order); otherwise
+# reading.js finds no window.mermaid, the site's strict configuration is never applied, and Mermaid
+# renders on its own defaults.
+for f in sorted((root/'dist').rglob('*.html')):
+ if 'downloads' in f.relative_to(root/'dist').parts:continue
+ t=f.read_text(encoding='utf-8')
+ if 'class="mermaid"' in t:
+  i=t.find('assets/vendor/mermaid.min.js');j=t.find('assets/reading.js')
+  if i<0 or j<0 or i>j:errors.append('Mermaid must load before reading.js: '+str(f.relative_to(root/'dist')))
+  checks+=1
 for e in json.loads((root/'source-integrity.json').read_text()):
  if e['repo'] in unpublished:continue
  f=root/'dist'/'downloads'/e['repo']/e['path']
