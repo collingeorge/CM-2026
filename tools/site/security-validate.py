@@ -93,6 +93,12 @@ unpublished={p['name'] for p in json.loads((root/'source-pins.json').read_text()
 for name in sorted(unpublished):
  if (root/'dist'/'downloads'/name).exists():errors.append('unpublished source republished under downloads/'+name)
  checks+=1
+# Mermaid 11+ reads htmlLabels at the top level (flowchart.htmlLabels alone is ignored), so the site's
+# plain-text-label setting must be top-level in the initialize() config.
+rj=(root/'dist'/'assets'/'reading.js').read_text(encoding='utf-8')
+cfg=rj[rj.find('mermaid.initialize({'):rj.find('mermaid.run(')]
+if "securityLevel:'strict'" not in cfg or not cfg.startswith("mermaid.initialize({startOnLoad:false,securityLevel:'strict',htmlLabels:false,"):errors.append('reading.js: Mermaid initialize() must set securityLevel strict and top-level htmlLabels:false')
+checks+=1
 # Mermaid must load before reading.js (both deferred, so document order is execution order); otherwise
 # reading.js finds no window.mermaid, the site's strict configuration is never applied, and Mermaid
 # renders on its own defaults.
