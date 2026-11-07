@@ -14,7 +14,7 @@ Independent preclinical portfolio by Collin B. George. Updated 29 October 2026.
 
 ## For students: MCAT practice
 
-[Launch the MCAT study app](https://collingeorge.github.io/MCAT/) for recall questions, passages and timed practice exams. Read its [study guide](https://github.com/collingeorge/MCAT/blob/main/docs/LEARNING-GUIDE-2026-10-28.md) and [repository](https://github.com/collingeorge/MCAT) for usage, provenance and limitations. It is an independent study aid, not affiliated with or endorsed by the AAMC. App score estimates are not predictions of official results. Progress is stored on your device; no account is required.
+[Launch the MCAT study app](https://mcat.collinbgeorge.com/) for recall questions, passages and timed practice exams. Read its [study guide](https://github.com/collingeorge/MCAT/blob/main/docs/LEARNING-GUIDE-2026-10-28.md) and [repository](https://github.com/collingeorge/MCAT) for usage, provenance and limitations. It is an independent study aid, not affiliated with or endorsed by the AAMC. App score estimates are not predictions of official results. Progress is stored on your device; no account is required.
 
 ## How to read the work
 

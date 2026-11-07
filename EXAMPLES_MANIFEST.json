@@ -7,8 +7,8 @@
   "files": [
     {
       "path": "README.md",
-      "bytes": 4368,
-      "sha256": "bc03f6b705f4e49fc480ac51ffb39e8e384005fa6f0b1000cb8cdfecc4c831a5"
+      "bytes": 4363,
+      "sha256": "83cafd7701088529e84f79ed187f841a793981793cd0591f2125b00867fb7259"
     },
     {
       "path": "CASE_EXAMPLE_INDEX.md",
@@ -22,8 +22,8 @@
     },
     {
       "path": "START_HERE.md",
-      "bytes": 3295,
-      "sha256": "ffd1e1d60ad9d0d7d62d9b194c3b2886206a469dbb088c470433372f9bc7ce8e"
+      "bytes": 3290,
+      "sha256": "2a9600bac7ce2ad8b4642c9ba84ecc880ed3c2d7eba34e0df1902a0f3fdcfe21"
     },
     {
       "path": "AUTHORSHIP_AND_REVIEW.md",
@@ -47,8 +47,8 @@
     },
     {
       "path": "PORTFOLIO_INDEX.json",
-      "bytes": 5227,
-      "sha256": "01557b7f68c2c943ce6281bba765ae35ff791fb75d3fadf96d3066413b5c9383"
+      "bytes": 5222,
+      "sha256": "d6ea04a2b8c06ca673db19a4140118bd394c15ce2ea55fd53db0aceaa1925ed2"
     },
     {
       "path": ".github/ISSUE_TEMPLATE/evidence-correction.yml",
@@ -58,12 +58,12 @@
     {
       "path": "DOCUMENT_BUILD.json",
       "bytes": 780,
-      "sha256": "2e049d10af4688ae5b3944eb0da333c177c4a8b043d1293fad97daa7b069246a"
+      "sha256": "9c9177030b7e8d0deb7e9d6580eae8ed72e0cdb4dbb1d4f857b59571f458b72d"
     },
     {
       "path": "index.html",
-      "bytes": 21364,
-      "sha256": "229274ff7fe41c251b71714b81d94c3df987873b0586202912b7f251609403b7"
+      "bytes": 21331,
+      "sha256": "d4884098c4fe91d2a7ea9579563ad1589d55705e8cf077e56c3d9dde7638fd29"
     },
     {
       "path": "assets/portfolio.css",

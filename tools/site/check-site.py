@@ -32,6 +32,7 @@ def serve(path):
  if path.endswith('.html'):return None
  if base.is_file():return base
  if base.is_dir():return None  # directory without its trailing slash: redirected
+ if base.name=='index':return None  # Cloudflare redirects …/index to …/
  html=base.with_name(base.name+'.html')
  return html if html.is_file() else None
 site=urlsplit(json.loads((here/'site-config.json').read_text())['siteUrl'])
@@ -45,7 +46,7 @@ pages={}
 for f in sorted(root.rglob('*.html')):
  if downloads(local(f)):continue
  p=Page();p.feed(f.read_text(encoding='utf-8'));pages[f.resolve()]=p
-errors:list=[];anchors:list=[];duplicate:list=[];malformed:list=[];html_links:list=[];headings:list=[];images:list=[]
+errors:list=[];anchors:list=[];duplicate:list=[];malformed:list=[];html_links:list=[];dot_links:list=[];headings:list=[];images:list=[]
 canonicals:list=[];sitemap:list=[];search:list=[];versions:list=[];stale:list=[]
 def problem(kind,f,url,why=''):kind.append({'page':local(f),'url':url,**({'reason':why} if why else {})})
 for f,p in pages.items():
@@ -72,6 +73,8 @@ for f,p in pages.items():
   path=norm.lstrip('/')+('/' if trailing and norm!='/' else '')
   # Pages are linked by clean URL: an internal href ending in .html would be answered with a redirect.
   if attr=='href' and u.path.endswith('.html'):html_links.append({'page':local(f),'url':url})
+  # The zone WAF rule 'Block vulnerability-scanner probes' blocks any request path containing '/.', so no link may resolve to one.
+  if any(seg.startswith('.') for seg in path.split('/') if seg):dot_links.append({'page':local(f),'url':url})
   target=serve(path) if u.path else f
   if target is None:problem(errors,f,url,'no file is served at this URL without a redirect');continue
   target=target.resolve()
@@ -111,7 +114,7 @@ if (root/'study').exists():stale.append('study/')
 STUDY=re.compile(r'''(?:href|src)\s*=\s*["']?(?:https?://(?:www\.)?collinbgeorge\.com)?(?:/|(?:\.\./)*)study/''',re.IGNORECASE)
 for f in sorted(root.rglob('*.html')):
  if STUDY.search(f.read_text(encoding='utf-8',errors='replace')):stale.append(local(f))
-report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale}
+report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale}
 (here/'link-report.json').write_text(json.dumps(report,indent=2))
 print(json.dumps({k:len(v) if isinstance(v,list) else v for k,v in report.items()},indent=2))
 failed={k:v for k,v in report.items() if isinstance(v,list) and v and k!='missingAnchors'}
