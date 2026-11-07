@@ -105,10 +105,12 @@ checks+=1
 for f in sorted((root/'dist').rglob('*.html')):
  if 'downloads' in f.relative_to(root/'dist').parts:continue
  t=f.read_text(encoding='utf-8')
- if 'class="mermaid"' in t:
+ has='<pre class="mermaid">' in t;loads=re.search(r'<script src="[^"]*assets/vendor/mermaid\.min\.js\?v=',t) is not None
+ if has:
   i=t.find('assets/vendor/mermaid.min.js');j=t.find('assets/reading.js')
   if i<0 or j<0 or i>j:errors.append('Mermaid must load before reading.js: '+str(f.relative_to(root/'dist')))
   checks+=1
+ elif loads:errors.append('Mermaid (5.5 MB) loaded on a page with no diagram: '+str(f.relative_to(root/'dist')));checks+=1
 for e in json.loads((root/'source-integrity.json').read_text()):
  if e['repo'] in unpublished:continue
  f=root/'dist'/'downloads'/e['repo']/e['path']
