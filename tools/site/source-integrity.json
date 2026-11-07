@@ -2,289 +2,289 @@
   {
     "repo": "CM-2026",
     "path": ".github/ISSUE_TEMPLATE/evidence-correction.yml",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1071,
     "sha256": "ac5e5ceade8abb3d55650b3cd9b22b0e8295863a4c871f1a7082aebe7a52a0cf"
   },
   {
     "repo": "CM-2026",
     "path": ".github/workflows/full-html-site.yml",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1044,
     "sha256": "21b466d9cd01aa15248365e87e58a82a553aae47af1975386fb8fc69a9f76508"
   },
   {
     "repo": "CM-2026",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 2805,
     "sha256": "66319d1e584f362f7e635857c988e2cfd902b5710e6e63d11d054db46d46e02e"
   },
   {
     "repo": "CM-2026",
     "path": "CASE_EXAMPLE_INDEX.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 5384,
     "sha256": "e7411bfd7a5ccc0716ee1d1043d702d19b7dc058c96fb5f0e2db19dca1cb7b10"
   },
   {
     "repo": "CM-2026",
     "path": "CLOUDFLARE_HOSTING.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1025,
     "sha256": "330b56ba0a7c88eebe2db2556dd3cd198bbd5828c6867ec4655f3678395d81df"
   },
   {
     "repo": "CM-2026",
     "path": "CM-BIO-ARCH-01-v2.0.html",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 4645,
     "sha256": "48557264631d66894e52aff7ca9a56f848a6b9f05f6d68c216bff57b8ccd54aa"
   },
   {
     "repo": "CM-2026",
     "path": "CM-BIO-ARCH-01-v2.0.pdf",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 82558,
     "sha256": "9275912618650fe9210a513f13c8500daeb55354b8c9797eb4f02a730639e9f6"
   },
   {
     "repo": "CM-2026",
     "path": "CNAME",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 18,
     "sha256": "f33f94080989daeb85e7ab152e8ade8e18abc47429225014feef4481252a78dc"
   },
   {
     "repo": "CM-2026",
     "path": "DESIGN_NOTES.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1062,
     "sha256": "434a42db064a89d984f12a280bcdda700aca39c3add03890c90bfc21fe0aaac8"
   },
   {
     "repo": "CM-2026",
     "path": "DISCLAIMER.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 3268,
     "sha256": "2ffa824e49533a519115919280c20c4c575de5633fc3a2f04c1f313f0a5167d5"
   },
   {
     "repo": "CM-2026",
     "path": "DOCUMENT_BUILD.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 780,
     "sha256": "9c9177030b7e8d0deb7e9d6580eae8ed72e0cdb4dbb1d4f857b59571f458b72d"
   },
   {
     "repo": "CM-2026",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 2692,
     "sha256": "2a75d8099dfcc3c88dcae5a3c3107146d5166d462e33333a9c7d65e39d6c7836"
   },
   {
     "repo": "CM-2026",
     "path": "LEARNING_AND_REVISION_LOG.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 2124,
     "sha256": "dfaf73b02dddc17235f3f09af0f189955801a469db8976e26b918607ef064f6b"
   },
   {
     "repo": "CM-2026",
     "path": "LICENSE",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 631,
     "sha256": "e45a9edd36d93473c975844d7affa14ce1c398d43ec94241cb789f71ab0ba8a0"
   },
   {
     "repo": "CM-2026",
     "path": "MAINTENANCE.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 2450,
     "sha256": "f6221e41025c488f4ce09d6b89bb16aab15fc290db9cad1305b54785cb4497e6"
   },
   {
     "repo": "CM-2026",
     "path": "PORTFOLIO_INDEX.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 5222,
     "sha256": "d6ea04a2b8c06ca673db19a4140118bd394c15ce2ea55fd53db0aceaa1925ed2"
   },
   {
     "repo": "CM-2026",
     "path": "PROVENANCE.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "CM-2026",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "CM-2026",
     "path": "README.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 4363,
     "sha256": "83cafd7701088529e84f79ed187f841a793981793cd0591f2125b00867fb7259"
   },
   {
     "repo": "CM-2026",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 3878,
     "sha256": "f4089f3d28af44ce931ddfeee1176d166e7d841201a404843496bd724e7c6ebf"
   },
   {
     "repo": "CM-2026",
     "path": "RELEASE_NOTES.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1928,
     "sha256": "394b891f767e630b95d3d5a7c93e9ee0e5f09fa8a7e58bd3724e0661ca0868e1"
   },
   {
     "repo": "CM-2026",
     "path": "START_HERE.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 3290,
     "sha256": "2a9600bac7ce2ad8b4642c9ba84ecc880ed3c2d7eba34e0df1902a0f3fdcfe21"
   },
   {
     "repo": "CM-2026",
     "path": "WEBSITE_SECURITY_REVIEW.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 3660,
     "sha256": "6adbe3006c85e1702c5cd3fedc8a2955bcde12efbf25f205f32b324c632cd544"
   },
   {
     "repo": "CM-2026",
     "path": "assets/favicon.svg",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 270,
     "sha256": "581341b5defd1e476a1fa095b1d1603fc0efa2265861bab8aece2e5f4a8a24ad"
   },
   {
     "repo": "CM-2026",
     "path": "assets/portfolio.css",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 14885,
     "sha256": "3155f371bcf386d0c99c39d6378371a19624fb7c7a398bf242edd6d9955bb3a4"
   },
   {
     "repo": "CM-2026",
     "path": "assets/portfolio.js",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1691,
     "sha256": "07c7fab8af93da3f61bc556325e8072447dd1493a8825e26070595356b366dd3"
   },
   {
     "repo": "CM-2026",
     "path": "index.html",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 21326,
     "sha256": "b5fcf6d2995fdb31ae1cb71e995c5fb0c0a37432f108bdd8c4ef50538a25ebc8"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/README.md",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1540,
     "sha256": "9c05ed711295939504616e418559765f1801859a4d448c76b47c88def07939a7"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/assets/reading.css",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 6604,
     "sha256": "2b0b9a3fa4fcc1c73a080ee6e59d26521fc7fad53e9ad736e448beb12d0e919a"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/assets/reading.js",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 2650,
     "sha256": "56b9ae7a77dc91de486d732ea108fbd7843f07b6675c7bfcd72080da07c58dbd"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/build-site.mjs",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 26536,
     "sha256": "febe28cd1f6571659842cd0b4612cbfe50c63b4cc366c9a3f981714cefaf9a2e"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/check-site.py",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 9315,
     "sha256": "88a24c7052e259fb4d3435fb0de5ce07515878777d18f58bce041d31b55109b7"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/dependency-pins.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 730,
     "sha256": "d1453d92ff8f9ad3a4b08167cf0d8a767038466c4a5047b1f77128271e3ec1d2"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/prepare.py",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 3381,
     "sha256": "34c2d496c65567c47e8b3dc9432068656c15c7f954745aafc6bde35f2783b944"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/projects.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 4554,
     "sha256": "8fccdea0b8586963dee0431bae8379337f085f28ecafc537eb7dc93d01349bbc"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/sanitize-html.py",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 4376,
     "sha256": "837890975a15db44aebaef21b9a161e09e9427cbc61fcf4272595421d3237b08"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/security-headers.txt",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 4468,
     "sha256": "26ede490a02a15c9b2a70ced8d920b9cd62b6b71396decbb7de1c851e2a03e74"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/security-validate.py",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 9364,
     "sha256": "7afb28b447f4bef5ae675418084ac9bf6f433a7136d91dc177344a7ad1b03a1b"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/site-config.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 45,
     "sha256": "0ed7b8594767817212b5da5abb42dbf25d03a2ae0781b1ddf6e438d158a56b8c"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/source-integrity.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 96484,
-    "sha256": "2874de2077dd42e4f6bc0eefdc946651cf71bb4d93867567d0c880031797d503"
+    "sha256": "3e00d99ee6542fed6759e146511752901709d6fe7c2975a71bc11db6db2bce64"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/source-pins.json",
-    "commit": "4d8d1d7200df5758e7778d51784bf9c578f087f7",
+    "commit": "e58bce354637fbdd04f51d434c63d6f50b581a5b",
     "bytes": 1495,
-    "sha256": "06d2a6a9e5d4173e3b3e4eb22d04d3b5aaa920237f81c7d0d67b452dd279a02c"
+    "sha256": "1338e50efed148a128f563052b8133eb2074a7d208a346ae9423a5a7602cd1d7"
   },
   {
     "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
@@ -786,819 +786,819 @@
   {
     "repo": "Smart-NOA-Controller",
     "path": ".gitignore",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 551,
     "sha256": "7414eeeb12f5c9bd68bb42b01a10be90fad2ba0ed038825dcdc9239e13c15b51"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 25257,
     "sha256": "232c8885a6cd560fb9b5c71a59438dbe2642d0b242ab728cad1259976c822418"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "ANESTHESIA_SOURCE_AUDIT.json",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4088,
     "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 2907,
     "sha256": "26ff1233dbca631e8d625814dac50e44edb9112e948ca3a7e3a1c240e284b2e6"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "CASE_EXAMPLE_STANDARD.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 2710,
     "sha256": "48557d603c85bffca81f8abab2a365b92328f79676ebab16bbb1b1a7840c4226"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "CITATION.cff",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 487,
     "sha256": "aa657293ec00a0b14308b4bf62caee209b2d71afe19c2216b72968ff9d02d7e7"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "CLINICAL_EXAMPLE_INDEX.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4687,
     "sha256": "4726579f741281ef2e3d3b57636757d3e003937b06ff2ca78347a888eacb511f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "DEVELOPMENT.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 1844,
     "sha256": "cc27c40f1252e62a6bc6d8de2ece9d02fc2d1449d0788063fc5c91b67876787d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "DISCLAIMER.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 3180,
     "sha256": "2deccac1716552800ae5e215f4176ebeaad7e9b7d36b34fdf8e7d6b0f023770d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "DOCUMENT_BUILD.json",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 933,
     "sha256": "bdef9c6d88cece1bd3f03bfd3224946fd04650955b011722ec8775ecb52599d3"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 1296,
     "sha256": "3844f14cacb96d8df7357880994865472a3d9fa1752efaa45878dc2920c22e4a"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "EXAMPLE_RESULTS.json",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 11839,
     "sha256": "251099249bebaf5242a876bd68713db57c053d502d8ea3066149ca38cdb6ae65"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "GUIDELINE_INFORMED_EXAMPLES.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 15322,
     "sha256": "28f77897a2565b6c41daf8655701a7b21f9e818128c76d122ec9b9a6786eb18e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "HISTORICAL_VERSION_NOTICE.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 658,
     "sha256": "b04e71ae469d376c29544d27a155846db71d54f91fab12c9f95209d477ce489c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "LICENSE",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 1071,
     "sha256": "74631de0ea0bc3c1c5e07712086468e3e1c95201a71135ea456c082162695640"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "MANUSCRIPT.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4636,
     "sha256": "de450260a77e42845345688a2c8123c0fd92240c8794183d1d1536a62911033c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "PROVENANCE.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "README.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 6819,
     "sha256": "3e933a9936be0ad638436b491f9d31cd975d5d2c99386434750e1ff9eced5a92"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 5695,
     "sha256": "f99b1dc7a60f434f2159292413b2d805e41cf279e8549c56e3decb2aff18686e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "RELEASE_NOTES.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4542,
     "sha256": "405bd18b8781ffc5d47b68f296c9d1db1abdbd97f8af7ca6b529418ff4801a67"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "START_HERE.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 1201,
     "sha256": "14a2757ef45bad197c2aea8d6fccb47faa877e4ec72d1558ed42ee82ce0d3045"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "Smart_NOA__A_Deterministic_Closed_Loop_Safety_Controller.pdf",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 55025,
     "sha256": "17ef3c49b22c55490d8ad04cfdc983dec81425ec44d6a6cbcb9c13886ac4e94b"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "config.yaml",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 1788,
     "sha256": "e2b908025336498b991b5f5c92bcf4637e5d10ea19809a846e966764c83beb11"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "example_walkthrough.py",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4967,
     "sha256": "93f371d1e00c841bfd3eb93a6a017ad4568b400b0f2b4908a53e6caf3c7d4696"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "main.tex",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4699,
     "sha256": "7a3b36d31750e4cb1ae2a1f819b3522b28c296720693fdce368515b20a0eeffd"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "pyproject.toml",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 1053,
     "sha256": "27ec7200cf50911af09e85ade0dd184096a50905f30c1eada77fb2aa0b830def"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "requirements.txt",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 78,
     "sha256": "0d1fe1a88f28ae50c1b6ced1abde0967a46f00022a4358556ebcf10c64ea30ed"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/.gitignore",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 14,
     "sha256": "4d56952b0fb13bf8f9b6c13a6d4c34a075bac3af447636a1df4335d7576e2f97"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/AUDIT_2026-11.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 57251,
     "sha256": "516315ef346226b8beb44b9705fc623d15669f3152ea52fa5e56bfaa468b00c5"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/EMERGENCY_STRESS.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 35462,
     "sha256": "1f557b70cc22b7fe25ef5f07c321f97e1750a8ef60c3c1e4ebe6eb9f986f50a8"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/MODEL_CARD.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 176536,
     "sha256": "7f2bd236f4cb6eae443332f0191bf5b63dc88fdbdbb73bc187a86d66f2803127"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/README.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 39945,
     "sha256": "28c667ae4336010773f3f6de8fcaa8b7e01ba8d3c126d9f2b5ec24d7333ffc28"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/SOURCES.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
-    "bytes": 143609,
-    "sha256": "76fd4bcd3a5aed02fd0515c8a9695c208ce6427ee90d9767091d289a127ce4c5"
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
+    "bytes": 145831,
+    "sha256": "bb7e5ab5ccb7e90ec2b11588488b9e86e19369127123f123548110ac6980b5ca"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/SPEC.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
-    "bytes": 19583,
-    "sha256": "c26c9c04cb683ce659b9bc1e26ac7699c9dc81805f788039ca3263295dad7092"
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
+    "bytes": 19596,
+    "sha256": "bc1ada465bd235e4498de57cb1de0a5a26cb15d72ec6556c728b7c29097ff438"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/TIMING_EVIDENCE.md",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 36120,
     "sha256": "ae26ec93d1fdd7e70e1cd6a834c1caab31fe412e1bc66b511e50295334844f82"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/css/simulator.css",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 32599,
     "sha256": "5fed0e2ffc37a4bd975d6d5e2299efcfa3dff9a895a6ada2cb9f8af65daf25b5"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/data/drugs.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
-    "bytes": 149045,
-    "sha256": "501f0359ef35ba0a59a3549bc2acfba46e4152d01dec6925b7c220dd876634b5"
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
+    "bytes": 151716,
+    "sha256": "2e28662adb05694ce570d49c73bd8f48bd55a324cf1fafcde8ca2990ac7c0df8"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/data/palliative.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 49859,
     "sha256": "e9017931f3be4f08470c87471825321c0c1c39dd306ab932d3b20d5f460d330d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/data/scenarios.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 21895,
     "sha256": "c595aaf2b9f1a9fe69c053643e39c2a8836789e3675c7bdbd5e5fa102c077d7e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/data/templates.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 15483,
     "sha256": "e87356083d9d6e10167dc22d1144a457f49e39fa5b2d5118fa8f86965baa3504"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/alarms.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 2767,
     "sha256": "091140e80cf99f93a37284245b33793611f673a40cb15a0c6fff1bdd2665f885"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/autorun-config.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 11711,
     "sha256": "7eb0db7aca0fb390ff82b2e138e36ba6be2a06257d74015b3f3f08dc7ac1a121"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/autorun.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 40686,
     "sha256": "511589221b864b1c49800d38d0dcc99375e759b35d6a32490e5f7ecf1fb1a6be"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/case-actions.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4018,
     "sha256": "05f447a9ded3a957c5f4d1080a73882c2ec3ba88ebf09607e433e57f17a4ba6b"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/depth-advisory.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 10057,
     "sha256": "708736a531908e27c4ad087f278cece501f4f451a382f3f14703b595134d85b4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/dosing.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 21259,
     "sha256": "42375f8760b57cddd34647007c15e82cda3f0bca4f7b04de0cb9e9dddd7ad26f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/interlocks.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 13821,
     "sha256": "2ddf6e406b09bb805f41842683763b14a7910ccad6c04318f5576b982093217d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/inventory.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 23169,
     "sha256": "67b669e4bf1164c75900a11c303fa68c263f31db9d2b129928744973457b86f0"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/library.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 2616,
     "sha256": "efd2a0527405940b53a3edee75256ad64b36f3ffcd3e0c55d59c24750c71c9ff"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/palliative.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 47315,
     "sha256": "e8fc1a0d173019652e5c779ac028cb2dde1ea6be5bcd38695e1e1e4ab2f39ca4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/patient.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 8958,
     "sha256": "dba06cb38c8e82fbb2f836341b26627c1163bf426e9cf4cd38c954f969158960"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/pd.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 10084,
     "sha256": "caa4a541166a47eb3e6dff5e4d745e71887d3160ce80254b981cec636482bcd5"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/physiology.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 10119,
     "sha256": "a96418aa92b55ec9fdb9fabff85a51b83e1a94dac6e2dc361e49b7d26df5034e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/pk.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 27053,
     "sha256": "d6319482fe130f7b76daa516eb8801ca44072039e5f08dced6b62ba046d052c2"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/plan-safety.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 6245,
     "sha256": "04ba16c52db1dcb54794690be56bd452c37c9a0e86f537b62a1dd6f7042e67b4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/prophylaxis.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 6484,
     "sha256": "b8b7a7d8c8f24c44dc4c46bf12b3bcc7f1c38bfb40ddfd0bf7f449539d6d41f4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/rescue-config.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 8898,
     "sha256": "56710e9e1c553e76b24c7e5d71836fbefb7bcfcb0f441333508fb32a4f50d99e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/rescue.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 16909,
     "sha256": "e6fb2ac98faca3b903635c79f14b4779986bba29b0e051e95999d3ab59d61015"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/rng.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 905,
     "sha256": "eb169234351da66503a66e16819f64f0f2ec5458763341624ce297eeb97830be"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/sim.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 96436,
     "sha256": "32d7aec5595cfb2900a53d4fb2f6363730635a250dd7cdcc97b2b21ab89144dd"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/teaching-ceilings.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4170,
     "sha256": "8f106dc044f7c83323c17e687dcbc36cca8241f0f09bf887fff394be03ca7c80"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/templates.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 6737,
     "sha256": "f1355aecd274cb8bc647c415dfd302903acca75f6cd5640495b82b13d80faa02"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/timing.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 45144,
     "sha256": "ea976af977b9dbc025bf9f49f897fad370c8d4a834a332abbb0762e5b7af08b2"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/engine/units.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 3982,
     "sha256": "70e684703c2b8f5e50fa7a2488a6ca8ada429ef88a2dba620ba75e3e0a85d073"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/eslint.config.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 1685,
     "sha256": "07dc9d524e2a74da7f4d1c7ed1d77327a40b2499ea33d58e847792f620a138b7"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/index.html",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 5338,
     "sha256": "ebfa1b6acea37d8270cdbc6603d7b57f8cee8aea6202c484e51bc2fe479a6f0c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/package-lock.json",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 39200,
     "sha256": "6ec48079470b8b4313eebdfc06dbbbdfc9703c030c3b1d598ebd590afbf67857"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/package.json",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 515,
     "sha256": "2044583a0f1c592803f91b4a40bc01b99bf9f118d1ff5890fc6c8db1c11516c8"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/additions-2026-11.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 35387,
     "sha256": "8fc4388f186dacc32439ff37024d8d0490c684e9dfd06cc170ebf3809aa45711"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/audit-05l.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 9138,
     "sha256": "74e75552f338fe6980f90164d1f3fb80f0b0a273451307bb45853621ef548791"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/audit-2026-11.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 22107,
     "sha256": "8287a6b8c851bbfb724f0785ce215efb0438fdef601f59da0b51a649a6642aae"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/autorun.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 21469,
     "sha256": "975f7f0cfa1ada31e68901726e7f7fad37656793bdb18e98522d532e2c4e4baf"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/depth-advisory-2026-11.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 14236,
     "sha256": "ce196e959100b2bba02365e29cac8447e8b9916dad6c55356f26d47e77652afe"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/depth-advisory-full-2026-11.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4054,
     "sha256": "0115e9de8988f4beaf4e9a5d971c230446ee783dcbec5a6866712a2b816937c0"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/depth-advisory-runs.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 7403,
     "sha256": "b798db2a8d5d234b42165b5598e89615300fc95f3206c95bbdefdcd7a9702853"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/dosing.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 9047,
     "sha256": "a457508d8db45982aad4a584883ec778972e9d09a8e0ca885fc0dbd70b1c7feb"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/drugs.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
-    "bytes": 13646,
-    "sha256": "f95c9d8fb78eb789fdcd97029681be0c1c6bf33c9130ea1430ec848edad19670"
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
+    "bytes": 14121,
+    "sha256": "88e6204a2f6592417e4d53d506b167f174c9b9ed45dc2b2c0b96331038327f00"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/emergency-stress-2026-11.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 20744,
     "sha256": "a838d7350f9f13f1d7bbfa18025a89e3822bb909f23827204791ec7067f36bf7"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/emergency-stress.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 57086,
     "sha256": "04849f8436cf1ed6d2fbfdd3f846a61badf1cae6b57babb90280e28c88e48daa"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/final-check-2026-11.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 30788,
     "sha256": "be0ed1d63461146debbc09695fc3845f6f81efd6f71122d82f243dde00335a26"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/fixtures/drugs.fixture.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 11755,
     "sha256": "d3f9accd799322920de284badeac9f962483f6830bbb798efe83a39e87a33b52"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/helpers.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 2057,
     "sha256": "b7dd24d7dc3397a71a6b8c8ca094d9dd76d1db7ea595c2a1f27cf76c3bdf1b83"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/index.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 670,
     "sha256": "1f0bcd597288541a7c903a3652eb068841a25a55026cbf3c1baca5b3cd779d4e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/models.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 17174,
     "sha256": "09072c6961d3dff99910a178d49f2a7770233b57c4bdc7fb5b30b6b5572c0002"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/palliative.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 22289,
     "sha256": "5a5681020bec790d83b9e63ae7ef5886a7edf900eb52d2f1548b00107926710f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/parity.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 15959,
     "sha256": "b1a52622680bcc9406b2fa27b8743a4c6eabbcdb85985711ef31d46a06023d8c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/patient.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 5122,
     "sha256": "974b2da3ee34c3d107fa2994a08dcbe53fd2997194617f4827cc7ffdf46682df"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/published-paths.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 2205,
     "sha256": "7e7e5fbbc2372cdc26f1637b17cc0e68bc2b13c3414c8e13e80e9341e0950756"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/rescue-2026-11.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 21135,
     "sha256": "87ff175a93bf42ca1a299063810a73819f26b81eb762f81615c2184733ecb09f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/sim.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 23913,
     "sha256": "c9911792a4314ed81f46314a40c8936df7d59a17adbb4ad976c88dff805d12ba"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/timing-2026-11.test.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 32300,
     "sha256": "36c9918aa0cadd9809ed6e1a92179ba6130b075de786678763f4a80a7eae04b4"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tests/ui.smoke.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 79394,
     "sha256": "703d4649ccdfb9e552df73155ffcc7889f4e93eb434f3284cb58ff23b346d591"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tools/emergency-stress-report.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 38077,
     "sha256": "94266d0ba52a5d6b6ffd2722d19e47c37d2bddaa06eb5a69ff049937fd2ca2eb"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/tools/model-card-tables.mjs",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 15859,
     "sha256": "d91b66bfa23c27af275f568863cfb8f1025a8143e5a746a42a7d1552f0869200"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/advisory.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 7126,
     "sha256": "6cc2e61f2ba00b89e07afcbf58a8921599195f2e8f86d482bb8cdf1c084b1f90"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/app.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 18970,
     "sha256": "3991498e4fa722d1fd8d6f1eb2f831418469f9f1633328c9b37d52fb4641e373"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/assessment.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 6811,
     "sha256": "02f17d45617f5989cc94157e56840ac19a62e78fca98a261b88c58ca76a74fe5"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/charts.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 3073,
     "sha256": "feaa781ba456ccf7e0dc6c86fc7a5c229d4f313800607f49acded7f856e49ab7"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/debrief.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 18205,
     "sha256": "e73a722413266719513dd62874fb7efe86dbc3dc23c8fe163a6f26a40fa802e7"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/dom.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 5733,
     "sha256": "1fdd0162da72d3d68a4012be1d2c0fb4d0355fd984ad41ef4a77c9384284779a"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/labels.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4775,
     "sha256": "47a6c0c4314d4fb678d5a28a74ca019a08d3c288eca05aa9a917ab0bc4e0ce84"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/model-card.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 10920,
     "sha256": "004aedf7a34a655434a8a07627ee11eaf05f8c33289963495213285f50ddaeb0"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/monitor.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 78009,
     "sha256": "255d35688c5d4a368e656b63498fdef5cebb7fdfe2b90b92e89862e6d77bf2e8"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/palliative.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 59473,
     "sha256": "1dd776784a1f514ce90f91f7c091304e3fd38733be1e61a306e9b3cfddaf698d"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/patient-form.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 12956,
     "sha256": "3f60ee540c16d3c96d1d595e52d4c3ca09a2433137d43f6f291f180cc4a0548f"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/plan-editor.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 45138,
     "sha256": "e15b583a2266aeedc1815c55f778144c37f5fab1e1683e4c7d6d0a016c136e31"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/plan-model.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 26731,
     "sha256": "14c4e156b223b2092e7b1e613c54d391f2c509b4414fa9e87eca3dd68429543e"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/sources.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 4342,
     "sha256": "8046d89da5d9afa5152501e2417b046f2d0b257770d67e6b15a9e63a42338ddc"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "simulator/ui/timing-view.js",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 2560,
     "sha256": "5473c9ea0b49b8b6fd9a9c12ae745787dbc4c2dd106ad4be60f929e3d291561c"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "smart_noa_controller.py",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 30596,
     "sha256": "a06cb6834c93969c4e48e5cdb31f782f807b1aa0b5435a5737c03fe0dd71e537"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "smartnoa_architecture.jpg",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 78318,
     "sha256": "8e58d58fb51ec8b126dc5d9ba1750d60e47fb0a2d6a7e8325b0e04fe1ffa47a6"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "smartnoa_architecture.pdf",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 74562,
     "sha256": "c36888a320d34bcdaeb6e2aa589565dcff56b1b8b02fb60687bf80f2301851ac"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "test_revision_regressions.py",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 5563,
     "sha256": "d5edfa0d9646a3069d9522622eee0edd643f43fb044af7cb28bba09acc0e4561"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "test_safety_hardening.py",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 7314,
     "sha256": "b26c26ed26b4713b58f8e129abceeec3f2a6a5ee89a3153a60664571bd3f7b05"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "test_scripted_demo.py",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 3294,
     "sha256": "9f4b5b2fbdfba40fb47475a33df9a1848acb8c7a8d725c1817ca3219c1e9c96a"
   },
   {
     "repo": "Smart-NOA-Controller",
     "path": "test_smart_noa_controller.py",
-    "commit": "40ff3de1310f4c44801f76fe3652e34b1fdde998",
+    "commit": "c015d11b78db437f67fc90feb34a6b2a7c7c2a6f",
     "bytes": 12542,
     "sha256": "ed3706c1e69d299b5fdc7257a9af7c82ce5b886a642d49d37bc8fbb61fdd5bfd"
   },
@@ -1983,210 +1983,210 @@
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "01_PreOp_Assessment_and_Checklist.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 10465,
     "sha256": "f313b292a9743ffd4742f0d2ba75875224fd9d9b993a9d390947bbf9ea41af6e"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "02_Patient_Counseling_Script.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 6130,
     "sha256": "1fedc40b19cccd2b080a2b311e2051320e0110ec1ad7c8048ca7a535ee8c0517"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/Protocol_1_OFIA_With_PECS_Block.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 16264,
     "sha256": "5df86effcc93ff68e236f2533866535ba97ae528838ae9a771062e208ae9560c"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/Protocol_2_OFIA_BlockFree.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 10193,
     "sha256": "62062f16bdfdac7b7b21d1314892a026585036d155099521fbaf6f4ada6ab796"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/Protocol_3_OpioidBased_NoBlocks.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 16147,
     "sha256": "febb19db9ab94e5da5cacf586205bb364727149fa79a3c250b7124e07b2f2a15"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/Protocol_Comparison_Table.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 8033,
     "sha256": "de807f9f18efdac8e9677bb921f51878b2d7d4e3b477a2ade4ae61871b5d632a"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "03_Anesthesia_Protocols/README.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 2966,
     "sha256": "a4d15fc038209c72d0387b7cfa44ce3d85b473d4d56f70051c12c241c2cdafd9"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "04_Surgical_Workflow_and_Timeline.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 7640,
     "sha256": "801002c44f41d5cc6be51240b22133a1c37a6d9e898067c0e764f1e137932ad5"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "05_PACU_and_Discharge_Instructions.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 10111,
     "sha256": "943ee5b851e9f45ada28e74afb26276b76d0184546787fb9a4758e78eb32cbbe"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "06_References_Evidence_Breast_Augmentation.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 21377,
     "sha256": "269033933e6bf66b28bb5c5e905d0bebd3e0ef0441f7da9275d0b26647ce4f19"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "ANESTHESIA_OPTIONS_AND_CASES.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 25383,
     "sha256": "24dbd38d90c999f924c49a9898e14bca1b5716c225eebc02ebac18e56066b5a3"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "APPLIED_CASES.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 15054,
     "sha256": "215b8da4fe02960ea84cad419a15cce649c91ff01f1438ee4f3f56e68aff93bc"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 2907,
     "sha256": "465444711d60dccf84f84e06c713eb375373ff161a2a84576fc27319c6eeb358"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "CASE_EXAMPLE_STANDARD.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 2710,
     "sha256": "48557d603c85bffca81f8abab2a365b92328f79676ebab16bbb1b1a7840c4226"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "CHANGELOG",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
-    "bytes": 1913,
-    "sha256": "49786514467d4f5ecdee358d7adab7a175dba51311d9e4c4a797fa3f9ffff969"
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
+    "bytes": 2395,
+    "sha256": "b1e22b4755211a4330312792819d58844f5577779345bb0a2884e760d0762236"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "CITATION.cff",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 527,
     "sha256": "a6dc947e468fa197d994dbd5c14299f83b04c6ac8aea5c0be6263f718db68e6b"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "DISCLAIMER.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 3221,
     "sha256": "e14559201e03ec7a6d5003c1ada177845f59d1059a0b36c60f467e52045f39be"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "DOSING_SOURCES.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
-    "bytes": 38291,
-    "sha256": "83b96bf7728a00da60d750473c69eca7c6f76a0ee26b15ddeade4efc29bc9775"
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
+    "bytes": 39300,
+    "sha256": "3c76585d5047ffb01b259fe06f87f28750cb53d8eb3bffc946a08e1399b6a602"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 1772,
     "sha256": "1a23dafe2270377e07f683133d10ab8c66729bdcc9988afd7444e64905c814b7"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "EXAMPLE_SOURCE_AUDIT.json",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 7678,
     "sha256": "6346b36ae6c33d21fce92b7f8887e6e025b761bc0f5b402069f36b82be1c07f9"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "HISTORICAL_VERSION_NOTICE.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 1428,
     "sha256": "8e86f7b70a9ee9d46fef734a8185c2583573bc1f7a77e059f4ed731b779650ce"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "LICENSE",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 1056,
     "sha256": "b5d13307f7a23281f28a2043571f0d27f1b1c7729130646e2533cdc141d71ee0"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "OR_Checklist_Pre-Induction.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 5410,
     "sha256": "96aa04b1ec811e570799207dd5993c495216327a42129bfd385e404bab0ebf2a"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "PROVENANCE.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "README.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 5182,
     "sha256": "44aabf3d8221a128e1a4ed963237f6f00b0dc7fd88c0b843dacd8a244f95260e"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 5208,
-    "sha256": "3829b7126c4cab7f487b44e21d710f7d2aeb4715e3d98ea2487f60936e97e7fe"
+    "sha256": "e25ee0f07126ff47eabd3f2fef49c4a67c7829c8a04b8f1f6050a4306b87eb2e"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "RELEASE_NOTES.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 17610,
     "sha256": "f912a7970b11a995f02b4860e9c364419f8a54f324fe19b43caf74c181cd6796"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "SHARED_SOURCE_AUDIT.json",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 4088,
     "sha256": "7e6b4417f53571ef052e3fbe5b993fcab3af84a04d544b91b30191f743ee28d4"
   },
   {
     "repo": "Breast-Reconstruction-Anesthesia-Protocol",
     "path": "START_HERE.md",
-    "commit": "5a8332d3257c3505ece45982d665e6e5fe5418d9",
+    "commit": "a847084d0006d5b7039a4571e99ff6e87566e27e",
     "bytes": 2189,
     "sha256": "0186d30c3bf7e3505aa6e1678f68b8ec8cefabb5724467b6694a4bdb9cdcaabf"
   },
