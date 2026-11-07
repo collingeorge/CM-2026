@@ -2,6 +2,7 @@ import hashlib
 import json
 import posixpath
 import re
+from html import unescape
 from html.parser import HTMLParser
 from pathlib import Path
 from urllib.parse import unquote, urlsplit
@@ -170,7 +171,46 @@ for name in SIM_PLACES:
 # The safety-design write-up is linked from the Smart NOA project page whenever the pinned snapshot has it.
 if (root/'projects'/'smart-noa'/'SAFETY_DESIGN.html').is_file() and '<a class="text-link" href="SAFETY_DESIGN">How the safety logic works' not in (root/'projects'/'smart-noa'/'index.html').read_text(encoding='utf-8'):
  sim_buttons.append({'page':'projects/smart-noa/index.html','reason':'SAFETY_DESIGN is published but not linked'})
-report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'snapshotRedirects':snapshot,'missingPinnedFiles':ghfiles,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale,'simulatorButtons':sim_buttons}
+# About page (/about): reached from the header, the home About section and the Authorship page; publishes no GPA,
+# MCAT score, school list, letter-writer name or age; the only hour figures are the owner's labelled estimates.
+about:list=[]
+ABOUT=root/'about.html'
+def _resolves_to_about(f,href):
+ u=urlsplit(href)
+ if u.scheme or u.netloc:return False
+ t=serve(posixpath.normpath(posixpath.join(posixpath.dirname(local(f)),u.path)).lstrip('/'))
+ return t is not None and t.resolve()==ABOUT.resolve()
+if not ABOUT.is_file():about.append({'page':'about.html','reason':'page missing'})
+else:
+ html=ABOUT.read_text(encoding='utf-8')
+ main=re.search(r'<main\b.*?</main>',html,re.DOTALL)
+ text=re.sub(r'\s+',' ',unescape(re.sub(r'<[^>]+>',' ',main[0] if main else html)))
+ if '<h1' not in html or 'About Collin B. George' not in text:problem(about,ABOUT,'h1','title missing')
+ for must in ('Hours are estimates; my application records are authoritative.','mailto:cgeorge@sanctir.com'):
+  if must not in (text if must.startswith('Hours') else html):problem(about,ABOUT,must,'required text missing')
+ for rx,why in ((r'\bGPA\b|grade point','GPA'),(r'\bMCAT\b[^.]{0,20}\b\d{3}\b|\b\d{3}\s+on the MCAT','MCAT score'),
+                (r'\b\d{1,2}[- ]years?[- ]old\b|\bage[d]?\s+\d{1,2}\b|\bborn\s+(?:in\s+)?\d{4}\b','age'),
+                (r'School of Medicine|College of Medicine|Osteopathic Medicine|Medical School|I am applying to|schools I','school list'),
+                (r'\bDr\.\s|letter (?:from|writer)|wrote (?:my|a) letter','letter-writer'),
+                (r'\[[^\]]*\]|\bTODO\b|\bTBD\b|\bXX+\b|lorem','placeholder')):
+  if re.search(rx,text,re.I):problem(about,ABOUT,why,'forbidden content')
+ hours=re.findall(r'(about|more than)?\s*([\d,]+)\s*(?:hours|hrs)\b',text,re.I)
+ got=sorted((q.lower(),n) for q,n in hours)
+ want=sorted([('about','300'),('about','300'),('about','6,000'),('about','1,500'),('more than','10,000')])
+ if got!=want:problem(about,ABOUT,str(got),'hour figures differ from the labelled estimates')
+for f in pages:
+ html=f.read_text(encoding='utf-8')
+ hd=re.search(r'<header class="site-header">.*?</header>',html,re.DOTALL)
+ if not hd or local(f).startswith('simulator/'):continue
+ m=re.search(r'<a href="([^"]*)">About</a>',hd[0])
+ if not m or not _resolves_to_about(f,m[1]):problem(about,f,m[1] if m else 'About','header About link does not open /about')
+for name,label in (('index.html','Read the full background'),('pages/AUTHORSHIP_AND_REVIEW.html','About page')):
+ f=root/name;html=f.read_text(encoding='utf-8') if f.is_file() else ''
+ hits=[h for h,t in re.findall(r'<a\b[^>]*href="([^"]*)"[^>]*>(.*?)</a>',html,re.DOTALL) if label in t]
+ if not hits or not all(_resolves_to_about(f,h) for h in hits):about.append({'page':name,'reason':label+' link missing or not /about'})
+if 'The background on the About page was supplied and confirmed by the portfolio owner.' not in re.sub(r'<[^>]+>','',(root/'pages'/'AUTHORSHIP_AND_REVIEW.html').read_text(encoding='utf-8')):
+ about.append({'page':'pages/AUTHORSHIP_AND_REVIEW.html','reason':'owner-confirmation sentence missing'})
+report={'pages':len(pages),'sitemapUrls':len(locs),'missingFiles':errors,'malformedUrls':malformed,'missingAnchors':anchors,'duplicateIds':duplicate,'htmlHrefs':html_links,'snapshotRedirects':snapshot,'missingPinnedFiles':ghfiles,'dotPathLinks':dot_links,'headingProblems':headings,'imagesWithoutSize':images,'badCanonicals':canonicals,'badSitemapUrls':sitemap,'badSearchUrls':search,'badAssetVersions':versions,'staleMcatCopies':stale,'simulatorButtons':sim_buttons,'aboutPage':about}
 (here/'link-report.json').write_text(json.dumps(report,indent=2))
 print(json.dumps({k:len(v) if isinstance(v,list) else v for k,v in report.items()},indent=2))
 failed={k:v for k,v in report.items() if isinstance(v,list) and v and k!='missingAnchors'}
