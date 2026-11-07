@@ -2,289 +2,296 @@
   {
     "repo": "CM-2026",
     "path": ".github/ISSUE_TEMPLATE/evidence-correction.yml",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1071,
     "sha256": "ac5e5ceade8abb3d55650b3cd9b22b0e8295863a4c871f1a7082aebe7a52a0cf"
   },
   {
     "repo": "CM-2026",
     "path": ".github/workflows/full-html-site.yml",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1044,
     "sha256": "21b466d9cd01aa15248365e87e58a82a553aae47af1975386fb8fc69a9f76508"
   },
   {
     "repo": "CM-2026",
+    "path": "ABOUT.md",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
+    "bytes": 7802,
+    "sha256": "900fc86bcdf3c905029e107d1588c6b87a2133485624c8050f5ecab501a2d9e7"
+  },
+  {
+    "repo": "CM-2026",
     "path": "AUTHORSHIP_AND_REVIEW.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
-    "bytes": 2805,
-    "sha256": "66319d1e584f362f7e635857c988e2cfd902b5710e6e63d11d054db46d46e02e"
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
+    "bytes": 2901,
+    "sha256": "db686debee53b152105859e24b0151c18229b97d802d3599c2d937df9c52f2cb"
   },
   {
     "repo": "CM-2026",
     "path": "CASE_EXAMPLE_INDEX.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 5384,
     "sha256": "e7411bfd7a5ccc0716ee1d1043d702d19b7dc058c96fb5f0e2db19dca1cb7b10"
   },
   {
     "repo": "CM-2026",
     "path": "CLOUDFLARE_HOSTING.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1025,
     "sha256": "330b56ba0a7c88eebe2db2556dd3cd198bbd5828c6867ec4655f3678395d81df"
   },
   {
     "repo": "CM-2026",
     "path": "CM-BIO-ARCH-01-v2.0.html",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 4645,
     "sha256": "48557264631d66894e52aff7ca9a56f848a6b9f05f6d68c216bff57b8ccd54aa"
   },
   {
     "repo": "CM-2026",
     "path": "CM-BIO-ARCH-01-v2.0.pdf",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 82558,
     "sha256": "9275912618650fe9210a513f13c8500daeb55354b8c9797eb4f02a730639e9f6"
   },
   {
     "repo": "CM-2026",
     "path": "CNAME",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 18,
     "sha256": "f33f94080989daeb85e7ab152e8ade8e18abc47429225014feef4481252a78dc"
   },
   {
     "repo": "CM-2026",
     "path": "DESIGN_NOTES.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1062,
     "sha256": "434a42db064a89d984f12a280bcdda700aca39c3add03890c90bfc21fe0aaac8"
   },
   {
     "repo": "CM-2026",
     "path": "DISCLAIMER.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 3268,
     "sha256": "2ffa824e49533a519115919280c20c4c575de5633fc3a2f04c1f313f0a5167d5"
   },
   {
     "repo": "CM-2026",
     "path": "DOCUMENT_BUILD.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 780,
     "sha256": "9c9177030b7e8d0deb7e9d6580eae8ed72e0cdb4dbb1d4f857b59571f458b72d"
   },
   {
     "repo": "CM-2026",
     "path": "EXAMPLES_MANIFEST.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 2692,
     "sha256": "0604f15721047b4bcbca10ae85fa0a8ac0646df1563d49f2d523e54206fb05fe"
   },
   {
     "repo": "CM-2026",
     "path": "LEARNING_AND_REVISION_LOG.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 2124,
     "sha256": "dfaf73b02dddc17235f3f09af0f189955801a469db8976e26b918607ef064f6b"
   },
   {
     "repo": "CM-2026",
     "path": "LICENSE",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 631,
     "sha256": "e45a9edd36d93473c975844d7affa14ce1c398d43ec94241cb789f71ab0ba8a0"
   },
   {
     "repo": "CM-2026",
     "path": "MAINTENANCE.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 2450,
     "sha256": "f6221e41025c488f4ce09d6b89bb16aab15fc290db9cad1305b54785cb4497e6"
   },
   {
     "repo": "CM-2026",
     "path": "PORTFOLIO_INDEX.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 5222,
     "sha256": "d6ea04a2b8c06ca673db19a4140118bd394c15ce2ea55fd53db0aceaa1925ed2"
   },
   {
     "repo": "CM-2026",
     "path": "PROVENANCE.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1599,
     "sha256": "847e8aa6077dda933bb3085417f863f675808b9ccf72592f6d912d14770e3f5e"
   },
   {
     "repo": "CM-2026",
     "path": "PUBLICATION_REVIEW.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 2760,
     "sha256": "3f11528255e218994421cd3611ed897f5d34c34f76381b33e4d6f7c049223c08"
   },
   {
     "repo": "CM-2026",
     "path": "README.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 4363,
     "sha256": "83cafd7701088529e84f79ed187f841a793981793cd0591f2125b00867fb7259"
   },
   {
     "repo": "CM-2026",
     "path": "RELEASE_MANIFEST.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 3878,
     "sha256": "b09c310bf8c647c7472bbd370907901628acbea43010a6cbc3070c8bdb59872e"
   },
   {
     "repo": "CM-2026",
     "path": "RELEASE_NOTES.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1928,
     "sha256": "394b891f767e630b95d3d5a7c93e9ee0e5f09fa8a7e58bd3724e0661ca0868e1"
   },
   {
     "repo": "CM-2026",
     "path": "START_HERE.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 3290,
     "sha256": "2a9600bac7ce2ad8b4642c9ba84ecc880ed3c2d7eba34e0df1902a0f3fdcfe21"
   },
   {
     "repo": "CM-2026",
     "path": "WEBSITE_SECURITY_REVIEW.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 3660,
     "sha256": "6adbe3006c85e1702c5cd3fedc8a2955bcde12efbf25f205f32b324c632cd544"
   },
   {
     "repo": "CM-2026",
     "path": "assets/favicon.svg",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 270,
     "sha256": "581341b5defd1e476a1fa095b1d1603fc0efa2265861bab8aece2e5f4a8a24ad"
   },
   {
     "repo": "CM-2026",
     "path": "assets/portfolio.css",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 14885,
     "sha256": "3155f371bcf386d0c99c39d6378371a19624fb7c7a398bf242edd6d9955bb3a4"
   },
   {
     "repo": "CM-2026",
     "path": "assets/portfolio.js",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1691,
     "sha256": "07c7fab8af93da3f61bc556325e8072447dd1493a8825e26070595356b366dd3"
   },
   {
     "repo": "CM-2026",
     "path": "index.html",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
-    "bytes": 21791,
-    "sha256": "c4e7901f524df57ec3d226b687044bcaf1a9519c871a4906bbe3a962acf7657c"
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
+    "bytes": 21893,
+    "sha256": "f3427103701d2c23ef03cc77ffdcb242b3f65a433715612d26e14db2609b0781"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/README.md",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1540,
     "sha256": "9c05ed711295939504616e418559765f1801859a4d448c76b47c88def07939a7"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/assets/reading.css",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 6772,
     "sha256": "7b09bce1bde74e19dfbdd62abfe735c9f46a73763862655a825692a0a5833691"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/assets/reading.js",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 3749,
     "sha256": "341b1480c6553cc7e10cbc18faa248a1c7971f3d9c344aa92bbfe330ae5ab776"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/build-site.mjs",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
-    "bytes": 27595,
-    "sha256": "f2beba4f0f5fa9b18274e1da9f9da1a21e9de996164e5faa7fa100983d5bc512"
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
+    "bytes": 27859,
+    "sha256": "7f1146c2cc8d26513da966d85235cf1f5b5ef70572c65a360be39715f81b8658"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/check-site.py",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
-    "bytes": 11996,
-    "sha256": "f3fe5393a9722cd66ce4224540e26db664e62361992d2268c788ed361827a4d5"
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
+    "bytes": 15142,
+    "sha256": "1f0ffed32224ee608d881785c87e56a8b504c05aa099198df075a9d5d9790936"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/dependency-pins.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 730,
     "sha256": "d1453d92ff8f9ad3a4b08167cf0d8a767038466c4a5047b1f77128271e3ec1d2"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/prepare.py",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 3381,
     "sha256": "34c2d496c65567c47e8b3dc9432068656c15c7f954745aafc6bde35f2783b944"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/projects.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 4554,
     "sha256": "8fccdea0b8586963dee0431bae8379337f085f28ecafc537eb7dc93d01349bbc"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/sanitize-html.py",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 4376,
     "sha256": "837890975a15db44aebaef21b9a161e09e9427cbc61fcf4272595421d3237b08"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/security-headers.txt",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 4468,
     "sha256": "26ede490a02a15c9b2a70ced8d920b9cd62b6b71396decbb7de1c851e2a03e74"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/security-validate.py",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 10759,
     "sha256": "62c8ade0c7e04a9d6c5aa89adfc9d8d4a2b651fe21df3eefba469adc0392d1e8"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/site-config.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 45,
     "sha256": "0ed7b8594767817212b5da5abb42dbf25d03a2ae0781b1ddf6e438d158a56b8c"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/source-integrity.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 98508,
-    "sha256": "fa67082d32257fb25ca99913326e967eb049198633048f887d225a8bd8e85561"
+    "sha256": "6040d3f9344cf4ca4d7856a704783b4be418daa8b4e7dcb4e15fa77fa757b0e7"
   },
   {
     "repo": "CM-2026",
     "path": "tools/site/source-pins.json",
-    "commit": "aea61a3f79d4e69103adbefdf0326fcb57279ec0",
+    "commit": "fb258746b0a0cf687a1eb6dd5e26a9356a69cf1f",
     "bytes": 1495,
-    "sha256": "6c3a0a0eeaa563efd6a3ac2a166b2985776af626a01d9cb7f4ca77452660eca1"
+    "sha256": "afbb99076191834b93c9b6897d2417e36f9d88926542e6cad8be6cdb0eb22ce5"
   },
   {
     "repo": "Premedical-Educational-Portfolio-Critical-Care-Physiology",
