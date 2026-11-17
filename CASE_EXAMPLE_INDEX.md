@@ -38,6 +38,6 @@ Their added case supplements do not establish that legacy manuscripts have under
 
 ## Reading boundaries
 
-Sex-paired examples illustrate synthetic patient factors; sex alone does not determine a regimen. Clinical source identity, relevant content and population applicability are distinct checks. Consult each project’s reader’s guide, source audit and limitations. No independent clinical sign-off is recorded. No clinical shadowing notes or observations are used.
+Sex-paired examples illustrate synthetic patient factors; sex alone does not determine a regimen. Clinical source identity, relevant content and population applicability are distinct checks. Consult each project’s reader’s guide, source audit and limitations. No independent clinical sign-off is recorded. No shadowing notes or patient information are used; the topics of the fictional cases reflect clinical settings the author observed while shadowing.
 
 Existing dated manuscript and architecture exports are retained. Added casebooks and this index are source-level supplements, not claims that every older export has been regenerated.

@@ -20,7 +20,7 @@ Independent preclinical portfolio by Collin B. George. Updated 29 October 2026.
 
 Start with the repository’s scope, open the substantive source, trace its claims to public evidence, and read the correction and limitation records. Cases are wholly synthetic. Teaching examples do not establish patient-care experience, clinical competency or a validated treatment system.
 
-The [case index](CASE_EXAMPLE_INDEX.md) lists six public clinical projects and two private working drafts; the MCAT app is an additional public study resource. Private drafts remain subject to separate substantive review. No clinical shadowing notes or observations are used.
+The [case index](CASE_EXAMPLE_INDEX.md) lists six public clinical projects and two private working drafts; the MCAT app is an additional public study resource. Private drafts remain subject to separate substantive review. No shadowing notes or patient information are used; the topics of the fictional cases reflect clinical settings the author observed while shadowing.
 
 ## Contribution and continuity
 

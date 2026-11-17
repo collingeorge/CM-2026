@@ -30,7 +30,7 @@ I didn’t come from a medical background, and I know how hard the transition ca
 
 **Phlebotomy training, Pima Medical Institute, Seattle (2025).** Included a clinical externship, CPR and first aid.
 
-**Physician shadowing, about 300 hours.** Anesthesiology, surgery, imaging, intensive care including the cardiothoracic ICU, palliative and end-of-life care, geriatrics, oncology and endocrinology.
+**Physician shadowing, about 300 hours.** Critical care, including the ICU and the cardiothoracic ICU; anesthesiology; geriatrics; palliative, comfort and end-of-life care; and oncology rounds.
 
 ## Service, about 300 hours (2023 to present)
 

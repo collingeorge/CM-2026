@@ -11,7 +11,7 @@
 - TKA: withdrew unsubstantiated estimated screening counts, JBI/PRISMA-ScR compliance, extraction/grade tables and false source-result pairings. The current series is a selected-source narrative map, with no original pooling or submission-ready claim.
 - Breast review: checked identity metadata for 58 PMID-bearing references and the remaining book; reviewed available abstracts and selected full text. Corrected IV-versus-oral morphine units, nonsignificant-result wording and outdated guideline framing. Search diagnostic responses are archived.
 - Historical NOA PDF: all 37 rendered pages were visually reviewed. No patient identifiers were apparent in that visual pass, but old institutional/clinical-observation framing, unsupported methods, efficacy and dose claims remain in Git history. Those versions are superseded and not clinical evidence.
-- Author provenance statement recorded. No clinical shadowing notes or observations are used.
+- Author provenance statement recorded. No shadowing notes or patient information are used; the topics of the fictional cases reflect clinical settings the author observed while shadowing.
 
 ## Remaining limits
 
