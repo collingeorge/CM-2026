@@ -142,12 +142,12 @@ for f in sorted((root/'downloads'/'CM-2026').rglob('*.html')):
   norm=posixpath.normpath('/'+path.lstrip('/'))
   path=norm.lstrip('/')+('/' if trailing and norm!='/' else '')
   if serve(path) is None:problem(snapshot,f,url,'not served without a redirect')
-# Smart Controller Anesthesiology Simulation buttons: exact MCAT-style markup, a clean URL served without a redirect
+# Smart Controller Anesthesiology Simulation buttons (library Software row and Smart NOA project page): exact MCAT-style markup, a clean URL served without a redirect
 # (the hosted simulator at /simulator/), and the scope line right after the button's action group, at each expected place.
 SIM_TEXT='Smart Controller Anesthesiology Simulation'
 SIM_NOTE='<p class="boundary">Educational simulation · fictional patients · not a medical device</p>'
 SIM_BUTTON=re.compile(r'<a class="button button-primary" href="([^"]*)">'+SIM_TEXT+r' <span aria-hidden="true">↗</span></a>((?:<a\b[^>]*>(?:[^<]|<span[^>]*>[^<]*</span>)*</a>)*)</div>(.{0,'+str(len(SIM_NOTE))+'})',re.DOTALL)
-SIM_PLACES={'index.html':[('hero',re.compile(r'<section class="hero container" id="top".*?</section>',re.DOTALL)),('Smart NOA card',re.compile(r'<article class="feature">(?:(?!</article>).)*Software simulation.*?</article>',re.DOTALL))],'projects/smart-noa/index.html':[('project page top',re.compile(r'<section class="container project-intro">.*?</section>',re.DOTALL))]}
+SIM_PLACES={'library.html':[('Software row',re.compile(r'<article class="library-row" data-category="Software simulation">.*?</article>',re.DOTALL))],'projects/smart-noa/index.html':[('project page top',re.compile(r'<section class="container project-intro">.*?</section>',re.DOTALL))]}
 sim_buttons:list=[]
 for f in pages:
  name=local(f)

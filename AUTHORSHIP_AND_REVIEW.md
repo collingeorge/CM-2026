@@ -1,5 +1,7 @@
 # Authorship, assistance and review status
 
+I use AI tools to help draft, revise and check my writing and code. I choose the questions, read the sources and make the judgments, and the responsibility for getting them right is mine.
+
 > **Educational work by a pre-medical student — not medical advice.** Not a clinical protocol, prescription, or patient handout, and not for patient care. See [DISCLAIMER](DISCLAIMER.md).
 
 Recorded 29 October 2026. Portfolio owner: Collin B. George.
@@ -8,9 +10,9 @@ Recorded 29 October 2026. Portfolio owner: Collin B. George.
 
 The owner supplied project direction, subject priorities and provenance statements, including confirmation that ICU scenarios are entirely synthetic. The October 2026 revision used OpenAI Codex for drafting and revising documentation and examples, source inspection, scoped software edits and verification, and this portfolio’s presentation and navigation.
 
-The November 2026 review and correction pass used Anthropic's Claude to audit citations, clinical and pharmacological content and disclaimers across the portfolio, run software simulations and tests, and draft corrections. The portfolio owner directed the pass and approved the changes. As above, AI-assisted text is not evidence that the owner independently performed every analysis described.
+The November 2026 review and correction pass used Anthropic's Claude to audit citations, clinical and pharmacological content and disclaimers across the portfolio, run software simulations and tests, and draft corrections. The portfolio owner directed the pass and approved the changes.
 
-AI-assisted prose and code are not evidence that the owner independently performed every analysis or clinical task described. This statement covers the documented revision process; it does not reconstruct authorship of every historical file. Repository history and existing provenance records provide further context. No personal reflection, credential, clinical experience or independent reviewer contribution has been invented for this presentation pass.
+This statement covers the documented revision process; it does not reconstruct authorship of every historical file. Repository history and existing provenance records provide further context. No personal reflection, credential, clinical experience or independent reviewer contribution has been invented for this presentation pass.
 
 ## What the checks establish
 
