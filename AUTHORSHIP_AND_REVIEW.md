@@ -23,7 +23,7 @@ This statement covers the documented revision process; it does not reconstruct a
 | Documentation and presentation checks | File consistency, navigation and observed rendering; not clinical correctness |
 | Independent clinical sign-off | Not recorded in the portfolio revision records |
 
-The cases and numerical examples are synthetic teaching material. No clinical shadowing notes or observations are used. No institution endorses these projects, and the artifacts do not establish clinical competency or authorize patient care. Private working drafts remain private pending separate substantive review.
+The cases and numerical examples are synthetic teaching material. Cases are fictional and contain no patient information. The topics reflect settings I observed while shadowing. No institution endorses these projects, and the artifacts do not establish clinical competency or authorize patient care. Private working drafts remain private pending separate substantive review.
 
 ## Review each project in context
 
