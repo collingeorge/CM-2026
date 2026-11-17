@@ -1,6 +1,6 @@
 # About me
 
-I’m a pre-medical student working full time in patient care at the University of Washington. I came to medicine after ten years in cybersecurity, and I’m now completing my science prerequisites.
+I’m a pre-medical student working full time in patient care at the University of Washington. I came to medicine after more than fifteen years in security and national-security work, and I’m now completing my science prerequisites.
 
 ## Why medicine
 
