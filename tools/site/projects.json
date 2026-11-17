@@ -17,7 +17,7 @@
     "kind": "Evidence review",
     "entry": "George-BreastRecon-Review-v8.md",
     "evidence": "REFERENCE_AUDIT.md",
-    "description": "A narrative literature review with reference-identity records, search diagnostics and interpretation notes.",
+    "description": "A narrative review of the published evidence on pain control after breast reconstruction, with notes on how each source was checked and interpreted.",
     "focus": "Study populations, outcome interpretation and the limits of comparisons across evidence.",
     "boundary": "Narrative educational analysis; selected source checks do not establish a systematic review.",
     "private": false,
@@ -55,7 +55,7 @@
     "evidence": "PUBLICATION_REVIEW.md",
     "description": "A narrative evidence map with regional anesthesia, recovery and synthetic case material.",
     "focus": "Evidence populations, recovery outcomes and the limits of screening, extraction and pooling claims.",
-    "boundary": "The retained filename says Scoping-Review; the current work is a selected-source narrative map.",
+    "boundary": "A selected-source narrative evidence map, not a systematic or scoping review.",
     "private": false,
     "slug": "tka-review"
   },
@@ -67,7 +67,7 @@
     "evidence": "PUBLICATION_REVIEW.md",
     "description": "Perioperative learning modules and paired synthetic cases with source and applicability notes.",
     "focus": "Patient factors, anesthesia options and reassessment in an educational case format.",
-    "boundary": "The repository name retains Protocol; the revised material is educational discussion.",
+    "boundary": "Educational discussion with fictional cases; not a clinical protocol.",
     "private": false,
     "slug": "breast-perioperative"
   },

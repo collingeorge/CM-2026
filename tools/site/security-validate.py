@@ -138,7 +138,7 @@ def served_headers(path:str)->dict[str,str]:
 IMMUTABLE='public, max-age=31536000, immutable'
 REVALIDATE='public, max-age=0, must-revalidate'
 hashed=['/assets/portfolio.css','/assets/portfolio.js','/assets/reading.css','/assets/reading.js','/assets/vendor/mermaid.min.js']
-for path,want in [*[(p,IMMUTABLE) for p in hashed],*[(p,REVALIDATE) for p in ['/','/library','/projects/smart-noa/','/projects/smart-noa/LICENSE','/pages/README','/simulator/','/search-index.json','/sitemap.xml']]]:
+for path,want in [*[(p,IMMUTABLE) for p in hashed],*[(p,REVALIDATE) for p in ['/','/library','/about','/projects/smart-noa/','/projects/smart-noa/LICENSE','/pages/README','/simulator/','/search-index.json','/sitemap.xml']]]:
  got=served_headers(path).get('cache-control')
  if got!=want:errors.append('Cache-Control for '+path+' is '+repr(got)+', expected '+repr(want))
  checks+=1
