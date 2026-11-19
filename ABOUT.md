@@ -4,7 +4,7 @@ I’m a pre-medical student working full time in patient care at the University 
 
 ## Why medicine
 
-For more than fifteen years I’ve worked on national-security problems: first through independent research on pharmaceutical supply chains, counter-narcotics and illicit finance, then as an engineer at Pacific Northwest National Laboratory and the U.S. Department of State. That work carries a quiet kind of responsibility. You’re accountable to people you will never meet: individuals, communities, businesses and organizations, here at home and around the world. Whether the threat is to someone’s safety, health or security, the job is to protect them and to be honest when something goes wrong.
+For more than fifteen years I’ve worked on national-security problems: first through independent research on pharmaceutical supply chains, counter-narcotics and illicit finance, then as an analyst at Pacific Northwest National Laboratory and the U.S. Department of State. That work carries a quiet kind of responsibility. You’re accountable to people you will never meet: individuals, communities, businesses and organizations, here at home and around the world. Whether the threat is to someone’s safety, health or security, the job is to protect them and to be honest when something goes wrong.
 
 When I left national security, I chose medicine because it’s the same calling, practiced one patient at a time. I’ve seen it from both sides of the bed. As a patient, I’ve been cared for by physicians and nurses whose skill and kindness stayed with me. At the University of Washington I now work with patients every day, both alongside doctors and nurses and on my own. I’ve learned that the small, exact parts of care matter: confirming who someone is, labeling correctly and explaining what I’m doing. So does a few calm minutes with someone who is frightened.
 
@@ -20,13 +20,13 @@ I didn’t come from a medical background, and I know how hard the transition ca
 
 **University of Washington, 2025 to present (full time)**
 
-- **Medical Assistant–Phlebotomist:**
-  - inpatient and outpatient blood collection;
-  - patient identification, preparation and reassurance;
-  - specimen labeling and handling;
-  - infection control;
-  - teamwork with nursing, physician and laboratory staff.
-- **Clinical Laboratory Technician 1:** specimen collection and processing.
+- **Medical Assistant–Phlebotomist (MA-P) and Clinical Laboratory Technician (CLT1):**
+  - blood collection by venipuncture and capillary puncture for inpatients and outpatients;
+  - identifying, preparing and reassuring patients before and during collection;
+  - labeling, handling and processing specimens for the clinical laboratory;
+  - infection-control, patient-safety and HIPAA privacy procedures;
+  - window reception and patient check-in;
+  - working closely with nursing, physician and laboratory teams.
 
 **Phlebotomy training, Pima Medical Institute, Seattle (2025).** Included a clinical externship, CPR and first aid.
 
@@ -40,9 +40,10 @@ I didn’t come from a medical background, and I know how hard the transition ca
 
 ## Professional background
 
-- **Security Engineer, U.S. Department of State** (2022–2023)
-- **Cybersecurity Engineer, Pacific Northwest National Laboratory, U.S. Department of Energy** (2018–2021)
-- **Independent research** (2010–2016): pharmaceutical and drug supply-chain security, counter-narcotics and illicit finance, from both technology and pharmacology perspectives.
+- **Intelligence Analyst (contractor), supporting the U.S. Department of State** (2021–2022): national security research and analysis; contributed to project proposals and documentation for secure systems.
+- **Critical Infrastructure Security Analyst, Pacific Northwest National Laboratory, U.S. Department of Energy**, Richland and Seattle, WA (2018–2021): cybersecurity research and critical-infrastructure protection, about 6,000 hours in total; supported the development of microgrid technologies; wrote standard operating procedures and supported regulatory compliance.
+- **Cybersecurity Engineer/Analyst, Marcraft ETG** (2017–2018): security baselines and secure architectures for industrial control networks and systems; educational and manufacturing technologies.
+- **Counter-Narcotics Intelligence Analyst, self-employed (independent contractor), supporting the DEA and ICE** (2010–2015).
 - **Founder, Sanctir LLC** (2026 to present): independent research and advisory work in security and policy, done alongside my clinical work.
 
 ## Education
@@ -53,14 +54,23 @@ I didn’t come from a medical background, and I know how hard the transition ca
   - security studies and digital forensics, University of Central Florida;
   - cybersecurity, University of Maryland Global Campus.
 - **Post-baccalaureate coursework:**
-  - programming and machine learning, Bellevue College (2023);
-  - phlebotomy, Pima Medical Institute (2025).
+  - programming, robotics and machine learning, Bellevue College (2023);
+  - phlebotomy with clinical externship, Pima Medical Institute (2025).
+- **About 1,500 hours** of formal cybersecurity and industrial-technology training.
 - **Pre-medical science prerequisites:** in progress.
 
 ## Credentials
 
 - **Medical Assistant–Phlebotomist (MA-P):** Washington State Department of Health
 - **Certified Information Systems Security Professional (CISSP):** ISC2
+- **Basic Life Support (BLS) and CPR**
+
+## Skills
+
+- **Patient care and lab support:** venipuncture and capillary puncture; patient identification and preparation; specimen labeling, handling and processing; HIPAA; infection control; BLS/CPR.
+- **Research and data:** research methods and pre-specified analysis plans; literature search and evidence review; data handling and documentation; technical writing; source and reference verification.
+- **IT and security:** NIST SP 800-171 and CMMC; Microsoft 365, Entra ID, Intune and Defender; secure configuration and DISA STIG hardening; zero trust; PowerShell and Python automation; Linux and Windows administration.
+- **Compliance and quality:** writing standard operating procedures; regulatory compliance support; audit trails and evidence collection; risk analysis.
 
 ## How I hold myself accountable
 
