@@ -4,9 +4,9 @@ I’m a pre-medical student working full time in patient care at the University 
 
 ## Why medicine
 
-For more than fifteen years I’ve worked on national-security problems: first through independent research on pharmaceutical supply chains, counter-narcotics and illicit finance, then as an analyst at Pacific Northwest National Laboratory and the U.S. Department of State. That work carries a quiet kind of responsibility. You’re accountable to people you will never meet: individuals, communities, businesses and organizations, here at home and around the world. Whether the threat is to someone’s safety, health or security, the job is to protect them and to be honest when something goes wrong.
+For more than fifteen years I’ve worked on national-security problems: first as a national security contractor working on pharmaceutical supply chains, counter-narcotics and illicit finance, then as an analyst at Pacific Northwest National Laboratory and the U.S. Department of State. That work carries a quiet kind of responsibility. You’re accountable to people you will never meet: individuals, communities, businesses and organizations, here at home and around the world. Whether the threat is to someone’s safety, health or security, the job is to protect them and to be honest when something goes wrong.
 
-When I left national security, I chose medicine because it’s the same calling, practiced one patient at a time. I’ve seen it from both sides of the bed. As a patient, I’ve been cared for by physicians and nurses whose skill and kindness stayed with me. At the University of Washington I now work with patients every day, both alongside doctors and nurses and on my own. I’ve learned that the small, exact parts of care matter: confirming who someone is, labeling correctly and explaining what I’m doing. So does a few calm minutes with someone who is frightened.
+When I left national security, I chose medicine because it’s the same calling, practiced one patient at a time. I’ve seen it from both sides of the bed. As a patient, I’ve been cared for by physicians and nurses whose skill and kindness stayed with me. At the University of Washington I now work with patients every day, both alongside doctors and nurses and independently within my role. I’ve learned that the small, exact parts of care matter: confirming who someone is, labeling correctly and explaining what I’m doing. So does a few calm minutes with someone who is frightened.
 
 What I love most about medicine is that everyone who comes through the door deserves the same dignity and the same care, whatever their background, faith, income, race or gender. A good clinician takes the time to understand each person’s life and culture, so the care fits them. But the starting point is always the same: a person who needs help.
 
@@ -43,7 +43,7 @@ I didn’t come from a medical background, and I know how hard the transition ca
 - **Intelligence Analyst (contractor), supporting the U.S. Department of State** (2021–2022): national security research and analysis; contributed to project proposals and documentation for secure systems.
 - **Critical Infrastructure Security Analyst, Pacific Northwest National Laboratory, U.S. Department of Energy**, Richland and Seattle, WA (2018–2021): cybersecurity research and critical-infrastructure protection, about 6,000 hours in total; supported the development of microgrid technologies; wrote standard operating procedures and supported regulatory compliance.
 - **Cybersecurity Engineer/Analyst, Marcraft ETG** (2017–2018): security baselines and secure architectures for industrial control networks and systems; educational and manufacturing technologies.
-- **Counter-Narcotics Intelligence Analyst, self-employed (independent contractor), supporting the DEA and ICE** (2010–2015).
+- **National Security Contractor, self-employed** (2010–2015): counter-narcotics analysis supporting the DEA and ICE.
 - **Founder, Sanctir LLC** (2026 to present): independent research and advisory work in security and policy, done alongside my clinical work.
 
 ## Education
