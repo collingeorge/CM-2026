@@ -80,7 +80,7 @@ I’m a student, and I try to be honest about what that means:
 - I show my sources;
 - when I get something wrong, I correct it and keep the record.
 
-I use AI tools to help draft and check my writing. The questions, the reading and the judgments are mine, and so is the responsibility.
+I use AI tools to help find and check sources and to edit for clarity. The questions, the reading, the writing and the judgments are mine, and so is the responsibility.
 
 ## Writing and research
 
